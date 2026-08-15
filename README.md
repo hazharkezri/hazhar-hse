@@ -1,16 +1,13 @@
-\# Ledger \& Line
+# Hazhar HSE
 
-Professional resume templates designed for engineers, finance, and creative roles. 
+ATS-safe resume templates, keyword audits, and hand rewrites by **Ahmad Khezri** (Hazhar) — an Occupational Health & Safety specialist with 20+ years of experience.
 
-Our templates are engineered to bypass ATS algorithms and get your resume into the hands of real hiring managers.
+## Why Us?
 
+- **ATS Optimized:** Tested with major applicant tracking systems.
+- **Editable:** Full .docx support for Google Docs & Word.
+- **Global:** Payment accepted via USDT (TON Network) for borderless access.
 
+## Live Site
 
-\## Why Us?
-
-\- \*\*ATS Optimized:\*\* Tested with major applicant tracking systems.
-
-\- \*\*Editable:\*\* Full .docx support for Google Docs \& Word.
-
-\- \*\*Global:\*\* Payment accepted via USDT (TON Network) for borderless access.
-
+https://hazharkhhazhar-crypto.github.io/hazhar-hse/
