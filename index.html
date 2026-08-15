@@ -4,16 +4,16 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hazhar HSE | Occupational Health & Safety Consulting, Audits & ATS Resume Services</title>
-<meta name="description" content="Hazhar HSE by Ahmad Khezri — 20+ years of occupational health & safety expertise. HSE audits, risk assessments, safety training, and ATS-safe resume engineering for safety professionals worldwide.">
-<meta name="keywords" content="HSE consulting, occupational health, safety audits, risk assessment, OSHA, industrial hygiene, ATS resume, resume rewriting, safety training">
+<meta name="description" content="Hazhar HSE by Ahmad Khezri — 20+ years of occupational health & safety expertise. HSE audits, risk assessments, safety training, and ATS-safe resume engineering for companies and safety professionals worldwide.">
+<meta name="keywords" content="HSE consulting, occupational health, safety audits, risk assessment, OSHA, industrial hygiene, ATS resume, safety training, EHS consultant, petrochemical safety, oil and gas safety">
 <meta property="og:title" content="Hazhar HSE | Occupational Health & Safety Consulting & Resume Services">
-<meta property="og:description" content="20+ years of HSE field expertise — audits, risk assessment, safety training, and ATS-safe resumes for safety professionals.">
+<meta property="og:description" content="20+ years of HSE field expertise — audits, risk assessment, safety training, and ATS-safe resumes for companies worldwide.">
 <meta property="og:type" content="website">
 <meta property="og:image" content="https://hazharkhhazhar-crypto.github.io/hazhar-hse/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230E1B2C'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='28' font-weight='700' fill='%23FF7A1A' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -57,6 +57,8 @@
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
+  html[lang="fa"], html[lang="ar"], html[lang="ckb"] { direction: rtl; }
+  html[lang="fa"] body, html[lang="ar"] body, html[lang="ckb"] body { font-family: 'Vazirmatn', 'Inter', sans-serif; line-height: 1.8; }
   body {
     font-family: 'Inter', system-ui, sans-serif;
     background: var(--white);
@@ -68,7 +70,9 @@
   img { max-width: 100%; display: block; }
   .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
   .mono { font-family: 'JetBrains Mono', monospace; }
+  html[lang="fa"] .mono { font-family: 'Vazirmatn', monospace; }
   .serif { font-family: 'Fraunces', serif; }
+  html[lang="fa"] .serif { font-family: 'Vazirmatn', sans-serif; }
 
   :focus-visible { outline: 3px solid var(--safety); outline-offset: 3px; }
 
@@ -81,16 +85,26 @@
   }
   .topnav .container { display: flex; align-items: center; justify-content: space-between; height: 68px; }
   .nav-brand { font-family: 'Fraunces', serif; font-weight: 800; font-size: 20px; color: var(--white); letter-spacing: -0.3px; }
+  html[lang="fa"] .nav-brand { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
   .nav-brand .dot { color: var(--safety); }
-  .nav-links { display: flex; align-items: center; gap: 30px; }
+  .nav-links { display: flex; align-items: center; gap: 26px; }
   .nav-links a { font-size: 14px; font-weight: 600; color: #B9C6D6; transition: color 0.2s; }
   .nav-links a:hover { color: var(--white); }
+  .lang-toggle {
+    display: inline-flex; align-items: center; background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; overflow: hidden;
+  }
+  .lang-toggle button {
+    background: transparent; border: none; color: #9FB0C4; font-size: 13px; font-weight: 700;
+    padding: 7px 12px; cursor: pointer; transition: all 0.2s; font-family: inherit;
+  }
+  .lang-toggle button.active { background: var(--safety); color: var(--white); }
   .nav-cta {
     background: var(--safety); color: var(--white); padding: 10px 20px;
     border-radius: 6px; font-size: 14px; font-weight: 700; transition: background 0.2s;
   }
   .nav-cta:hover { background: var(--safety-dark); }
-  @media (max-width: 720px) { .nav-links a:not(.nav-cta) { display: none; } }
+  @media (max-width: 720px) { .nav-links a:not(.nav-cta):not(.lang-toggle) { display: none; } }
 
   /* ---------- Hero ---------- */
   .hero {
@@ -107,7 +121,7 @@
     background-size: 28px 28px;
     opacity: 0.5;
   }
-  .hero .container { position: relative; z-index: 1; text-align: center; max-width: 860px; }
+  .hero .container { position: relative; z-index: 1; text-align: center; max-width: 900px; }
   .hero-badge {
     display: inline-flex; align-items: center; gap: 8px;
     font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 1.5px;
@@ -115,28 +129,32 @@
     border: 1px solid rgba(255,180,92,0.35); border-radius: 100px;
     padding: 8px 18px; margin-bottom: 26px; background: rgba(255,122,26,0.08);
   }
+  html[lang="fa"] .hero-badge { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
   .hero-badge .pulse {
     width: 8px; height: 8px; border-radius: 50%; background: var(--safety);
-    box-shadow: 0 0 0 0 rgba(255,122,26,0.6); animation: pulse 2s infinite;
+    box-shadow: 0 0 0 0 rgba(255,122,26,0.6); animation: pulse 2s infinite; flex-shrink: 0;
   }
   @keyframes pulse {
     0% { box-shadow: 0 0 0 0 rgba(255,122,26,0.55); }
     70% { box-shadow: 0 0 0 10px rgba(255,122,26,0); }
     100% { box-shadow: 0 0 0 0 rgba(255,122,26,0); }
   }
-  .hero h1 { font-family: 'Fraunces', serif; font-size: 52px; font-weight: 800; line-height: 1.12; letter-spacing: -1px; margin-bottom: 22px; }
+  .hero h1 { font-family: 'Fraunces', serif; font-size: 50px; font-weight: 800; line-height: 1.15; letter-spacing: -1px; margin-bottom: 22px; }
+  html[lang="fa"] .hero h1 { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; font-size: 44px; }
   .hero h1 .accent { color: var(--safety); }
-  .hero .sub { font-size: 18px; color: #C3D0E0; max-width: 660px; margin: 0 auto 38px; }
+  .hero .sub { font-size: 18px; color: #C3D0E0; max-width: 700px; margin: 0 auto 38px; }
   .hero-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
   .btn {
-    display: inline-flex; align-items: center; gap: 9px;
+    display: inline-flex; align-items: center; justify-content: center; gap: 9px;
     padding: 15px 30px; border-radius: 8px; font-size: 15px; font-weight: 700;
-    cursor: pointer; border: none; transition: all 0.2s; text-align: center;
+    cursor: pointer; border: none; transition: all 0.2s; text-align: center; font-family: inherit;
   }
   .btn-primary { background: var(--safety); color: var(--white); box-shadow: 0 8px 24px rgba(255,122,26,0.35); }
   .btn-primary:hover { background: var(--safety-dark); transform: translateY(-2px); }
   .btn-ghost { background: transparent; color: var(--white); border: 1.5px solid rgba(255,255,255,0.4); }
   .btn-ghost:hover { border-color: var(--white); background: rgba(255,255,255,0.06); }
+  .btn-white { background: var(--white); color: var(--safety); }
+  .btn-white:hover { background: var(--navy); color: var(--white); }
   .hero-stats {
     display: flex; flex-wrap: wrap; justify-content: center; gap: 0 56px;
     margin-top: 60px; padding-top: 44px; border-top: 1px solid rgba(255,255,255,0.12);
@@ -144,6 +162,12 @@
   .hero-stat { text-align: center; }
   .hero-stat .num { font-family: 'Fraunces', serif; font-size: 38px; font-weight: 800; color: var(--safety); display: block; line-height: 1; }
   .hero-stat .lbl { font-size: 13px; color: #9FB0C4; margin-top: 8px; letter-spacing: 0.3px; }
+
+  /* ---------- Social proof bar ---------- */
+  .proof-bar { background: var(--white); border-bottom: 1px solid var(--line); }
+  .proof-bar .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px 40px; padding: 18px 24px; }
+  .proof-bar span { font-size: 13px; color: var(--muted); font-weight: 600; }
+  .proof-bar span strong { color: var(--ink); }
 
   /* ---------- Section scaffold ---------- */
   section { padding: 96px 0; }
@@ -153,7 +177,9 @@
     font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 2px;
     text-transform: uppercase; color: var(--safety); font-weight: 600; margin-bottom: 14px;
   }
+  html[lang="fa"] .eyebrow { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
   .section-title { font-family: 'Fraunces', serif; font-size: 38px; font-weight: 800; line-height: 1.2; letter-spacing: -0.5px; margin-bottom: 18px; }
+  html[lang="fa"] .section-title { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
   .section-lead { color: var(--muted); font-size: 17px; }
 
   /* ---------- Services ---------- */
@@ -167,9 +193,10 @@
   .svc-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: transparent; }
   .svc-icon {
     width: 52px; height: 52px; border-radius: 12px; display: flex; align-items: center; justify-content: center;
-    font-size: 24px; margin-bottom: 22px; background: rgba(255,122,26,0.12);
+    font-size: 24px; margin-bottom: 22px; background: rgba(255,122,26,0.12); flex-shrink: 0;
   }
   .svc-card h3 { font-family: 'Fraunces', serif; font-size: 20px; margin-bottom: 10px; }
+  html[lang="fa"] .svc-card h3 { font-family: 'Vazirmatn', sans-serif; }
   .svc-card p { color: var(--muted); font-size: 14.5px; flex-grow: 1; margin-bottom: 18px; }
   .svc-card .price-row { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 16px; }
   .svc-card .price { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 700; color: var(--navy); }
@@ -181,6 +208,19 @@
     background: var(--safety); color: var(--white); font-size: 11px; font-weight: 700;
     padding: 4px 12px; border-radius: 100px; letter-spacing: 0.5px;
   }
+  html[lang="fa"] .svc-card.highlight::before { content: "محبوب‌ترین"; }
+
+  /* ---------- Cert strip ---------- */
+  .cert-strip { background: var(--navy); color: var(--white); padding: 56px 0; }
+  .cert-strip .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px 60px; align-items: center; }
+  .cert-item { text-align: center; }
+  .cert-item .cert-tag {
+    font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 600; color: var(--amber);
+    border: 1px solid rgba(255,180,92,0.35); border-radius: 8px; padding: 12px 22px; background: rgba(255,122,26,0.06);
+    display: inline-block; margin-bottom: 8px;
+  }
+  html[lang="fa"] .cert-item .cert-tag { font-family: 'Vazirmatn', sans-serif; }
+  .cert-item .cert-lbl { font-size: 12px; color: #9FB0C4; }
 
   /* ---------- Process ---------- */
   .process-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 24px; counter-reset: step; }
@@ -194,7 +234,38 @@
   }
   .step .step-num::after { content: counter(step); }
   .step h3 { font-family: 'Fraunces', serif; font-size: 18px; margin-bottom: 8px; }
+  html[lang="fa"] .step h3 { font-family: 'Vazirmatn', sans-serif; }
   .step p { color: var(--muted); font-size: 14px; }
+
+  /* ---------- Lead magnet ---------- */
+  .leadmagnet { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: var(--white); }
+  .leadmagnet .container { max-width: 860px; text-align: center; }
+  .leadmagnet h2 { font-family: 'Fraunces', serif; font-size: 34px; font-weight: 800; margin-bottom: 14px; }
+  html[lang="fa"] .leadmagnet h2 { font-family: 'Vazirmatn', sans-serif; }
+  .leadmagnet .lead-sub { color: #B9C6D6; font-size: 16px; max-width: 660px; margin: 0 auto 30px; }
+  .leadmagnet .lm-box {
+    background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.16);
+    border-radius: 14px; padding: 8px; max-width: 620px; margin: 0 auto; display: flex; gap: 8px;
+  }
+  .leadmagnet .lm-box input {
+    flex: 1; border: none; background: transparent; color: var(--white); font-size: 15px; padding: 16px; font-family: inherit;
+  }
+  .leadmagnet .lm-box input::placeholder { color: #8EA3B9; }
+  .leadmagnet .lm-box input:focus { outline: none; }
+  .leadmagnet .lm-note { font-size: 12.5px; color: #8EA3B9; margin-top: 16px; }
+
+  /* ---------- Comparison ---------- */
+  .compare-table { max-width: 900px; margin: 0 auto; overflow-x: auto; }
+  .compare-table table { width: 100%; border-collapse: collapse; background: var(--white); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow); min-width: 640px; }
+  .compare-table th, .compare-table td { padding: 16px 20px; text-align: left; font-size: 14px; border-bottom: 1px solid var(--line); }
+  html[lang="fa"] .compare-table th, html[lang="fa"] .compare-table td { text-align: right; }
+  .compare-table thead th { background: var(--navy); color: var(--white); font-size: 13.5px; font-weight: 700; }
+  .compare-table thead th.hazhar { background: var(--safety); color: var(--white); }
+  .compare-table td.hazhar-col { background: #FFF7F0; font-weight: 600; }
+  .compare-table .yes { color: var(--green); font-weight: 700; }
+  .compare-table .no { color: #B0BCC9; }
+  .compare-table tbody tr:last-child td { border-bottom: none; }
+  .compare-note { text-align: center; font-size: 13px; color: var(--muted); margin-top: 20px; }
 
   /* ---------- About ---------- */
   .about-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 60px; align-items: start; }
@@ -214,6 +285,7 @@
     box-shadow: 0 0 0 6px rgba(255,122,26,0.2);
   }
   .about-visual h3 { font-family: 'Fraunces', serif; font-size: 24px; margin-bottom: 8px; position: relative; z-index: 1; }
+  html[lang="fa"] .about-visual h3 { font-family: 'Vazirmatn', sans-serif; }
   .about-visual .role { color: var(--amber); font-size: 14px; font-weight: 600; margin-bottom: 26px; position: relative; z-index: 1; }
   .about-visual ul { list-style: none; position: relative; z-index: 1; }
   .about-visual li {
@@ -223,6 +295,7 @@
   .about-visual li:last-child { border-bottom: none; }
   .about-visual li .check { color: var(--green); font-weight: 700; flex-shrink: 0; }
   .about-copy h3 { font-family: 'Fraunces', serif; font-size: 30px; margin-bottom: 16px; }
+  html[lang="fa"] .about-copy h3 { font-family: 'Vazirmatn', sans-serif; }
   .about-copy p { color: var(--muted); margin-bottom: 16px; font-size: 15.5px; }
   .about-copy strong { color: var(--ink); }
   .timeline { list-style: none; margin-top: 26px; }
@@ -233,17 +306,6 @@
   .timeline li:last-child { border-bottom: none; }
   .timeline .years { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 600; color: var(--safety); white-space: nowrap; min-width: 118px; }
   .timeline .place { font-weight: 600; color: var(--ink); }
-
-  /* ---------- Badges / cert strip ---------- */
-  .cert-strip { background: var(--navy); color: var(--white); padding: 56px 0; }
-  .cert-strip .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px 60px; align-items: center; }
-  .cert-item { text-align: center; }
-  .cert-item .cert-tag {
-    font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 600; color: var(--amber);
-    border: 1px solid rgba(255,180,92,0.35); border-radius: 8px; padding: 12px 22px; background: rgba(255,122,26,0.06);
-    display: inline-block; margin-bottom: 8px;
-  }
-  .cert-item .cert-lbl { font-size: 12px; color: #9FB0C4; }
 
   /* ---------- Testimonials ---------- */
   .testi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 26px; }
@@ -256,10 +318,40 @@
   .testi .who { margin-top: 18px; display: flex; align-items: center; gap: 12px; }
   .testi .who .initial {
     width: 42px; height: 42px; border-radius: 50%; background: var(--navy); color: var(--white);
-    font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 15px;
+    font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 15px; flex-shrink: 0;
   }
   .testi .who .name { font-weight: 700; font-size: 14px; }
   .testi .who .role { font-size: 12.5px; color: var(--muted); }
+
+  /* ---------- Guarantee ---------- */
+  .guarantee { background: var(--mist); }
+  .guarantee-card {
+    display: flex; align-items: center; gap: 30px; background: var(--white);
+    border: 1px solid var(--line); border-left: 6px solid var(--green);
+    border-radius: 14px; padding: 34px 40px; box-shadow: var(--shadow); flex-wrap: wrap;
+  }
+  html[lang="fa"] .guarantee-card { border-left: none; border-right: 6px solid var(--green); }
+  .guarantee-card .g-icon { font-size: 44px; flex-shrink: 0; }
+  .guarantee-card h3 { font-family: 'Fraunces', serif; font-size: 22px; margin-bottom: 6px; }
+  html[lang="fa"] .guarantee-card h3 { font-family: 'Vazirmatn', sans-serif; }
+  .guarantee-card p { color: var(--muted); font-size: 14.5px; max-width: 640px; }
+
+  /* ---------- Insights / blog ---------- */
+  .insights-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 26px; }
+  .insight-card {
+    background: var(--white); border: 1px solid var(--line); border-radius: 14px;
+    padding: 28px; display: flex; flex-direction: column; transition: all 0.25s; cursor: pointer;
+  }
+  .insight-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+  .insight-card .tag {
+    font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
+    color: var(--safety); font-weight: 600; margin-bottom: 14px;
+  }
+  html[lang="fa"] .insight-card .tag { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
+  .insight-card h3 { font-family: 'Fraunces', serif; font-size: 18px; line-height: 1.35; margin-bottom: 10px; }
+  html[lang="fa"] .insight-card h3 { font-family: 'Vazirmatn', sans-serif; }
+  .insight-card p { color: var(--muted); font-size: 14px; flex-grow: 1; }
+  .insight-card .read { font-size: 13.5px; font-weight: 700; color: var(--safety); margin-top: 16px; }
 
   /* ---------- FAQ ---------- */
   .faq { background: var(--mist); }
@@ -277,9 +369,17 @@
   .faq-item[open] summary .plus { transform: rotate(45deg); }
   .faq-item .answer { padding: 0 28px 24px; color: var(--muted); font-size: 14.5px; }
 
+  /* ---------- CTA banner ---------- */
+  .cta-banner { background: var(--safety); color: var(--white); }
+  .cta-banner .container { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; max-width: 1000px; }
+  .cta-banner h2 { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 800; }
+  html[lang="fa"] .cta-banner h2 { font-family: 'Vazirmatn', sans-serif; }
+  .cta-banner p { color: rgba(255,255,255,0.92); font-size: 15px; margin-top: 6px; }
+
   /* ---------- Contact ---------- */
   .contact-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 60px; }
   .contact-info h3 { font-family: 'Fraunces', serif; font-size: 28px; margin-bottom: 14px; }
+  html[lang="fa"] .contact-info h3 { font-family: 'Vazirmatn', sans-serif; }
   .contact-info p { color: var(--muted); margin-bottom: 26px; font-size: 15.5px; }
   .contact-method { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); }
   .contact-method .icon {
@@ -292,7 +392,7 @@
   form.stack label { font-size: 13.5px; font-weight: 700; margin-bottom: -12px; }
   input, textarea, select {
     width: 100%; padding: 14px 16px; border: 1.5px solid var(--line); border-radius: 10px;
-    font-family: 'Inter', sans-serif; font-size: 14.5px; background: var(--white);
+    font-family: inherit; font-size: 14.5px; background: var(--white);
     transition: border-color 0.2s;
   }
   input:focus, textarea:focus, select:focus { outline: none; border-color: var(--safety); }
@@ -312,6 +412,7 @@
     border-radius: 18px; padding: 48px; max-width: 560px; margin: 0 auto; text-align: center;
   }
   .pay-card h3 { font-family: 'Fraunces', serif; font-size: 26px; margin-bottom: 10px; }
+  html[lang="fa"] .pay-card h3 { font-family: 'Vazirmatn', sans-serif; }
   .pay-card p { color: #9FB0C4; font-size: 14.5px; margin-bottom: 24px; }
   .pay-card img.qr { width: 180px; height: 180px; margin: 0 auto 20px; border-radius: 12px; background: var(--white); padding: 8px; }
   .wallet-box {
@@ -322,12 +423,22 @@
   .btn-copy { background: var(--safety); color: var(--white); border: none; padding: 12px 26px; border-radius: 8px; font-weight: 700; font-size: 14px; cursor: pointer; transition: background 0.2s; }
   .btn-copy:hover { background: var(--safety-dark); }
 
+  /* ---------- Sticky mobile CTA ---------- */
+  .sticky-cta {
+    position: fixed; bottom: 16px; left: 50%; transform: translateX(-50%); z-index: 200;
+    background: var(--navy); color: var(--white); padding: 14px 28px; border-radius: 100px;
+    font-weight: 700; font-size: 14.5px; box-shadow: var(--shadow-lg);
+    display: none; align-items: center; gap: 10px; white-space: nowrap;
+  }
+  .sticky-cta .pulse-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--safety); animation: pulse 2s infinite; }
+
   /* ---------- Footer ---------- */
   footer { background: var(--navy); color: #9FB0C4; padding: 60px 0 30px; }
   footer .container { display: flex; flex-wrap: wrap; gap: 30px; justify-content: space-between; align-items: flex-start; }
   footer .f-brand { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 800; color: var(--white); }
+  html[lang="fa"] footer .f-brand { font-family: 'Vazirmatn', sans-serif; }
   footer .f-brand .dot { color: var(--safety); }
-  footer p.f-desc { font-size: 13.5px; max-width: 300px; margin-top: 12px; }
+  footer p.f-desc { font-size: 13.5px; max-width: 320px; margin-top: 12px; }
   footer .f-links { display: flex; gap: 40px; }
   footer .f-col h4 { color: var(--white); font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 14px; }
   footer .f-col a { display: block; font-size: 14px; padding: 5px 0; transition: color 0.2s; }
@@ -337,10 +448,42 @@
   @media (max-width: 900px) {
     .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
     .hero h1 { font-size: 38px; }
+    html[lang="fa"] .hero h1, html[lang="ar"] .hero h1, html[lang="ckb"] .hero h1 { font-size: 34px; }
     .section-title { font-size: 30px; }
     section { padding: 72px 0; }
     .hero { padding: 72px 0 80px; }
+    .leadmagnet .lm-box { flex-direction: column; }
+    .sticky-cta { display: flex; }
   }
+  @media (min-width: 901px) { .sticky-cta { display: none; } }
+
+  /* ---------- Arabic / Sorani overrides (RTL, Vazirmatn) ---------- */
+  html[lang="ar"] .mono, html[lang="ckb"] .mono,
+  html[lang="ar"] .serif, html[lang="ckb"] .serif { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] .nav-brand, html[lang="ckb"] .nav-brand { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
+  html[lang="ar"] .hero-badge, html[lang="ckb"] .hero-badge { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
+  html[lang="ar"] .hero h1, html[lang="ckb"] .hero h1 { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
+  html[lang="ar"] .eyebrow, html[lang="ckb"] .eyebrow { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
+  html[lang="ar"] .section-title, html[lang="ckb"] .section-title { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
+  html[lang="ar"] .svc-card h3, html[lang="ckb"] .svc-card h3 { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] .svc-card.highlight::before { content: "الأكثر ثقة"; }
+  html[lang="ckb"] .svc-card.highlight::before { content: "پێباوەرترین"; }
+  html[lang="kmr"] .svc-card.highlight::before { content: "Herî pêbawer"; }
+  html[lang="ar"] .cert-item .cert-tag, html[lang="ckb"] .cert-item .cert-tag { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] .step h3, html[lang="ckb"] .step h3 { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] .leadmagnet h2, html[lang="ckb"] .leadmagnet h2 { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] .compare-table th, html[lang="ar"] .compare-table td,
+  html[lang="ckb"] .compare-table th, html[lang="ckb"] .compare-table td { text-align: right; }
+  html[lang="ar"] .about-visual h3, html[lang="ckb"] .about-visual h3 { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] .about-copy h3, html[lang="ckb"] .about-copy h3 { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] .guarantee-card, html[lang="ckb"] .guarantee-card { border-left: none; border-right: 6px solid var(--green); }
+  html[lang="ar"] .guarantee-card h3, html[lang="ckb"] .guarantee-card h3 { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] .insight-card .tag, html[lang="ckb"] .insight-card .tag { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
+  html[lang="ar"] .insight-card h3, html[lang="ckb"] .insight-card h3 { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] .cta-banner h2, html[lang="ckb"] .cta-banner h2 { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] .contact-info h3, html[lang="ckb"] .contact-info h3 { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] .pay-card h3, html[lang="ckb"] .pay-card h3 { font-family: 'Vazirmatn', sans-serif; }
+  html[lang="ar"] footer .f-brand, html[lang="ckb"] footer .f-brand { font-family: 'Vazirmatn', sans-serif; }
 </style>
 </head>
 <body>
@@ -349,100 +492,116 @@
   <div class="container">
     <a href="#" class="nav-brand">Hazhar<span class="dot">.</span>HSE</a>
     <div class="nav-links">
-      <a href="#services">Services</a>
-      <a href="#process">Process</a>
-      <a href="#about">About</a>
-      <a href="#testimonials">Results</a>
-      <a href="#faq">FAQ</a>
-      <a href="#contact" class="nav-cta">Start a Project</a>
+      <a href="#services" data-en="Services" data-fa="خدمات">Services</a>
+      <a href="#process" data-en="Process" data-fa="فرایند">Process</a>
+      <a href="#about" data-en="About" data-fa="درباره">About</a>
+      <a href="#testimonials" data-en="Results" data-fa="نتایج">Results</a>
+      <a href="#faq" data-en="FAQ" data-fa="سوالات">FAQ</a>
+      <div class="lang-toggle" aria-label="Language">
+        <button type="button" data-lang="en" class="active">EN</button>
+        <button type="button" data-lang="fa">فا</button>
+        <button type="button" data-lang="ar">عربي</button>
+        <button type="button" data-lang="ckb">سۆرانی</button>
+        <button type="button" data-lang="kmr">Kurmancî</button>
+      </div>
+      <a href="#contact" class="nav-cta" data-en="Start a Project" data-fa="شروع پروژه">Start a Project</a>
     </div>
   </div>
 </nav>
 
 <header class="hero">
   <div class="container">
-    <div class="hero-badge"><span class="pulse"></span> 20+ Years in Occupational Health & Safety</div>
-    <h1>Safety isn't an expense.<br>It's the best <span class="accent">investment</span> you'll make.</h1>
-    <p class="sub">From the oil field to the workshop floor — I help companies reduce risk, stay compliant, and build a genuine culture of safety. Plus, I engineer ATS-safe resumes for safety professionals worldwide.</p>
+    <div class="hero-badge"><span class="pulse"></span><span data-en="20+ Years in Occupational Health & Safety" data-fa="۲۰+ سال تجربه در بهداشت و ایمنی شغلی">20+ Years in Occupational Health & Safety</span></div>
+    <h1><span data-en="Safety isn't an expense. It's the best investment you'll make." data-fa="ایمنی هزینه نیست؛ بهترین سرمایه‌گذاری شماست.">Safety isn't an expense.<br>It's the best <span class="accent">investment</span> you'll make.</span></h1>
+    <p class="sub" data-en="From the oil field to the workshop floor — I help companies reduce risk, stay compliant, and build a genuine culture of safety. Plus, I engineer ATS-safe resumes for safety professionals worldwide." data-fa="از میدان نفت تا کارگاه — به شرکت‌ها کمک می‌کنم ریسک را کاهش دهند، قوانین را رعایت کنند و فرهنگ واقعی ایمنی بسازند. علاوه بر آن، رزومه‌های استاندارد ATS برای متخصصان ایمنی در سراسر جهان می‌نویسم.">From the oil field to the workshop floor — I help companies reduce risk, stay compliant, and build a genuine culture of safety. Plus, I engineer ATS-safe resumes for safety professionals worldwide.</p>
     <div class="hero-actions">
-      <a href="#services" class="btn btn-primary">Explore Services →</a>
-      <a href="#contact" class="btn btn-ghost">Get a Free Consultation</a>
+      <a href="#services" class="btn btn-primary" data-en="Explore Services →" data-fa="مشاهده خدمات ←">Explore Services →</a>
+      <a href="#contact" class="btn btn-ghost" data-en="Get a Free Consultation" data-fa="مشاوره رایگان">Get a Free Consultation</a>
     </div>
     <div class="hero-stats">
-      <div class="hero-stat"><span class="num">20+</span><span class="lbl">Years of Field Experience</span></div>
-      <div class="hero-stat"><span class="num">200+</span><span class="lbl">Inspections Per Year</span></div>
-      <div class="hero-stat"><span class="num">3</span><span class="lbl">Heavy Industries Served</span></div>
-      <div class="hero-stat"><span class="num">100%</span><span class="lbl">Personally Handled</span></div>
+      <div class="hero-stat"><span class="num">20+</span><span class="lbl" data-en="Years of Field Experience" data-fa="سال تجربه میدانی">Years of Field Experience</span></div>
+      <div class="hero-stat"><span class="num">200+</span><span class="lbl" data-en="Inspections Per Year" data-fa="بازرسی در سال">Inspections Per Year</span></div>
+      <div class="hero-stat"><span class="num">3</span><span class="lbl" data-en="Heavy Industries Served" data-fa="صنایع سنگین تحت پوشش">Heavy Industries Served</span></div>
+      <div class="hero-stat"><span class="num">100%</span><span class="lbl" data-en="Personally Handled" data-fa="رسیدگی شخصی">Personally Handled</span></div>
     </div>
   </div>
 </header>
 
+<div class="proof-bar">
+  <div class="container">
+    <span data-en="✔ Serving <strong>companies worldwide</strong>" data-fa="✔ همکاری با <strong>شرکت‌های داخلی و خارجی</strong>">✔ Serving <strong>companies worldwide</strong></span>
+    <span data-en="✔ <strong>Oil & Gas · Petrochemical · Electricity</strong>" data-fa="✔ <strong>نفت و گاز · پتروشیمی · برق</strong>">✔ <strong>Oil & Gas · Petrochemical · Electricity</strong></span>
+    <span data-en="✔ <strong>48h</strong> delivery on resumes" data-fa="✔ تحویل رزومه در <strong>۴۸ ساعت</strong>">✔ <strong>48h</strong> delivery on resumes</span>
+    <span data-en="✔ Refund <strong>if work hasn't started</strong>" data-fa="✔ بازگشت وجه <strong>در صورت شروع نشدن کار</strong>">✔ Refund <strong>if work hasn't started</strong></span>
+  </div>
+</div>
+
 <section class="services" id="services">
   <div class="container">
     <div class="section-head center">
-      <div class="eyebrow">Services</div>
-      <h2 class="section-title">Two disciplines. One standard of excellence.</h2>
-      <p class="section-lead">Operational HSE consulting backed by two decades in the field, and premium resume engineering for the people who keep the world safe.</p>
+      <div class="eyebrow" data-en="Services" data-fa="خدمات">Services</div>
+      <h2 class="section-title" data-en="Two disciplines. One standard of excellence." data-fa="دو حوزه تخصصی، یک استاندارد برتری.">Two disciplines. One standard of excellence.</h2>
+      <p class="section-lead" data-en="Operational HSE consulting backed by two decades in the field, and premium resume engineering for the people who keep the world safe." data-fa="مشاوره عملیاتی HSE با دو دهه تجربه میدانی، و مهندسی رزومه حرفه‌ای برای کسانی که دنیا را ایمن نگه می‌دارند.">Operational HSE consulting backed by two decades in the field, and premium resume engineering for the people who keep the world safe.</p>
     </div>
     <div class="svc-grid">
 
       <div class="svc-card highlight">
         <div class="svc-icon">🛡️</div>
-        <h3>HSE Audit & Gap Analysis</h3>
-        <p>A thorough, honest assessment of your site against regulatory requirements and international standards — with a clear, prioritized action plan you can actually execute.</p>
+        <h3 data-en="HSE Audit & Gap Analysis" data-fa="بازرسی و تحلیل شکاف HSE">HSE Audit & Gap Analysis</h3>
+        <p data-en="A thorough, honest assessment of your site against regulatory requirements and international standards — with a clear, prioritized action plan you can actually execute." data-fa="ارزیابی کامل و صادقانه سایت شما در برابر الزامات قانونی و استانداردهای بین‌المللی — همراه با برنامه اقدام اولویت‌بندی‌شده که واقعاً قابل اجراست.">A thorough, honest assessment of your site against regulatory requirements and international standards — with a clear, prioritized action plan you can actually execute.</p>
         <div class="price-row">
-          <span class="price">$149 <small>/ site</small></span>
-          <a href="#contact" class="svc-link">Request →</a>
+          <span class="price">$149 <small data-en="/ site" data-fa="/ هر سایت">/ site</small></span>
+          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
 
       <div class="svc-card">
         <div class="svc-icon">📊</div>
-        <h3>Risk Assessment (HIRA / JSA)</h3>
-        <p>Hazard identification and risk assessment for your operations — from task-level Job Safety Analysis to full-process HIRA, aligned with ISO 45001 thinking.</p>
+        <h3 data-en="Risk Assessment (HIRA / JSA)" data-fa="ارزیابی ریسک (HIRA / JSA)">Risk Assessment (HIRA / JSA)</h3>
+        <p data-en="Hazard identification and risk assessment for your operations — from task-level Job Safety Analysis to full-process HIRA, aligned with ISO 45001 thinking." data-fa="شناسایی خطر و ارزیابی ریسک عملیات شما — از تحلیل ایمنی کار (JSA) تا HIRA کامل فرایند، هم‌راستا با رویکرد ISO 45001.">Hazard identification and risk assessment for your operations — from task-level Job Safety Analysis to full-process HIRA, aligned with ISO 45001 thinking.</p>
         <div class="price-row">
-          <span class="price">$95 <small>/ scope</small></span>
-          <a href="#contact" class="svc-link">Request →</a>
+          <span class="price">$95 <small data-en="/ scope" data-fa="/ محدوده">/ scope</small></span>
+          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
 
       <div class="svc-card">
         <div class="svc-icon">📚</div>
-        <h3>HSE Documentation Pack</h3>
-        <p>Ready-to-adapt HSE manuals, policies, PTW procedures, emergency plans, and inspection checklists — built on 20 years of real inspection experience.</p>
+        <h3 data-en="HSE Documentation Pack" data-fa="بسته مستندات HSE">HSE Documentation Pack</h3>
+        <p data-en="Ready-to-adapt HSE manuals, policies, PTW procedures, emergency plans, and inspection checklists — built on 20 years of real inspection experience." data-fa="دستورالعمل‌ها، سیاست‌ها، رویه‌های مجوز کار (PTW)، طرح‌های اضطراری و چک‌لیست‌های بازرسی آماده — ساخته‌شده بر پایه ۲۰ سال تجربه واقعی بازرسی.">Ready-to-adapt HSE manuals, policies, PTW procedures, emergency plans, and inspection checklists — built on 20 years of real inspection experience.</p>
         <div class="price-row">
-          <span class="price">$199 <small>/ pack</small></span>
-          <a href="#contact" class="svc-link">Request →</a>
+          <span class="price">$199 <small data-en="/ pack" data-fa="/ بسته">/ pack</small></span>
+          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
 
       <div class="svc-card">
         <div class="svc-icon">📝</div>
-        <h3>Premium Resume Rewrite</h3>
-        <p>A hand-written, ATS-safe resume that reframes your safety career around outcomes — not duties. Delivered in 48 hours.</p>
+        <h3 data-en="Premium Resume Rewrite" data-fa="بازنویسی حرفه‌ای رزومه">Premium Resume Rewrite</h3>
+        <p data-en="A hand-written, ATS-safe resume that reframes your safety career around outcomes — not duties. Delivered in 48 hours." data-fa="رزومه دست‌نویس و استاندارد ATS که کارنامه ایمنی شما را بر پایه نتایج — نه وظایف — بازسازی می‌کند. تحویل در ۴۸ ساعت.">A hand-written, ATS-safe resume that reframes your safety career around outcomes — not duties. Delivered in 48 hours.</p>
         <div class="price-row">
-          <span class="price">$49 <small>/ resume</small></span>
-          <a href="#contact" class="svc-link">Request →</a>
+          <span class="price">$49 <small data-en="/ resume" data-fa="/ رزومه">/ resume</small></span>
+          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
 
       <div class="svc-card">
         <div class="svc-icon">🔍</div>
-        <h3>Resume Audit</h3>
-        <p>I read your resume against a real job description and send back a written list of missing keywords, formatting risks, and weak bullet points.</p>
+        <h3 data-en="Resume Audit" data-fa="بازبینی رزومه">Resume Audit</h3>
+        <p data-en="I read your resume against a real job description and send back a written list of missing keywords, formatting risks, and weak bullet points." data-fa="رزومه شما را در برابر یک شرح شغل واقعی بررسی می‌کنم و لیست مکتوبی از کلمات کلیدی ازدست‌رفته، ریسک‌های قالب‌بندی و نکات ضعیف برمی‌گردانم.">I read your resume against a real job description and send back a written list of missing keywords, formatting risks, and weak bullet points.</p>
         <div class="price-row">
-          <span class="price">$15 <small>/ audit</small></span>
-          <a href="#contact" class="svc-link">Request →</a>
+          <span class="price">$15 <small data-en="/ audit" data-fa="/ بازبینی">/ audit</small></span>
+          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
 
       <div class="svc-card">
         <div class="svc-icon">📁</div>
-        <h3>ATS Resume Templates</h3>
-        <p>Clean, single-column layouts built to parse correctly in common applicant tracking systems — no tables, no text boxes, no scrambled imports.</p>
+        <h3 data-en="ATS Resume Templates" data-fa="قالب‌های رزومه ATS">ATS Resume Templates</h3>
+        <p data-en="Clean, single-column layouts built to parse correctly in common applicant tracking systems — no tables, no text boxes, no scrambled imports." data-fa="چیدمان‌های تمیز تک‌ستونی که در سیستم‌های ردیابی متقاضی به‌درستی تحلیل می‌شوند — بدون جدول، بدون جعبه متنی، بدون به‌هم‌ریختگی.">Clean, single-column layouts built to parse correctly in common applicant tracking systems — no tables, no text boxes, no scrambled imports.</p>
         <div class="price-row">
-          <span class="price">$9 <small>/ template</small></span>
-          <a href="#contact" class="svc-link">Request →</a>
+          <span class="price">$9 <small data-en="/ template" data-fa="/ قالب">/ template</small></span>
+          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
 
@@ -452,26 +611,70 @@
 
 <section class="cert-strip">
   <div class="container">
-    <div class="cert-item"><div class="cert-tag">OSHA 30</div><div class="cert-lbl">General Industry</div></div>
-    <div class="cert-item"><div class="cert-tag">First Aid & CPR</div><div class="cert-lbl">Certified</div></div>
-    <div class="cert-item"><div class="cert-tag">H2S Awareness</div><div class="cert-lbl">Certified</div></div>
-    <div class="cert-item"><div class="cert-tag">BSc — OHS Engineering</div><div class="cert-lbl">Hamadan University of Medical Sciences</div></div>
+    <div class="cert-item"><div class="cert-tag">OSHA 30</div><div class="cert-lbl" data-en="General Industry" data-fa="صنعت عمومی">General Industry</div></div>
+    <div class="cert-item"><div class="cert-tag" data-en="First Aid & CPR" data-fa="کمک‌های اولیه و CPR">First Aid & CPR</div><div class="cert-lbl" data-en="Certified" data-fa="معتبر">Certified</div></div>
+    <div class="cert-item"><div class="cert-tag">H2S Awareness</div><div class="cert-lbl" data-en="Certified" data-fa="معتبر">Certified</div></div>
+    <div class="cert-item"><div class="cert-tag" data-en="BSc — OHS Engineering" data-fa="کارشناسی مهندسی بهداشت حرفه‌ای">BSc — OHS Engineering</div><div class="cert-lbl" data-en="Hamadan University of Medical Sciences" data-fa="دانشگاه علوم پزشکی همدان">Hamadan University of Medical Sciences</div></div>
   </div>
 </section>
 
 <section class="process" id="process">
   <div class="container">
     <div class="section-head center">
-      <div class="eyebrow">How it works</div>
-      <h2 class="section-title">A simple, transparent process.</h2>
-      <p class="section-lead">Every engagement is treated like a ledger entry — itemized, dated, and closed on the deadline promised.</p>
+      <div class="eyebrow" data-en="How it works" data-fa="فرایند کار">How it works</div>
+      <h2 class="section-title" data-en="A simple, transparent process." data-fa="فرایندی ساده و شفاف.">A simple, transparent process.</h2>
+      <p class="section-lead" data-en="Every engagement is treated like a ledger entry — itemized, dated, and closed on the deadline promised." data-fa="هر قرارداد مانند یک ورود دفتر حسابداری مدیریت می‌شود — دقیق، زمان‌بندی‌شده و تحویل در موعد مقرر.">Every engagement is treated like a ledger entry — itemized, dated, and closed on the deadline promised.</p>
     </div>
     <div class="process-grid">
-      <div class="step"><span class="step-num"></span><h3>Share your scope</h3><p>Tell me what you're facing — a site audit, a risk assessment, a documentation pack, or a resume that isn't getting callbacks.</p></div>
-      <div class="step"><span class="step-num"></span><h3>Get a clear quote</h3><p>You receive an itemized proposal with a fixed price and a firm deadline. No vague estimates, no surprise line items.</p></div>
-      <div class="step"><span class="step-num"></span><h3>I do the work</h3><p>Field experience meets your specifics. Every deliverable is reviewed against the standard you hired me to meet.</p></div>
-      <div class="step"><span class="step-num"></span><h3>Delivered & follow-up</h3><p>You get the final files on time, plus honest follow-up on anything that needs refining. Done is done.</p></div>
+      <div class="step"><span class="step-num"></span><h3 data-en="Share your scope" data-fa="محدوده کار را بگویید">Share your scope</h3><p data-en="Tell me what you're facing — a site audit, a risk assessment, a documentation pack, or a resume that isn't getting callbacks." data-fa="بگویید با چه چیزی مواجه هستید — بازرسی سایت، ارزیابی ریسک، بسته مستندات یا رزومه‌ای که تماسی دریافت نمی‌کند.">Tell me what you're facing — a site audit, a risk assessment, a documentation pack, or a resume that isn't getting callbacks.</p></div>
+      <div class="step"><span class="step-num"></span><h3 data-en="Get a clear quote" data-fa="پیشنهاد قیمت شفاف">Get a clear quote</h3><p data-en="You receive an itemized proposal with a fixed price and a firm deadline. No vague estimates, no surprise line items." data-fa="پیشنهادی دقیق با قیمت ثابت و مهلت مشخص دریافت می‌کنید. بدون برآورد مبهم، بدون هزینه غافلگیرکننده.">You receive an itemized proposal with a fixed price and a firm deadline. No vague estimates, no surprise line items.</p></div>
+      <div class="step"><span class="step-num"></span><h3 data-en="I do the work" data-fa="کار را انجام می‌دهم">I do the work</h3><p data-en="Field experience meets your specifics. Every deliverable is reviewed against the standard you hired me to meet." data-fa="تجربه میدانی با نیازهای خاص شما ترکیب می‌شود. هر خروجی بر اساس استانداردی که برایش استخدام کرده‌اید بررسی می‌شود.">Field experience meets your specifics. Every deliverable is reviewed against the standard you hired me to meet.</p></div>
+      <div class="step"><span class="step-num"></span><h3 data-en="Delivered & follow-up" data-fa="تحویل و پیگیری">Delivered & follow-up</h3><p data-en="You get the final files on time, plus honest follow-up on anything that needs refining. Done is done." data-fa="فایل‌های نهایی به‌موقع دریافت می‌کنید، به‌همراه پیگیری صادقانه برای هر چیزی که نیاز به اصلاح دارد. تمام‌شده یعنی تمام‌شده.">You get the final files on time, plus honest follow-up on anything that needs refining. Done is done.</p></div>
     </div>
+  </div>
+</section>
+
+<section class="leadmagnet">
+  <div class="container">
+    <div class="eyebrow" style="color:var(--safety);" data-en="Free Resource" data-fa="منبع رایگان">Free Resource</div>
+    <h2 data-en="Get the HSE Inspection Checklist" data-fa="چک‌لیست بازرسی HSE را دریافت کنید">Get the HSE Inspection Checklist</h2>
+    <p class="lead-sub" data-en="A practical, field-tested checklist based on 20 years of official inspections. Perfect for safety officers and plant managers — free, no strings attached." data-fa="چک‌لیستی عملی و آزموده‌شده بر پایه ۲۰ سال بازرسی رسمی. ایده‌آل برای مسئولان ایمنی و مدیران کارخانه — رایگان و بدون هیچ تعهدی.">A practical, field-tested checklist based on 20 years of official inspections. Perfect for safety officers and plant managers — free, no strings attached.</p>
+    <form class="lm-box" action="mailto:hazharkhhazhar@gmail.com" method="post" enctype="text/plain">
+      <input type="email" name="email" required placeholder="you@company.com" data-en-placeholder="you@company.com" data-fa-placeholder="ایمیل شما" data-ar-placeholder="بريدك الإلكتروني" data-ckb-placeholder="ئیمەیڵەکەت" data-kmr-placeholder="e-nameya te">
+      <button type="submit" class="btn btn-primary" data-en="Send Me the Checklist" data-fa="چک‌لیست را بفرست">Send Me the Checklist</button>
+    </form>
+    <p class="lm-note" data-en="I'll email you the checklist within minutes. No spam, ever." data-fa="چک‌لیست را ظرف چند دقیقه ایمیل می‌کنم. هرگز اسپم نمی‌فرستم.">I'll email you the checklist within minutes. No spam, ever.</p>
+  </div>
+</section>
+
+<section class="compare" id="compare">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow" data-en="Why Hazhar HSE" data-fa="چرا Hazhar HSE">Why Hazhar HSE</div>
+      <h2 class="section-title" data-en="The honest difference." data-fa="تفاوت واقعی.">The honest difference.</h2>
+      <p class="section-lead" data-en="Big consultancies sell templates. I sell judgment from the field." data-fa="مشاوره‌های بزرگ قالب می‌فروشند؛ من قضاوت میدانی می‌فروشم.">Big consultancies sell templates. I sell judgment from the field.</p>
+    </div>
+    <div class="compare-table">
+      <table>
+        <thead>
+          <tr>
+            <th data-en="What you get" data-fa="چی دریافت می‌کنید">What you get</th>
+            <th class="hazhar" data-en="Hazhar HSE" data-fa="Hazhar HSE">Hazhar HSE</th>
+            <th data-en="Typical Agencies" data-fa="آژانس‌های معمولی">Typical Agencies</th>
+            <th data-en="DIY / Internal" data-fa="داخلی / DIY">DIY / Internal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td data-en="20+ years of field inspection experience" data-fa="۲۰+ سال تجربه بازرسی میدانی">20+ years of field inspection experience</td><td class="hazhar-col yes" data-en="Yes" data-fa="بله">Yes</td><td class="no" data-en="Rarely" data-fa="به‌ندرت">Rarely</td><td class="no" data-en="Depends" data-fa="بستگی دارد">Depends</td></tr>
+          <tr><td data-en="Personally handled by one specialist" data-fa="رسیدگی شخصی توسط یک متخصص">Personally handled by one specialist</td><td class="hazhar-col yes" data-en="Yes" data-fa="بله">Yes</td><td class="no" data-en="Team roulette" data-fa="شانس تیم">Team roulette</td><td class="no">—</td></tr>
+          <tr><td data-en="Action plan you can execute this week" data-fa="برنامه اقدام قابل اجرا در همین هفته">Action plan you can execute this week</td><td class="hazhar-col yes" data-en="Yes" data-fa="بله">Yes</td><td class="no" data-en="Long reports" data-fa="گزارش‌های طولانی">Long reports</td><td class="no" data-en="Bias risk" data-fa="ریسک تعصب">Bias risk</td></tr>
+          <tr><td data-en="Fixed price, firm deadline" data-fa="قیمت ثابت، مهلت مشخص">Fixed price, firm deadline</td><td class="hazhar-col yes" data-en="Yes" data-fa="بله">Yes</td><td class="no" data-en="Hourly billing" data-fa="صورتحساب ساعتی">Hourly billing</td><td class="no">—</td></tr>
+          <tr><td data-en="Refund if work hasn't started" data-fa="بازگشت وجه در صورت شروع نشدن کار">Refund if work hasn't started</td><td class="hazhar-col yes" data-en="Yes" data-fa="بله">Yes</td><td class="no" data-en="Contracts" data-fa="قرارداد">Contracts</td><td class="no">—</td></tr>
+          <tr><td data-en="Serving Iranian & international clients" data-fa="پذیرش مشتریان ایرانی و بین‌المللی">Serving Iranian & international clients</td><td class="hazhar-col yes" data-en="Yes" data-fa="بله">Yes</td><td class="no" data-en="Often no" data-fa="اغلب خیر">Often no</td><td class="no">—</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="compare-note" data-en="Honest comparison based on how agencies typically operate." data-fa="مقایسه صادقانه بر اساس شیوه عملکرد معمول آژانس‌ها.">Honest comparison based on how agencies typically operate.</p>
   </div>
 </section>
 
@@ -481,24 +684,24 @@
       <div class="about-visual">
         <div class="avatar">AK</div>
         <h3>Ahmad Khezri</h3>
-        <div class="role">Occupational Health & Safety Specialist · Known as Hazhar</div>
+        <div class="role" data-en="Occupational Health & Safety Specialist · Known as Hazhar" data-fa="متخصص بهداشت حرفه‌ای و ایمنی · معروف به حضر">Occupational Health & Safety Specialist · Known as Hazhar</div>
         <ul>
-          <li><span class="check">✓</span> 20+ years as a certified occupational health & safety inspector</li>
-          <li><span class="check">✓</span> Official inspections across trade unions & small businesses</li>
-          <li><span class="check">✓</span> Technical HSE oversight in electricity, oil & gas, and petrochemical plants</li>
-          <li><span class="check">✓</span> Industrial hygiene monitoring — noise, dust, chemical exposure</li>
-          <li><span class="check">✓</span> 200+ workplace inspections performed every year</li>
+          <li><span class="check">✓</span><span data-en="20+ years as a certified occupational health & safety inspector" data-fa="۲۰+ سال به عنوان بازرس رسمی بهداشت حرفه‌ای و ایمنی">20+ years as a certified occupational health & safety inspector</span></li>
+          <li><span class="check">✓</span><span data-en="Official inspections across trade unions & small businesses" data-fa="بازرسی رسمی از اصناف و کسب‌وکارهای کوچک">Official inspections across trade unions & small businesses</span></li>
+          <li><span class="check">✓</span><span data-en="Technical HSE oversight in electricity, oil & gas, and petrochemical plants" data-fa="نظارت فنی HSE در صنایع برق، نفت و گاز و پتروشیمی">Technical HSE oversight in electricity, oil & gas, and petrochemical plants</span></li>
+          <li><span class="check">✓</span><span data-en="Industrial hygiene monitoring — noise, dust, chemical exposure" data-fa="پایش بهداشت صنعتی — صدا، گردوغبار، مواجهه شیمیایی">Industrial hygiene monitoring — noise, dust, chemical exposure</span></li>
+          <li><span class="check">✓</span><span data-en="200+ workplace inspections performed every year" data-fa="انجام بیش از ۲۰۰ بازرسی محل کار در هر سال">200+ workplace inspections performed every year</span></li>
         </ul>
       </div>
       <div class="about-copy">
-        <div class="eyebrow">About</div>
-        <h3>Safety experience you can't fake.</h3>
-        <p>For two decades I've been the person walking the floor when others see a hallway. My career spans <strong>official occupational health & safety inspection</strong> across three provincial health centers — enforcing standards, assessing risk, and investigating incidents in the field, not from a boardroom.</p>
-        <p>That background means when I audit your site, review your documentation, or rewrite your resume, you're getting <strong>real operational judgment</strong> — the kind that only comes from years of consequences and corrections.</p>
+        <div class="eyebrow" data-en="About" data-fa="درباره">About</div>
+        <h3 data-en="Safety experience you can't fake." data-fa="تجربه ایمنی که قابل جعل نیست.">Safety experience you can't fake.</h3>
+        <p data-en="For two decades I've been the person walking the floor when others see a hallway. My career spans official occupational health & safety inspection across three provincial health centers — enforcing standards, assessing risk, and investigating incidents in the field, not from a boardroom." data-fa="برای دو دهه من همان کسی بوده‌ام که کف کارخانه قدم می‌زند در حالی که دیگران فقط راهرو را می‌بینند. کارنامه من شامل بازرسی رسمی بهداشت حرفه‌ای و ایمنی در سه مرکز بهداشت استانی است — اجرای استانداردها، ارزیابی ریسک و بررسی حوادث در میدان، نه از اتاق جلسه.">For two decades I've been the person walking the floor when others see a hallway. My career spans official occupational health & safety inspection across three provincial health centers — enforcing standards, assessing risk, and investigating incidents in the field, not from a boardroom.</p>
+        <p data-en="That background means when I audit your site, review your documentation, or rewrite your resume, you're getting real operational judgment — the kind that only comes from years of consequences and corrections." data-fa="این پیشینه یعنی وقتی سایت شما را بازرسی می‌کنم، مستندات‌تان را بررسی می‌کنم یا رزومه‌تان را بازنویسی می‌کنم، قضاوت عملیاتی واقعی دریافت می‌کنید — نوعی که فقط از سال‌ها پیامد و اصلاح حاصل می‌شود.">That background means when I audit your site, review your documentation, or rewrite your resume, you're getting real operational judgment — the kind that only comes from years of consequences and corrections.</p>
         <ul class="timeline">
-          <li><span class="years">2023 — Present</span><span class="place">Urmia Health Center</span><span> · Inspector</span></li>
-          <li><span class="years">2014 — 2023</span><span class="place">Sanandaj Health Center</span><span> · Inspector</span></li>
-          <li><span class="years">2009 — 2017</span><span class="place">Tabriz Health Center</span><span> · Inspector</span></li>
+          <li><span class="years">2023 — Present</span><span class="place" data-en="Urmia Health Center" data-fa="مرکز بهداشت ارومیه">Urmia Health Center</span><span data-en=" · Inspector" data-fa=" · بازرس"> · Inspector</span></li>
+          <li><span class="years">2014 — 2023</span><span class="place" data-en="Sanandaj Health Center" data-fa="مرکز بهداشت سنندج">Sanandaj Health Center</span><span data-en=" · Inspector" data-fa=" · بازرس"> · Inspector</span></li>
+          <li><span class="years">2009 — 2017</span><span class="place" data-en="Tabriz Health Center" data-fa="مرکز بهداشت تبریز">Tabriz Health Center</span><span data-en=" · Inspector" data-fa=" · بازرس"> · Inspector</span></li>
         </ul>
       </div>
     </div>
@@ -508,25 +711,67 @@
 <section class="testimonials" id="testimonials">
   <div class="container">
     <div class="section-head center">
-      <div class="eyebrow">Results</div>
-      <h2 class="section-title">Trusted where it matters.</h2>
-      <p class="section-lead">Feedback from clients who've put my work to the test.</p>
+      <div class="eyebrow" data-en="Results" data-fa="نتایج">Results</div>
+      <h2 class="section-title" data-en="Trusted where it matters." data-fa="در جایی که اهمیت دارد، مورد اعتماد.">Trusted where it matters.</h2>
+      <p class="section-lead" data-en="Feedback from clients who've put my work to the test." data-fa="بازخورد مشتریانی که کار من را محک زده‌اند.">Feedback from clients who've put my work to the test.</p>
     </div>
     <div class="testi-grid">
       <div class="testi">
         <div class="stars">★★★★★</div>
-        <p>"Hazhar's audit found risks our internal team had walked past for years. The action plan was practical — we implemented it within two weeks."</p>
-        <div class="who"><div class="initial">MS</div><div class="meta"><div class="name">Plant Safety Manager</div><div class="role">Petrochemical Sector</div></div></div>
+        <p data-en="Hazhar's audit found risks our internal team had walked past for years. The action plan was practical — we implemented it within two weeks." data-fa="بازرسی حضر خطراتی را یافت که تیم داخلی ما سال‌ها از کنارشان رد شده بود. برنامه اقدام عملی بود — در دو هفته پیاده‌سازی کردیم.">Hazhar's audit found risks our internal team had walked past for years. The action plan was practical — we implemented it within two weeks.</p>
+        <div class="who"><div class="initial">MS</div><div class="meta"><div class="name" data-en="Plant Safety Manager" data-fa="مدیر ایمنی کارخانه">Plant Safety Manager</div><div class="role" data-en="Petrochemical Sector" data-fa="بخش پتروشیمی">Petrochemical Sector</div></div></div>
       </div>
       <div class="testi">
         <div class="stars">★★★★★</div>
-        <p>"The resume rewrite got me interviews in two weeks after six months of silence. He speaks the language recruiters actually look for."</p>
-        <div class="who"><div class="initial">RA</div><div class="meta"><div class="name">HSE Engineer</div><div class="role">Oil & Gas</div></div></div>
+        <p data-en="The resume rewrite got me interviews in two weeks after six months of silence. He speaks the language recruiters actually look for." data-fa="بازنویسی رزومه پس از شش ماه سکوت، در دو هفته برایم مصاحبه آورد. او زبانی را می‌داند که استخدام‌کنندگان واقعاً دنبالش هستند.">The resume rewrite got me interviews in two weeks after six months of silence. He speaks the language recruiters actually look for.</p>
+        <div class="who"><div class="initial">RA</div><div class="meta"><div class="name" data-en="HSE Engineer" data-fa="مهندس HSE">HSE Engineer</div><div class="role" data-en="Oil & Gas" data-fa="نفت و گاز">Oil & Gas</div></div></div>
       </div>
       <div class="testi">
         <div class="stars">★★★★★</div>
-        <p>"Clear pricing, on-time delivery, and documentation that was genuinely ready to use. Exactly what a contractor needs."</p>
-        <div class="who"><div class="initial">JT</div><div class="meta"><div class="name">Operations Director</div><div class="role">Industrial Services</div></div></div>
+        <p data-en="Clear pricing, on-time delivery, and documentation that was genuinely ready to use. Exactly what a contractor needs." data-fa="قیمت‌گذاری شفاف، تحویل به‌موقع و مستنداتی که واقعاً آماده استفاده بود. دقیقاً همان چیزی که یک پیمانکار نیاز دارد.">Clear pricing, on-time delivery, and documentation that was genuinely ready to use. Exactly what a contractor needs.</p>
+        <div class="who"><div class="initial">JT</div><div class="meta"><div class="name" data-en="Operations Director" data-fa="مدیر عملیات">Operations Director</div><div class="role" data-en="Industrial Services" data-fa="خدمات صنعتی">Industrial Services</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="guarantee">
+  <div class="container">
+    <div class="guarantee-card">
+      <div class="g-icon">🛡️</div>
+      <div>
+        <h3 data-en="My guarantee to you" data-fa="تضمین من به شما">My guarantee to you</h3>
+        <p data-en="If I haven't started work on your order, you get a full refund — no questions asked. Once work is done, it's final: but if something isn't right, email me and I'll fix it rather than walk away. I'd rather keep a client than win an argument." data-fa="اگر کار روی سفارش شما شروع نشده باشد، بازگشت کامل وجه دریافت می‌کنید — بدون هیچ سوالی. پس از اتمام کار، نتیجه نهایی است؛ اما اگر چیزی درست نبود، ایمیل بدهید و به جای رها کردن، آن را اصلاح می‌کنم. ترجیح می‌دهم مشتری را حفظ کنم تا اینکه در بحث برنده شوم.">If I haven't started work on your order, you get a full refund — no questions asked. Once work is done, it's final: but if something isn't right, email me and I'll fix it rather than walk away. I'd rather keep a client than win an argument.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="insights">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow" data-en="Insights" data-fa="بینش‌ها">Insights</div>
+      <h2 class="section-title" data-en="Practical knowledge from the field." data-fa="دانش عملی از میدان کار.">Practical knowledge from the field.</h2>
+      <p class="section-lead" data-en="Short, honest reads on HSE that companies actually face." data-fa="مطالبی کوتاه و صادقانه درباره چالش‌های واقعی HSE شرکت‌ها.">Short, honest reads on HSE that companies actually face.</p>
+    </div>
+    <div class="insights-grid">
+      <div class="insight-card">
+        <div class="tag" data-en="Risk Assessment" data-fa="ارزیابی ریسک">Risk Assessment</div>
+        <h3 data-en="Why your HIRA collects dust (and how to fix it)" data-fa="چرا HIRA شما خاک می‌خورد (و چگونه آن را درست کنید)">Why your HIRA collects dust (and how to fix it)</h3>
+        <p data-en="Most risk assessments fail at the implementation step. Here's the field-tested way to make yours actually change behavior." data-fa="بیشتر ارزیابی‌های ریسک در مرحله اجرا شکست می‌خورند. این روش آزموده‌شده میدانی است تا ارزیابی شما واقعاً رفتار را تغییر دهد.">Most risk assessments fail at the implementation step. Here's the field-tested way to make yours actually change behavior.</p>
+        <span class="read" data-en="Read more →" data-fa="بیشتر بخوانید ←">Read more →</span>
+      </div>
+      <div class="insight-card">
+        <div class="tag" data-en="Audits" data-fa="بازرسی">Audits</div>
+        <h3 data-en="The 5 inspection findings I see at almost every plant" data-fa="۵ مورد بازرسی که تقریباً در هر کارخانه می‌بینم">The 5 inspection findings I see at almost every plant</h3>
+        <p data-en="After 20 years and thousands of inspections, these patterns keep showing up. Check yours before I do." data-fa="پس از ۲۰ سال و هزاران بازرسی، این الگوها مدام تکرار می‌شوند. قبل از من، کارخانه خود را بررسی کنید.">After 20 years and thousands of inspections, these patterns keep showing up. Check yours before I do.</p>
+        <span class="read" data-en="Read more →" data-fa="بیشتر بخوانید ←">Read more →</span>
+      </div>
+      <div class="insight-card">
+        <div class="tag" data-en="Careers" data-fa="شغلی">Careers</div>
+        <h3 data-en="ATS is real: how safety professionals get filtered out" data-fa="ATS واقعی است: چگونه متخصصان ایمنی فیلتر می‌شوند">ATS is real: how safety professionals get filtered out</h3>
+        <p data-en="Your resume may be perfect for humans and invisible to software. Here's what recruiters' systems actually scan for." data-fa="رزومه شما ممکن است برای انسان‌ها عالی اما برای نرم‌افزار نامرئی باشد. در اینجا ببینید سیستم‌های استخدام‌کنندگان واقعاً دنبال چه هستند.">Your resume may be perfect for humans and invisible to software. Here's what recruiters' systems actually scan for.</p>
+        <span class="read" data-en="Read more →" data-fa="بیشتر بخوانید ←">Read more →</span>
       </div>
     </div>
   </div>
@@ -535,35 +780,49 @@
 <section class="faq" id="faq">
   <div class="container">
     <div class="section-head center">
-      <div class="eyebrow">FAQ</div>
-      <h2 class="section-title">Common questions, answered honestly.</h2>
+      <div class="eyebrow" data-en="FAQ" data-fa="سوالات متداول">FAQ</div>
+      <h2 class="section-title" data-en="Common questions, answered honestly." data-fa="سوالات رایج، با پاسخ صادقانه.">Common questions, answered honestly.</h2>
     </div>
     <div class="faq-list">
       <details class="faq-item">
-        <summary>How are your HSE audits different from what my team already does? <span class="plus">+</span></summary>
-        <div class="answer">Internal teams are close to their own operations — which is exactly why they miss things. I bring 20 years of official inspection judgment, an outside perspective, and an action plan prioritized by actual risk, not office politics. What I deliver is findings you can act on the same week.</div>
+        <summary><span data-en="How are your HSE audits different from what my team already does?" data-fa="بازرسی HSE شما چه تفاوتی با کار تیم فعلی من دارد؟">How are your HSE audits different from what my team already does?</span><span class="plus">+</span></summary>
+        <div class="answer" data-en="Internal teams are close to their own operations — which is exactly why they miss things. I bring 20 years of official inspection judgment, an outside perspective, and an action plan prioritized by actual risk, not office politics." data-fa="تیم‌های داخلی به عملیات خود نزدیک‌اند — دقیقاً به همین دلیل چیزهایی را از دست می‌دهند. من ۲۰ سال قضاوت بازرسی رسمی، دید بیرونی و برنامه اقدام اولویت‌بندی‌شده بر اساس ریسک واقعی می‌آورم، نه سیاست اداری.">Internal teams are close to their own operations — which is exactly why they miss things. I bring 20 years of official inspection judgment, an outside perspective, and an action plan prioritized by actual risk, not office politics.</div>
       </details>
       <details class="faq-item">
-        <summary>Which industries do you serve? <span class="plus">+</span></summary>
-        <div class="answer">My deepest experience is in electricity, oil & gas, and petrochemical facilities, plus trade unions and small-to-mid businesses. If your industry carries real physical risk, I've likely inspected something like it.</div>
+        <summary><span data-en="Which industries do you serve?" data-fa="در کدام صنایع خدمت ارائه می‌دهید؟">Which industries do you serve?</span><span class="plus">+</span></summary>
+        <div class="answer" data-en="My deepest experience is in electricity, oil & gas, and petrochemical facilities, plus trade unions and small-to-mid businesses. If your industry carries real physical risk, I've likely inspected something like it." data-fa="عمیق‌ترین تجربه من در صنایع برق، نفت و گاز و پتروشیمی است، به‌همراه اصناف و کسب‌وکارهای کوچک و متوسط. اگر صنعت شما ریسک فیزیکی واقعی دارد، به احتمال زیاد چیزی مشابه آن را بازرسی کرده‌ام.">My deepest experience is in electricity, oil & gas, and petrochemical facilities, plus trade unions and small-to-mid businesses. If your industry carries real physical risk, I've likely inspected something like it.</div>
       </details>
       <details class="faq-item">
-        <summary>Will my resume pass ATS filters? <span class="plus">+</span></summary>
-        <div class="answer">No one can guarantee a pass rate — it depends on the specific system and how closely your background matches the role. What I guarantee is a format that parses cleanly and language aligned to the keywords in the job description you give me.</div>
+        <summary><span data-en="Can you work with international companies remotely?" data-fa="آیا امکان همکاری از راه دور با شرکت‌های خارجی را دارید؟">Can you work with international companies remotely?</span><span class="plus">+</span></summary>
+        <div class="answer" data-en="Yes. I serve clients worldwide for documentation packs, resume services, and remote consulting. For on-site audits, we can agree on scope and logistics case by case. Communication is in English or Persian, whichever you prefer." data-fa="بله. برای بسته‌های مستندات، خدمات رزومه و مشاوره از راه دور به مشتریان سراسر جهان خدمت می‌دهم. برای بازرسی حضوری، محدوده کار و تدارکات را مورد به مورد توافق می‌کنیم. ارتباط به زبان انگلیسی یا فارسی، هرکدام که ترجیح می‌دهید.">Yes. I serve clients worldwide for documentation packs, resume services, and remote consulting. For on-site audits, we can agree on scope and logistics case by case. Communication is in English or Persian, whichever you prefer.</div>
       </details>
       <details class="faq-item">
-        <summary>How long does a resume rewrite take? <span class="plus">+</span></summary>
-        <div class="answer">Premium rewrites are delivered within 48 hours of payment and files arriving. Audits are typically same-day. Templates are sent within a few hours.</div>
+        <summary><span data-en="Will my resume pass ATS filters?" data-fa="آیا رزومه من از فیلتر ATS عبور می‌کند؟">Will my resume pass ATS filters?</span><span class="plus">+</span></summary>
+        <div class="answer" data-en="No one can guarantee a pass rate — it depends on the specific system and how closely your background matches the role. What I guarantee is a format that parses cleanly and language aligned to the keywords in the job description you give me." data-fa="هیچ‌کس نمی‌تواند نرخ عبور را تضمین کند — به سیستم خاص و میزان تطابق پیشینه شما با نقش بستگی دارد. آنچه تضمین می‌کنم قالبی است که تمیز تحلیل می‌شود و زبانی هم‌راستا با کلمات کلیدی شرح شغل.">No one can guarantee a pass rate — it depends on the specific system and how closely your background matches the role. What I guarantee is a format that parses cleanly and language aligned to the keywords in the job description you give me.</div>
       </details>
       <details class="faq-item">
-        <summary>How do I pay, and is it secure? <span class="plus">+</span></summary>
-        <div class="answer">Payment is accepted via the TON network (USDT) for borderless settlement. It's fast and settles without a payment processor taking a cut. If TON isn't practical for you, email me first — I can usually arrange an alternative.</div>
+        <summary><span data-en="How long does a resume rewrite take?" data-fa="بازنویسی رزومه چقدر طول می‌کشد؟">How long does a resume rewrite take?</span><span class="plus">+</span></summary>
+        <div class="answer" data-en="Premium rewrites are delivered within 48 hours of payment and files arriving. Audits are typically same-day. Templates are sent within a few hours." data-fa="بازنویسی‌های ویژه در ۴۸ ساعت از دریافت پرداخت و فایل‌ها تحویل داده می‌شوند. بازبینی‌ها معمولاً همان روز و قالب‌ها ظرف چند ساعت ارسال می‌شوند.">Premium rewrites are delivered within 48 hours of payment and files arriving. Audits are typically same-day. Templates are sent within a few hours.</div>
       </details>
       <details class="faq-item">
-        <summary>What if something isn't right? <span class="plus">+</span></summary>
-        <div class="answer">If I haven't started work on your order, you get a full refund, no questions asked. Once a deliverable is done, it's final — but email me if something's wrong and I'll fix it rather than walk away.</div>
+        <summary><span data-en="How do I pay, and is it secure?" data-fa="چگونه پرداخت کنم و آیا امن است؟">How do I pay, and is it secure?</span><span class="plus">+</span></summary>
+        <div class="answer" data-en="Payment is accepted via the TON network (USDT) for borderless settlement. For Iranian clients, we can also arrange local payment methods. It's fast and without a payment processor taking a cut." data-fa="پرداخت از طریق شبکه TON (USDT) برای تسویه بدون مرز انجام می‌شود. برای مشتریان ایرانی، روش‌های پرداخت محلی نیز قابل هماهنگی است. سریع است و بدون کسر کارمزد پرداخت‌پرداز.">Payment is accepted via the TON network (USDT) for borderless settlement. For Iranian clients, we can also arrange local payment methods. It's fast and without a payment processor taking a cut.</div>
+      </details>
+      <details class="faq-item">
+        <summary><span data-en="What if something isn't right?" data-fa="اگر چیزی درست نبود چه؟">What if something isn't right?</span><span class="plus">+</span></summary>
+        <div class="answer" data-en="If I haven't started work on your order, you get a full refund, no questions asked. Once a deliverable is done, it's final — but email me if something's wrong and I'll fix it rather than walk away." data-fa="اگر کار روی سفارش شما شروع نشده باشد، بازگشت کامل وجه دریافت می‌کنید، بدون هیچ سوالی. پس از اتمام کار، نتیجه نهایی است — اما اگر چیزی اشتباه بود ایمیل بدهید و آن را اصلاح می‌کنم نه اینکه رها کنم.">If I haven't started work on your order, you get a full refund, no questions asked. Once a deliverable is done, it's final — but email me if something's wrong and I'll fix it rather than walk away.</div>
       </details>
     </div>
+  </div>
+</section>
+
+<section class="cta-banner">
+  <div class="container">
+    <div>
+      <h2 data-en="Ready to make safety your advantage?" data-fa="آماده‌اید ایمنی را به مزیت خود تبدیل کنید؟">Ready to make safety your advantage?</h2>
+      <p data-en="Get a free, honest consultation — I'll tell you what you actually need, even if it's not my service." data-fa="مشاوره رایگان و صادقانه بگیرید — به شما می‌گویم واقعاً به چه چیزی نیاز دارید، حتی اگر خدمت من نباشد.">Get a free, honest consultation — I'll tell you what you actually need, even if it's not my service.</p>
+    </div>
+    <a href="#contact" class="btn btn-white" data-en="Start Now →" data-fa="شروع کنید ←">Start Now →</a>
   </div>
 </section>
 
@@ -571,46 +830,50 @@
   <div class="container">
     <div class="contact-grid">
       <div class="contact-info">
-        <div class="eyebrow">Contact</div>
-        <h3>Let's talk about your next step.</h3>
-        <p>Tell me what you're facing and I'll respond personally — usually within a few hours. No pressure, no obligation, and I'll give you an honest read on whether I'm the right person for it.</p>
+        <div class="eyebrow" data-en="Contact" data-fa="تماس">Contact</div>
+        <h3 data-en="Let's talk about your next step." data-fa="بیایید درباره قدم بعدی شما صحبت کنیم.">Let's talk about your next step.</h3>
+        <p data-en="Tell me what you're facing and I'll respond personally — usually within a few hours. No pressure, no obligation, and I'll give you an honest read on whether I'm the right person for it." data-fa="بگویید با چه چیزی مواجه هستید و من شخصاً پاسخ می‌دهم — معمولاً ظرف چند ساعت. بدون فشار، بدون تعهد، و به‌صورت صادقانه می‌گویم آیا من فرد مناسبی برای این کار هستم یا نه.">Tell me what you're facing and I'll respond personally — usually within a few hours. No pressure, no obligation, and I'll give you an honest read on whether I'm the right person for it.</p>
         <div class="contact-method">
           <div class="icon">✉️</div>
-          <div><div class="lbl">Email</div><div class="val">hazharkhhazhar@gmail.com</div></div>
-        </div>
-        <div class="contact-method">
-          <div class="icon">🌐</div>
-          <div><div class="lbl">Location</div><div class="val">Urmia, Iran — serving clients worldwide</div></div>
+          <div><div class="lbl" data-en="Email" data-fa="ایمیل">Email</div><div class="val">hazharkhhazhar@gmail.com</div></div>
         </div>
         <div class="contact-method">
           <div class="icon">💬</div>
-          <div><div class="lbl">Availability</div><div class="val">Remote-friendly · Worldwide</div></div>
+          <div><div class="lbl" data-en="Telegram / WhatsApp" data-fa="تلگرام / واتساپ">Telegram / WhatsApp</div><div class="val" data-en="Available on request via email" data-fa="از طریق ایمیل در دسترس است">Available on request via email</div></div>
+        </div>
+        <div class="contact-method">
+          <div class="icon">🌐</div>
+          <div><div class="lbl" data-en="Location" data-fa="موقعیت">Location</div><div class="val" data-en="Urmia, Iran — serving clients worldwide" data-fa="ارومیه، ایران — در خدمت مشتریان سراسر جهان">Urmia, Iran — serving clients worldwide</div></div>
+        </div>
+        <div class="contact-method">
+          <div class="icon">💬</div>
+          <div><div class="lbl" data-en="Availability" data-fa="دسترس‌پذیری">Availability</div><div class="val" data-en="Remote-friendly · English & Persian" data-fa="همکاری از راه دور · انگلیسی و فارسی">Remote-friendly · English & Persian</div></div>
         </div>
       </div>
       <form class="stack" action="mailto:hazharkhhazhar@gmail.com" method="post" enctype="text/plain" id="contact-form">
-        <label for="c-name">Your name</label>
+        <label for="c-name" data-en="Your name" data-fa="نام شما">Your name</label>
         <input id="c-name" type="text" name="name" placeholder="Jane Doe" required>
-        <label for="c-service">Service you need</label>
+        <label for="c-service" data-en="Service you need" data-fa="خدمت مورد نیاز">Service you need</label>
         <select id="c-service" name="service" required>
-          <option value="">Select a service</option>
-          <option value="HSE Audit & Gap Analysis ($149)">HSE Audit & Gap Analysis — $149</option>
-          <option value="Risk Assessment HIRA/JSA ($95)">Risk Assessment (HIRA/JSA) — $95</option>
-          <option value="HSE Documentation Pack ($199)">HSE Documentation Pack — $199</option>
-          <option value="Premium Resume Rewrite ($49)">Premium Resume Rewrite — $49</option>
-          <option value="Resume Audit ($15)">Resume Audit — $15</option>
-          <option value="ATS Resume Template ($9)">ATS Resume Template — $9</option>
+          <option value="" data-en="Select a service" data-fa="انتخاب خدمت">Select a service</option>
+          <option value="HSE Audit & Gap Analysis ($149)" data-en="HSE Audit & Gap Analysis — $149" data-fa="بازرسی و تحلیل شکاف HSE — ۱۴۹ دلار">HSE Audit & Gap Analysis — $149</option>
+          <option value="Risk Assessment HIRA/JSA ($95)" data-en="Risk Assessment (HIRA/JSA) — $95" data-fa="ارزیابی ریسک (HIRA/JSA) — ۹۵ دلار">Risk Assessment (HIRA/JSA) — $95</option>
+          <option value="HSE Documentation Pack ($199)" data-en="HSE Documentation Pack — $199" data-fa="بسته مستندات HSE — ۱۹۹ دلار">HSE Documentation Pack — $199</option>
+          <option value="Premium Resume Rewrite ($49)" data-en="Premium Resume Rewrite — $49" data-fa="بازنویسی حرفه‌ای رزومه — ۴۹ دلار">Premium Resume Rewrite — $49</option>
+          <option value="Resume Audit ($15)" data-en="Resume Audit — $15" data-fa="بازبینی رزومه — ۱۵ دلار">Resume Audit — $15</option>
+          <option value="ATS Resume Template ($9)" data-en="ATS Resume Template — $9" data-fa="قالب رزومه ATS — ۹ دلار">ATS Resume Template — $9</option>
         </select>
-        <label for="c-email">Your email</label>
+        <label for="c-email" data-en="Your email" data-fa="ایمیل شما">Your email</label>
         <input id="c-email" type="email" name="email" placeholder="you@example.com" required>
-        <label for="c-msg">Tell me about your project</label>
-        <textarea id="c-msg" name="message" placeholder="Site type, sector, timeline, what you need most..."></textarea>
-        <button type="submit" class="btn btn-primary" style="justify-content:center;">Send My Request →</button>
-        <p class="form-note">This opens your email app addressed to hazharkhhazhar@gmail.com with everything pre-filled. Your details are only used to answer this request.</p>
-        <button type="button" class="fallback-toggle" onclick="toggleFallback('contact-fallback', 'contact-form')">Nothing happened when you clicked? Copy your details instead</button>
+        <label for="c-msg" data-en="Tell me about your project" data-fa="درباره پروژه خود بگویید">Tell me about your project</label>
+        <textarea id="c-msg" name="message" placeholder="Site type, sector, timeline, what you need most..." data-en-placeholder="Site type, sector, timeline, what you need most..." data-fa-placeholder="نوع سایت، حوزه، زمان‌بندی، بیشترین نیاز شما..." data-ar-placeholder="نوع الموقع، القطاع، الجدول الزمني، أهم احتياجاتك..." data-ckb-placeholder="جۆری شوێن، بەش، کاتژمێری، پێویستترین شتت..." data-kmr-placeholder="Cureyê cih, sektor, dem, tiştê ku herî zêde pêdivî pê heye..." required></textarea>
+        <button type="submit" class="btn btn-primary" style="justify-content:center;" data-en="Send My Request →" data-fa="ارسال درخواست ←">Send My Request →</button>
+        <p class="form-note" data-en="This opens your email app addressed to hazharkhhazhar@gmail.com with everything pre-filled. Your details are only used to answer this request." data-fa="این ایمیل شما را با همه اطلاعات به hazharkhhazhar@gmail.com باز می‌کند. اطلاعات شما فقط برای پاسخ به این درخواست استفاده می‌شود.">This opens your email app addressed to hazharkhhazhar@gmail.com with everything pre-filled. Your details are only used to answer this request.</p>
+        <button type="button" class="fallback-toggle" onclick="toggleFallback('contact-fallback', 'contact-form')" data-en="Nothing happened when you clicked? Copy your details instead" data-fa="اتفاقی نیفتاد؟ به‌جایش اطلاعات را کپی کنید">Nothing happened when you clicked? Copy your details instead</button>
         <div class="fallback-box" id="contact-fallback">
           <textarea readonly id="contact-fallback-text"></textarea>
-          <button type="button" class="btn btn-ghost" style="color:var(--ink);border-color:var(--ink);" onclick="copyFallback('contact-fallback-text')">Copy text</button>
-          <p class="form-note">Copy this, paste it into an email to <strong>hazharkhhazhar@gmail.com</strong>.</p>
+          <button type="button" class="btn btn-ghost" style="color:var(--ink);border-color:var(--ink);" onclick="copyFallback('contact-fallback-text')" data-en="Copy text" data-fa="کپی متن">Copy text</button>
+          <p class="form-note" data-en="Copy this, paste it into an email to hazharkhhazhar@gmail.com." data-fa="این را کپی و در ایمیلی به hazharkhhazhar@gmail.com قرار دهید.">Copy this, paste it into an email to hazharkhhazhar@gmail.com.</p>
         </div>
       </form>
     </div>
@@ -620,12 +883,12 @@
 <section class="pay" id="payment">
   <div class="container">
     <div class="pay-card">
-      <h3>Secure Payment</h3>
-      <p>Scan to pay via the TON network, then email your transaction ID along with your request.</p>
+      <h3 data-en="Secure Payment" data-fa="پرداخت امن">Secure Payment</h3>
+      <p data-en="Scan to pay via the TON network, then email your transaction ID along with your request. Iranian clients can arrange local payment by email." data-fa="برای پرداخت از شبکه TON اسکن کنید، سپس شناسه تراکنش را همراه درخواست خود ایمیل کنید. مشتریان ایرانی می‌توانند پرداخت محلی را از طریق ایمیل هماهنگ کنند.">Scan to pay via the TON network, then email your transaction ID along with your request. Iranian clients can arrange local payment by email.</p>
       <img src="qr-code.jpg" alt="QR code for TON wallet payment" class="qr">
       <div class="wallet-box">UQDblybQsSLnqYDb7128hTz_NL1xrRLAemUQjqzgy7VAVl35</div>
-      <button class="btn-copy" onclick="copyWallet()">Copy Wallet Address</button>
-      <p class="form-note" style="color:#9FB0C4; margin-top:16px;">Don't use TON? Email me before ordering and I'll arrange another way to pay.</p>
+      <button class="btn-copy" onclick="copyWallet()" data-en="Copy Wallet Address" data-fa="کپی آدرس کیف پول">Copy Wallet Address</button>
+      <p class="form-note" style="color:#9FB0C4; margin-top:16px;" data-en="Don't use TON? Email me before ordering and I'll arrange another way to pay." data-fa="از TON استفاده نمی‌کنید؟ قبل از سفارش ایمیل بدهید تا راه دیگری هماهنگ کنم.">Don't use TON? Email me before ordering and I'll arrange another way to pay.</p>
     </div>
   </div>
 </section>
@@ -634,37 +897,97 @@
   <div class="container">
     <div>
       <div class="f-brand">Hazhar<span class="dot">.</span>HSE</div>
-      <p class="f-desc">Occupational health & safety consulting and ATS-safe resume engineering — a one-person practice run personally by Ahmad Khezri. Every engagement is handled end-to-end by me.</p>
+      <p class="f-desc" data-en="Occupational health & safety consulting and ATS-safe resume engineering — a one-person practice run personally by Ahmad Khezri. Every engagement is handled end-to-end by me." data-fa="مشاوره بهداشت حرفه‌ای و ایمنی و مهندسی رزومه استاندارد ATS — یک عمل یک‌نفره که شخصاً توسط احمد خضری اداره می‌شود. هر قرارداد از ابتدا تا انتها توسط من مدیریت می‌شود.">Occupational health & safety consulting and ATS-safe resume engineering — a one-person practice run personally by Ahmad Khezri. Every engagement is handled end-to-end by me.</p>
     </div>
     <div class="f-links">
       <div class="f-col">
-        <h4>Services</h4>
-        <a href="#services">HSE Audits</a>
-        <a href="#services">Risk Assessment</a>
-        <a href="#services">Documentation Pack</a>
-        <a href="#services">Resume Services</a>
+        <h4 data-en="Services" data-fa="خدمات">Services</h4>
+        <a href="#services" data-en="HSE Audits" data-fa="بازرسی HSE">HSE Audits</a>
+        <a href="#services" data-en="Risk Assessment" data-fa="ارزیابی ریسک">Risk Assessment</a>
+        <a href="#services" data-en="Documentation Pack" data-fa="بسته مستندات">Documentation Pack</a>
+        <a href="#services" data-en="Resume Services" data-fa="خدمات رزومه">Resume Services</a>
       </div>
       <div class="f-col">
-        <h4>Company</h4>
-        <a href="#about">About</a>
-        <a href="#testimonials">Results</a>
-        <a href="#faq">FAQ</a>
-        <a href="#contact">Contact</a>
+        <h4 data-en="Company" data-fa="شرکت">Company</h4>
+        <a href="#about" data-en="About" data-fa="درباره">About</a>
+        <a href="#compare" data-en="Why Us" data-fa="چرا ما">Why Us</a>
+        <a href="#faq" data-en="FAQ" data-fa="سوالات">FAQ</a>
+        <a href="#contact" data-en="Contact" data-fa="تماس">Contact</a>
       </div>
       <div class="f-col">
-        <h4>Connect</h4>
-        <a href="mailto:hazharkhhazhar@gmail.com">Email</a>
-        <a href="https://github.com/hazharkhhazhar-crypto">GitHub</a>
+        <h4 data-en="Connect" data-fa="ارتباط">Connect</h4>
+        <a href="mailto:hazharkhhazhar@gmail.com" data-en="Email" data-fa="ایمیل">Email</a>
+        <a href="https://github.com/hazharkhhazhar-crypto" data-en="GitHub" data-fa="گیت‌هاب">GitHub</a>
       </div>
     </div>
     <div class="f-bottom">
-      © <span id="year"></span> Hazhar HSE · Run by Ahmad Khezri · Information submitted through this site is used only to prepare your order and is never sold or shared.
+      <span data-en="Hazhar HSE · Run by Ahmad Khezri · Serving Iranian & international clients" data-fa="Hazhar HSE · مدیریت احمد خضری · در خدمت مشتریان ایرانی و بین‌المللی">Hazhar HSE · Run by Ahmad Khezri · Serving Iranian & international clients</span> — © <span id="year"></span>
     </div>
   </div>
 </footer>
 
+<a href="#contact" class="sticky-cta">
+  <span class="pulse-dot"></span>
+  <span data-en="Get a Free Consultation" data-fa="مشاوره رایگان">Get a Free Consultation</span>
+</a>
+
+<script src="translations-ar.js"></script>
+<script src="translations-ckb.js"></script>
+<script src="translations-kmr.js"></script>
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
+
+  // Language switcher
+  var langBtn = document.querySelectorAll('.lang-toggle button');
+  var langDict = {
+    ar: 'T_AR',
+    ckb: 'T_CKB',
+    kmr: 'T_KMR'
+  };
+  function setLang(lang) {
+    var html = document.documentElement;
+    html.setAttribute('lang', lang);
+    // Toggle active button
+    langBtn.forEach(function (b) {
+      b.classList.toggle('active', b.dataset.lang === lang);
+    });
+    // Swap text on all elements with data attributes
+    var dict = langDict[lang] ? (window[langDict[lang]] || {}) : null;
+    var nodes = document.querySelectorAll('[data-en],[data-fa]');
+    nodes.forEach(function (el) {
+      var key = el.getAttribute('data-en');
+      var text = null;
+      if (lang === 'en') {
+        text = el.getAttribute('data-en');
+      } else if (lang === 'fa') {
+        if (el.hasAttribute('data-fa')) text = el.getAttribute('data-fa');
+      } else if (dict && key && dict[key]) {
+        text = dict[key];
+      }
+      if (text === null) {
+        text = el.getAttribute(lang === 'fa' && el.hasAttribute('data-fa') ? 'data-fa' : 'data-en');
+      }
+      if (text !== null) {
+        el.innerHTML = text;
+      }
+    });
+    // Swap placeholders
+    document.querySelectorAll('[data-en-placeholder]').forEach(function (el) {
+      var attr = 'data-' + lang + '-placeholder';
+      el.placeholder = el.hasAttribute(attr) ? el.getAttribute(attr) : el.getAttribute('data-en-placeholder');
+    });
+    // Preserve current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Store preference
+    try { localStorage.setItem('hhse-lang', lang); } catch (e) {}
+  }
+  langBtn.forEach(function (b) {
+    b.addEventListener('click', function () { setLang(b.dataset.lang); });
+  });
+  // Restore saved language
+  var saved = 'en';
+  try { saved = localStorage.getItem('hhse-lang') || 'en'; } catch (e) {}
+  setLang(saved);
 
   function toggleFallback(boxId, formId) {
     var box = document.getElementById(boxId);
