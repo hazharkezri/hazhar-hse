@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Hazhar HSE | Occupational Health & Safety Consulting, Audits & ATS Resume Services</title>
-<meta name="description" content="Hazhar HSE by Ahmad Khezri — 20+ years of occupational health & safety expertise. HSE audits, risk assessments, safety training, and ATS-safe resume engineering for companies and safety professionals worldwide.">
-<meta name="keywords" content="HSE consulting, occupational health, safety audits, risk assessment, OSHA, industrial hygiene, ATS resume, safety training, EHS consultant, petrochemical safety, oil and gas safety">
+<meta name="description" content="Hazhar HSE by Ahmad Khezri — 20+ years of occupational health & safety expertise. HSE audits, risk assessments, safety training, and ATS-safe resume engineering aligned with ISO 45001, OSHA, NIOSH & ISO 31000. Serving companies and safety professionals worldwide.">
+<meta name="keywords" content="HSE consulting, occupational health, safety audits, risk assessment, ISO 45001, OSHA, NIOSH, ISO 31000, industrial hygiene, ATS resume, safety training, EHS consultant, petrochemical safety, oil and gas safety, ایمنی، بهداشت حرفه‌ای، HSE">
 <meta property="og:title" content="Hazhar HSE | Occupational Health & Safety Consulting & Resume Services">
 <meta property="og:description" content="20+ years of HSE field expertise — audits, risk assessment, safety training, and ATS-safe resumes for companies worldwide.">
 <meta property="og:type" content="website">
@@ -29,31 +29,41 @@
   "areaServed": "Worldwide",
   "serviceType": "HSE Consulting & Resume Engineering",
   "offers": [
-    { "@type": "Offer", "name": "HSE Risk Assessment (HIRA)", "price": "95", "priceCurrency": "USD" },
-    { "@type": "Offer", "name": "HSE Audit & Gap Analysis", "price": "149", "priceCurrency": "USD" },
-    { "@type": "Offer", "name": "HSE Documentation Pack", "price": "199", "priceCurrency": "USD" },
-    { "@type": "Offer", "name": "Standard Resume Templates", "price": "9", "priceCurrency": "USD" },
-    { "@type": "Offer", "name": "Resume Audit", "price": "15", "priceCurrency": "USD" },
-    { "@type": "Offer", "name": "Premium Resume Rewrite", "price": "49", "priceCurrency": "USD" }
+    { "@type": "Offer", "name": "HSE Risk Assessment (HIRA)", "price": "95", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "price": 115000000, "priceCurrency": "IRR" } },
+    { "@type": "Offer", "name": "HSE Audit & Gap Analysis", "price": "149", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "price": 180000000, "priceCurrency": "IRR" } },
+    { "@type": "Offer", "name": "HSE Documentation Pack", "price": "199", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "price": 240000000, "priceCurrency": "IRR" } },
+    { "@type": "Offer", "name": "Standard Resume Templates", "price": "9", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "price": 10000000, "priceCurrency": "IRR" } },
+    { "@type": "Offer", "name": "Resume Audit", "price": "15", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "price": 18000000, "priceCurrency": "IRR" } },
+    { "@type": "Offer", "name": "Premium Resume Rewrite", "price": "49", "priceCurrency": "USD", "priceSpecification": { "@type": "PriceSpecification", "price": 60000000, "priceCurrency": "IRR" } }
+  ],
+  "hasCredential": [
+    { "@type": "EducationalOccupationalCredential", "credentialCategory": "OSHA 30 General Industry" },
+    { "@type": "EducationalOccupationalCredential", "credentialCategory": "BSc OHS Engineering" }
   ]
 }
 </script>
 <style>
   :root {
-    --navy: #0E1B2C;
-    --navy-2: #16283F;
+    --navy: #0A1626;
+    --navy-2: #122A44;
+    --navy-3: #1C3F63;
     --safety: #FF7A1A;
     --safety-dark: #E26000;
     --amber: #FFB45C;
+    --gold: #F5C553;
+    --teal: #2CC0A8;
     --steel: #5A7A9A;
     --mist: #F4F7FA;
+    --mist-2: #EDF3F9;
     --white: #FFFFFF;
-    --ink: #152238;
+    --ink: #101A2B;
     --muted: #5B6B7F;
     --line: #E3E9F0;
-    --green: #1FA971;
-    --shadow: 0 12px 32px rgba(14,27,44,0.10);
-    --shadow-lg: 0 24px 60px rgba(14,27,44,0.16);
+    --green: #22C55E;
+    --glow: rgba(255,122,26,0.35);
+    --shadow: 0 12px 32px rgba(10,22,38,0.10);
+    --shadow-lg: 0 28px 70px rgba(10,22,38,0.18);
+    --ring: 0 0 0 4px rgba(255,122,26,0.15);
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { scroll-behavior: smooth; }
@@ -65,7 +75,9 @@
     color: var(--ink);
     line-height: 1.65;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
+  ::selection { background: rgba(255,122,26,0.22); }
   a { color: inherit; text-decoration: none; }
   img { max-width: 100%; display: block; }
   .container { max-width: 1160px; margin: 0 auto; padding: 0 24px; }
@@ -79,47 +91,68 @@
   /* ---------- Navigation ---------- */
   .topnav {
     position: sticky; top: 0; z-index: 100;
-    background: rgba(14,27,44,0.97);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(255,255,255,0.08);
+    background: rgba(10,22,38,0.82);
+    backdrop-filter: blur(14px) saturate(140%);
+    -webkit-backdrop-filter: blur(14px) saturate(140%);
+    border-bottom: 1px solid rgba(255,255,255,0.10);
   }
   .topnav .container { display: flex; align-items: center; justify-content: space-between; height: 68px; }
-  .nav-brand { font-family: 'Fraunces', serif; font-weight: 800; font-size: 20px; color: var(--white); letter-spacing: -0.3px; }
+  .nav-brand { font-family: 'Fraunces', serif; font-weight: 800; font-size: 21px; color: var(--white); letter-spacing: -0.3px; }
   html[lang="fa"] .nav-brand { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
-  .nav-brand .dot { color: var(--safety); }
+  .nav-brand .dot { color: var(--safety); text-shadow: 0 0 14px var(--glow); }
   .nav-links { display: flex; align-items: center; gap: 26px; }
   .nav-links a { font-size: 14px; font-weight: 600; color: #B9C6D6; transition: color 0.2s; }
   .nav-links a:hover { color: var(--white); }
   .lang-toggle {
-    display: inline-flex; align-items: center; background: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.2); border-radius: 8px; overflow: hidden;
+    display: inline-flex; align-items: center; background: rgba(255,255,255,0.10);
+    border: 1px solid rgba(255,255,255,0.22); border-radius: 9px; overflow: hidden;
   }
   .lang-toggle button {
     background: transparent; border: none; color: #9FB0C4; font-size: 13px; font-weight: 700;
     padding: 7px 12px; cursor: pointer; transition: all 0.2s; font-family: inherit;
   }
-  .lang-toggle button.active { background: var(--safety); color: var(--white); }
+  .lang-toggle button.active { background: linear-gradient(135deg, var(--safety), var(--safety-dark)); color: var(--white); }
   .nav-cta {
-    background: var(--safety); color: var(--white); padding: 10px 20px;
-    border-radius: 6px; font-size: 14px; font-weight: 700; transition: background 0.2s;
+    background: linear-gradient(135deg, var(--safety), var(--safety-dark)); color: var(--white); padding: 10px 20px;
+    border-radius: 8px; font-size: 14px; font-weight: 700; transition: all 0.25s;
+    box-shadow: 0 6px 18px var(--glow);
   }
-  .nav-cta:hover { background: var(--safety-dark); }
+  .nav-cta:hover { background: linear-gradient(135deg, var(--safety-dark), var(--safety)); transform: translateY(-1px); }
   @media (max-width: 720px) { .nav-links a:not(.nav-cta):not(.lang-toggle) { display: none; } }
 
   /* ---------- Hero ---------- */
   .hero {
     position: relative;
-    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 55%, #1B3A5C 100%);
+    background:
+      radial-gradient(1000px 600px at 85% -10%, rgba(44,192,168,0.16), transparent 60%),
+      radial-gradient(900px 550px at -10% 110%, rgba(255,122,26,0.20), transparent 55%),
+      linear-gradient(135deg, var(--navy) 0%, var(--navy-2) 55%, var(--navy-3) 100%);
     color: var(--white);
-    padding: 100px 0 110px;
+    padding: 110px 0 120px;
     overflow: hidden;
   }
   .hero::before {
     content: "";
     position: absolute; inset: 0;
-    background-image: radial-gradient(rgba(255,122,26,0.14) 1px, transparent 1px);
-    background-size: 28px 28px;
-    opacity: 0.5;
+    background-image:
+      radial-gradient(rgba(255,255,255,0.07) 1px, transparent 1px),
+      radial-gradient(rgba(255,122,26,0.10) 1px, transparent 1px);
+    background-size: 44px 44px, 22px 22px;
+    background-position: 0 0, 11px 11px;
+    opacity: 0.6;
+    -webkit-mask-image: radial-gradient(ellipse at 50% 40%, black, transparent 78%);
+    mask-image: radial-gradient(ellipse at 50% 40%, black, transparent 78%);
+  }
+  .hero::after {
+    content: "";
+    position: absolute; width: 480px; height: 480px; border-radius: 50%;
+    top: -140px; right: -120px;
+    background: radial-gradient(circle, rgba(255,122,26,0.22), transparent 65%);
+    filter: blur(10px); animation: orb-drift 14s ease-in-out infinite alternate;
+  }
+  @keyframes orb-drift {
+    0% { transform: translate(0,0) scale(1); }
+    100% { transform: translate(-60px, 40px) scale(1.12); }
   }
   .hero .container { position: relative; z-index: 1; text-align: center; max-width: 900px; }
   .hero-badge {
@@ -127,7 +160,8 @@
     font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 1.5px;
     text-transform: uppercase; color: var(--amber);
     border: 1px solid rgba(255,180,92,0.35); border-radius: 100px;
-    padding: 8px 18px; margin-bottom: 26px; background: rgba(255,122,26,0.08);
+    padding: 8px 18px; margin-bottom: 26px; background: rgba(255,122,26,0.10);
+    backdrop-filter: blur(4px);
   }
   html[lang="fa"] .hero-badge { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
   .hero-badge .pulse {
@@ -139,28 +173,43 @@
     70% { box-shadow: 0 0 0 10px rgba(255,122,26,0); }
     100% { box-shadow: 0 0 0 0 rgba(255,122,26,0); }
   }
-  .hero h1 { font-family: 'Fraunces', serif; font-size: 50px; font-weight: 800; line-height: 1.15; letter-spacing: -1px; margin-bottom: 22px; }
-  html[lang="fa"] .hero h1 { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; font-size: 44px; }
-  .hero h1 .accent { color: var(--safety); }
+  .hero h1 {
+    font-family: 'Fraunces', serif; font-size: 52px; font-weight: 800; line-height: 1.12;
+    letter-spacing: -1px; margin-bottom: 22px;
+    background: linear-gradient(180deg, #FFFFFF 55%, #CBD7E6);
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  html[lang="fa"] .hero h1 { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; font-size: 46px; background: none; -webkit-text-fill-color: var(--white); }
+  html[lang="ar"] .hero h1, html[lang="ckb"] .hero h1 { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; background: none; -webkit-text-fill-color: var(--white); }
+  .hero h1 .accent {
+    background: linear-gradient(90deg, var(--safety), var(--amber));
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  html[lang="fa"] .hero h1 .accent, html[lang="ar"] .hero h1 .accent, html[lang="ckb"] .hero h1 .accent { -webkit-text-fill-color: var(--safety); }
   .hero .sub { font-size: 18px; color: #C3D0E0; max-width: 700px; margin: 0 auto 38px; }
   .hero-actions { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; }
   .btn {
     display: inline-flex; align-items: center; justify-content: center; gap: 9px;
-    padding: 15px 30px; border-radius: 8px; font-size: 15px; font-weight: 700;
-    cursor: pointer; border: none; transition: all 0.2s; text-align: center; font-family: inherit;
+    padding: 15px 30px; border-radius: 10px; font-size: 15px; font-weight: 700;
+    cursor: pointer; border: none; transition: all 0.25s; text-align: center; font-family: inherit;
+    letter-spacing: 0.2px;
   }
-  .btn-primary { background: var(--safety); color: var(--white); box-shadow: 0 8px 24px rgba(255,122,26,0.35); }
-  .btn-primary:hover { background: var(--safety-dark); transform: translateY(-2px); }
-  .btn-ghost { background: transparent; color: var(--white); border: 1.5px solid rgba(255,255,255,0.4); }
-  .btn-ghost:hover { border-color: var(--white); background: rgba(255,255,255,0.06); }
-  .btn-white { background: var(--white); color: var(--safety); }
+  .btn-primary {
+    background: linear-gradient(135deg, var(--safety) 0%, #FF9334 60%, var(--gold) 130%);
+    color: var(--white);
+    box-shadow: 0 10px 28px var(--glow), inset 0 1px 0 rgba(255,255,255,0.35);
+  }
+  .btn-primary:hover { background: linear-gradient(135deg, var(--safety-dark), var(--safety)); transform: translateY(-2px); box-shadow: 0 16px 36px var(--glow); }
+  .btn-ghost { background: rgba(255,255,255,0.06); color: var(--white); border: 1.5px solid rgba(255,255,255,0.35); backdrop-filter: blur(4px); }
+  .btn-ghost:hover { border-color: var(--white); background: rgba(255,255,255,0.12); }
+  .btn-white { background: var(--white); color: var(--safety-dark); box-shadow: 0 10px 28px rgba(10,22,38,0.25); }
   .btn-white:hover { background: var(--navy); color: var(--white); }
   .hero-stats {
     display: flex; flex-wrap: wrap; justify-content: center; gap: 0 56px;
     margin-top: 60px; padding-top: 44px; border-top: 1px solid rgba(255,255,255,0.12);
   }
   .hero-stat { text-align: center; }
-  .hero-stat .num { font-family: 'Fraunces', serif; font-size: 38px; font-weight: 800; color: var(--safety); display: block; line-height: 1; }
+  .hero-stat .num { font-family: 'Fraunces', serif; font-size: 40px; font-weight: 800; color: var(--safety); display: block; line-height: 1; text-shadow: 0 0 30px rgba(255,122,26,0.4); }
   .hero-stat .lbl { font-size: 13px; color: #9FB0C4; margin-top: 8px; letter-spacing: 0.3px; }
 
   /* ---------- Social proof bar ---------- */
@@ -170,54 +219,79 @@
   .proof-bar span strong { color: var(--ink); }
 
   /* ---------- Section scaffold ---------- */
-  section { padding: 96px 0; }
-  .section-head { max-width: 640px; margin-bottom: 56px; }
+  section { padding: 100px 0; }
+  .section-head { max-width: 660px; margin-bottom: 56px; }
   .section-head.center { margin-left: auto; margin-right: auto; text-align: center; }
   .eyebrow {
     font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 2px;
-    text-transform: uppercase; color: var(--safety); font-weight: 600; margin-bottom: 14px;
+    text-transform: uppercase; color: var(--safety); font-weight: 700; margin-bottom: 14px;
   }
   html[lang="fa"] .eyebrow { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
-  .section-title { font-family: 'Fraunces', serif; font-size: 38px; font-weight: 800; line-height: 1.2; letter-spacing: -0.5px; margin-bottom: 18px; }
+  .section-title { font-family: 'Fraunces', serif; font-size: 40px; font-weight: 800; line-height: 1.18; letter-spacing: -0.5px; margin-bottom: 18px; }
   html[lang="fa"] .section-title { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
   .section-lead { color: var(--muted); font-size: 17px; }
 
   /* ---------- Services ---------- */
-  .services { background: var(--mist); }
-  .svc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 26px; }
+  .services { background:
+    radial-gradient(700px 400px at 100% 0%, rgba(255,122,26,0.05), transparent 60%),
+    var(--mist); }
+  .svc-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px; }
   .svc-card {
-    background: var(--white); border: 1px solid var(--line); border-radius: 14px;
-    padding: 34px 30px; transition: all 0.25s; display: flex; flex-direction: column;
-    box-shadow: 0 2px 8px rgba(14,27,44,0.04);
+    background: var(--white); border: 1px solid var(--line); border-radius: 16px;
+    padding: 36px 32px; transition: all 0.3s; display: flex; flex-direction: column;
+    box-shadow: 0 2px 10px rgba(10,22,38,0.05);
+    position: relative;
   }
-  .svc-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: transparent; }
+  .svc-card::before {
+    content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+    background: linear-gradient(90deg, var(--safety), var(--gold)); border-radius: 16px 16px 0 0;
+    opacity: 0; transition: opacity 0.3s;
+  }
+  .svc-card:hover { transform: translateY(-8px); box-shadow: var(--shadow-lg); border-color: rgba(255,122,26,0.25); }
+  .svc-card:hover::before { opacity: 1; }
   .svc-icon {
-    width: 52px; height: 52px; border-radius: 12px; display: flex; align-items: center; justify-content: center;
-    font-size: 24px; margin-bottom: 22px; background: rgba(255,122,26,0.12); flex-shrink: 0;
+    width: 56px; height: 56px; border-radius: 14px; display: flex; align-items: center; justify-content: center;
+    font-size: 25px; margin-bottom: 22px;
+    background: linear-gradient(135deg, rgba(255,122,26,0.18), rgba(255,180,92,0.10));
+    box-shadow: inset 0 0 0 1px rgba(255,122,26,0.18);
+    flex-shrink: 0;
   }
-  .svc-card h3 { font-family: 'Fraunces', serif; font-size: 20px; margin-bottom: 10px; }
+  .svc-card h3 { font-family: 'Fraunces', serif; font-size: 21px; margin-bottom: 10px; }
   html[lang="fa"] .svc-card h3 { font-family: 'Vazirmatn', sans-serif; }
   .svc-card p { color: var(--muted); font-size: 14.5px; flex-grow: 1; margin-bottom: 18px; }
-  .svc-card .price-row { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 16px; }
+  .svc-card .price-row { display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--line); padding-top: 18px; }
   .svc-card .price { font-family: 'JetBrains Mono', monospace; font-size: 20px; font-weight: 700; color: var(--navy); }
   .svc-card .price small { font-size: 12px; color: var(--muted); font-weight: 500; }
   .svc-link { font-size: 14px; font-weight: 700; color: var(--safety); }
-  .svc-card.highlight { border: 2px solid var(--safety); position: relative; }
-  .svc-card.highlight::before {
-    content: "Most trusted"; position: absolute; top: -13px; right: 22px;
-    background: var(--safety); color: var(--white); font-size: 11px; font-weight: 700;
-    padding: 4px 12px; border-radius: 100px; letter-spacing: 0.5px;
+  .svc-card.highlight { border: 2px solid transparent; position: relative; background:
+    linear-gradient(var(--white), var(--white)) padding-box,
+    linear-gradient(135deg, var(--safety), var(--gold)) border-box;
+    box-shadow: 0 14px 40px rgba(255,122,26,0.16);
   }
-  html[lang="fa"] .svc-card.highlight::before { content: "محبوب‌ترین"; }
+  .svc-card.highlight::before { opacity: 1; }
+  .svc-card.highlight::after {
+    content: "Most trusted"; position: absolute; top: -13px; right: 22px;
+    background: linear-gradient(135deg, var(--safety), var(--safety-dark)); color: var(--white); font-size: 11px; font-weight: 700;
+    padding: 4px 12px; border-radius: 100px; letter-spacing: 0.5px;
+    box-shadow: 0 4px 12px var(--glow);
+  }
+  html[lang="fa"] .svc-card.highlight::after { content: "محبوب‌ترین"; }
 
   /* ---------- Cert strip ---------- */
-  .cert-strip { background: var(--navy); color: var(--white); padding: 56px 0; }
+  .cert-strip {
+    background:
+      radial-gradient(600px 300px at 10% 0%, rgba(44,192,168,0.10), transparent 60%),
+      radial-gradient(600px 300px at 90% 100%, rgba(255,122,26,0.12), transparent 60%),
+      linear-gradient(135deg, var(--navy), var(--navy-2));
+    color: var(--white); padding: 60px 0;
+  }
   .cert-strip .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 20px 60px; align-items: center; }
   .cert-item { text-align: center; }
   .cert-item .cert-tag {
     font-family: 'JetBrains Mono', monospace; font-size: 14px; font-weight: 600; color: var(--amber);
-    border: 1px solid rgba(255,180,92,0.35); border-radius: 8px; padding: 12px 22px; background: rgba(255,122,26,0.06);
-    display: inline-block; margin-bottom: 8px;
+    border: 1px solid rgba(255,180,92,0.35); border-radius: 10px; padding: 12px 22px;
+    background: rgba(255,122,26,0.08); display: inline-block; margin-bottom: 8px;
+    backdrop-filter: blur(4px);
   }
   html[lang="fa"] .cert-item .cert-tag { font-family: 'Vazirmatn', sans-serif; }
   .cert-item .cert-lbl { font-size: 12px; color: #9FB0C4; }
@@ -225,27 +299,40 @@
   /* ---------- Process ---------- */
   .process-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 24px; counter-reset: step; }
   .step {
-    background: var(--mist); border-radius: 14px; padding: 30px 26px;
+    background: var(--white); border-radius: 16px; padding: 32px 28px;
     border: 1px solid var(--line); position: relative;
+    box-shadow: 0 2px 8px rgba(10,22,38,0.04);
+    transition: all 0.3s;
   }
+  .step:hover { transform: translateY(-5px); box-shadow: var(--shadow); border-color: rgba(255,122,26,0.2); }
   .step .step-num {
-    counter-increment: step; font-family: 'Fraunces', serif; font-size: 42px; font-weight: 800;
-    color: rgba(255,122,26,0.25); line-height: 1; display: block; margin-bottom: 16px;
+    counter-increment: step; font-family: 'Fraunces', serif; font-size: 44px; font-weight: 800;
+    background: linear-gradient(135deg, var(--safety), var(--gold));
+    -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+    line-height: 1; display: block; margin-bottom: 16px;
   }
+  html[lang="fa"] .step .step-num { -webkit-text-fill-color: var(--safety); }
   .step .step-num::after { content: counter(step); }
   .step h3 { font-family: 'Fraunces', serif; font-size: 18px; margin-bottom: 8px; }
   html[lang="fa"] .step h3 { font-family: 'Vazirmatn', sans-serif; }
   .step p { color: var(--muted); font-size: 14px; }
 
   /* ---------- Lead magnet ---------- */
-  .leadmagnet { background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: var(--white); }
+  .leadmagnet {
+    background:
+      radial-gradient(800px 400px at 80% -20%, rgba(255,122,26,0.18), transparent 60%),
+      radial-gradient(700px 400px at 0% 120%, rgba(44,192,168,0.15), transparent 55%),
+      linear-gradient(135deg, var(--navy), var(--navy-3));
+    color: var(--white); position: relative; overflow: hidden;
+  }
   .leadmagnet .container { max-width: 860px; text-align: center; }
-  .leadmagnet h2 { font-family: 'Fraunces', serif; font-size: 34px; font-weight: 800; margin-bottom: 14px; }
+  .leadmagnet h2 { font-family: 'Fraunces', serif; font-size: 36px; font-weight: 800; margin-bottom: 14px; }
   html[lang="fa"] .leadmagnet h2 { font-family: 'Vazirmatn', sans-serif; }
   .leadmagnet .lead-sub { color: #B9C6D6; font-size: 16px; max-width: 660px; margin: 0 auto 30px; }
   .leadmagnet .lm-box {
-    background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.16);
-    border-radius: 14px; padding: 8px; max-width: 620px; margin: 0 auto; display: flex; gap: 8px;
+    background: rgba(255,255,255,0.08); border: 1px solid rgba(255,255,255,0.18);
+    border-radius: 16px; padding: 8px; max-width: 620px; margin: 0 auto; display: flex; gap: 8px;
+    backdrop-filter: blur(8px);
   }
   .leadmagnet .lm-box input {
     flex: 1; border: none; background: transparent; color: var(--white); font-size: 15px; padding: 16px; font-family: inherit;
@@ -270,19 +357,27 @@
   /* ---------- About ---------- */
   .about-grid { display: grid; grid-template-columns: 1fr 1.2fr; gap: 60px; align-items: start; }
   .about-visual {
-    background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: var(--white);
-    border-radius: 18px; padding: 44px 36px; position: relative; overflow: hidden;
+    background:
+      radial-gradient(400px 300px at 100% 0%, rgba(255,122,26,0.20), transparent 60%),
+      linear-gradient(135deg, var(--navy), var(--navy-3));
+    color: var(--white);
+    border-radius: 20px; padding: 44px 36px; position: relative; overflow: hidden;
+    box-shadow: var(--shadow-lg);
   }
   .about-visual::before {
     content: ""; position: absolute; inset: 0;
-    background-image: radial-gradient(rgba(255,122,26,0.16) 1px, transparent 1px);
-    background-size: 22px 22px;
+    background-image:
+      radial-gradient(rgba(255,122,26,0.16) 1px, transparent 1px),
+      radial-gradient(rgba(255,255,255,0.06) 1px, transparent 1px);
+    background-size: 22px 22px, 44px 44px;
+    background-position: 0 0, 11px 11px;
   }
   .about-visual .avatar {
-    width: 86px; height: 86px; border-radius: 50%; background: var(--safety); color: var(--white);
+    width: 90px; height: 90px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--safety), var(--gold)); color: var(--white);
     font-family: 'Fraunces', serif; font-size: 34px; font-weight: 800;
     display: flex; align-items: center; justify-content: center; margin-bottom: 26px;
-    box-shadow: 0 0 0 6px rgba(255,122,26,0.2);
+    box-shadow: 0 0 0 6px rgba(255,122,26,0.22), 0 12px 30px var(--glow);
   }
   .about-visual h3 { font-family: 'Fraunces', serif; font-size: 24px; margin-bottom: 8px; position: relative; z-index: 1; }
   html[lang="fa"] .about-visual h3 { font-family: 'Vazirmatn', sans-serif; }
@@ -310,28 +405,38 @@
   /* ---------- Testimonials ---------- */
   .testi-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 26px; }
   .testi {
-    background: var(--mist); border: 1px solid var(--line); border-radius: 14px; padding: 30px;
+    background: var(--white); border: 1px solid var(--line); border-radius: 16px; padding: 32px;
     display: flex; flex-direction: column;
+    box-shadow: 0 2px 8px rgba(10,22,38,0.04); transition: all 0.3s;
   }
-  .testi .stars { color: var(--safety); font-size: 16px; letter-spacing: 2px; margin-bottom: 14px; }
+  .testi:hover { transform: translateY(-5px); box-shadow: var(--shadow); border-color: rgba(255,122,26,0.2); }
+  .testi .stars { color: var(--safety); font-size: 16px; letter-spacing: 2px; margin-bottom: 14px; text-shadow: 0 0 12px var(--glow); }
   .testi p { font-size: 15px; color: var(--ink); flex-grow: 1; font-style: italic; }
   .testi .who { margin-top: 18px; display: flex; align-items: center; gap: 12px; }
   .testi .who .initial {
-    width: 42px; height: 42px; border-radius: 50%; background: var(--navy); color: var(--white);
+    width: 44px; height: 44px; border-radius: 50%;
+    background: linear-gradient(135deg, var(--navy), var(--navy-3)); color: var(--white);
     font-weight: 700; display: flex; align-items: center; justify-content: center; font-size: 15px; flex-shrink: 0;
   }
   .testi .who .name { font-weight: 700; font-size: 14px; }
   .testi .who .role { font-size: 12.5px; color: var(--muted); }
 
   /* ---------- Guarantee ---------- */
-  .guarantee { background: var(--mist); }
+  .guarantee { background:
+    radial-gradient(700px 400px at 0% 100%, rgba(34,197,94,0.06), transparent 60%),
+    var(--mist); }
   .guarantee-card {
     display: flex; align-items: center; gap: 30px; background: var(--white);
     border: 1px solid var(--line); border-left: 6px solid var(--green);
-    border-radius: 14px; padding: 34px 40px; box-shadow: var(--shadow); flex-wrap: wrap;
+    border-radius: 16px; padding: 36px 42px; box-shadow: var(--shadow); flex-wrap: wrap;
+    position: relative; overflow: hidden;
+  }
+  .guarantee-card::after {
+    content: ""; position: absolute; right: -40px; bottom: -60px; width: 220px; height: 220px;
+    background: radial-gradient(circle, rgba(34,197,94,0.10), transparent 65%);
   }
   html[lang="fa"] .guarantee-card { border-left: none; border-right: 6px solid var(--green); }
-  .guarantee-card .g-icon { font-size: 44px; flex-shrink: 0; }
+  .guarantee-card .g-icon { font-size: 46px; flex-shrink: 0; filter: drop-shadow(0 6px 14px rgba(34,197,94,0.3)); }
   .guarantee-card h3 { font-family: 'Fraunces', serif; font-size: 22px; margin-bottom: 6px; }
   html[lang="fa"] .guarantee-card h3 { font-family: 'Vazirmatn', sans-serif; }
   .guarantee-card p { color: var(--muted); font-size: 14.5px; max-width: 640px; }
@@ -339,13 +444,14 @@
   /* ---------- Insights / blog ---------- */
   .insights-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 26px; }
   .insight-card {
-    background: var(--white); border: 1px solid var(--line); border-radius: 14px;
-    padding: 28px; display: flex; flex-direction: column; transition: all 0.25s; cursor: pointer;
+    background: var(--white); border: 1px solid var(--line); border-radius: 16px;
+    padding: 30px; display: flex; flex-direction: column; transition: all 0.3s; cursor: pointer;
+    box-shadow: 0 2px 8px rgba(10,22,38,0.04);
   }
-  .insight-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+  .insight-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: rgba(255,122,26,0.25); }
   .insight-card .tag {
     font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
-    color: var(--safety); font-weight: 600; margin-bottom: 14px;
+    color: var(--safety); font-weight: 700; margin-bottom: 14px;
   }
   html[lang="fa"] .insight-card .tag { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
   .insight-card h3 { font-family: 'Fraunces', serif; font-size: 18px; line-height: 1.35; margin-bottom: 10px; }
@@ -370,11 +476,16 @@
   .faq-item .answer { padding: 0 28px 24px; color: var(--muted); font-size: 14.5px; }
 
   /* ---------- CTA banner ---------- */
-  .cta-banner { background: var(--safety); color: var(--white); }
+  .cta-banner {
+    background:
+      radial-gradient(700px 400px at 20% 0%, rgba(255,255,255,0.18), transparent 55%),
+      linear-gradient(135deg, var(--safety) 0%, #FF9334 60%, var(--safety-dark) 120%);
+    color: var(--white); position: relative; overflow: hidden;
+  }
   .cta-banner .container { display: flex; align-items: center; justify-content: space-between; gap: 24px; flex-wrap: wrap; max-width: 1000px; }
-  .cta-banner h2 { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 800; }
+  .cta-banner h2 { font-family: 'Fraunces', serif; font-size: 30px; font-weight: 800; text-shadow: 0 2px 12px rgba(10,22,38,0.25); }
   html[lang="fa"] .cta-banner h2 { font-family: 'Vazirmatn', sans-serif; }
-  .cta-banner p { color: rgba(255,255,255,0.92); font-size: 15px; margin-top: 6px; }
+  .cta-banner p { color: rgba(255,255,255,0.95); font-size: 15px; margin-top: 6px; }
 
   /* ---------- Contact ---------- */
   .contact-grid { display: grid; grid-template-columns: 1fr 1.1fr; gap: 60px; }
@@ -383,7 +494,9 @@
   .contact-info p { color: var(--muted); margin-bottom: 26px; font-size: 15.5px; }
   .contact-method { display: flex; align-items: center; gap: 16px; padding: 16px 0; border-bottom: 1px solid var(--line); }
   .contact-method .icon {
-    width: 44px; height: 44px; border-radius: 10px; background: rgba(255,122,26,0.12);
+    width: 46px; height: 46px; border-radius: 12px;
+    background: linear-gradient(135deg, rgba(255,122,26,0.18), rgba(255,180,92,0.08));
+    box-shadow: inset 0 0 0 1px rgba(255,122,26,0.16);
     display: flex; align-items: center; justify-content: center; font-size: 19px; flex-shrink: 0;
   }
   .contact-method .lbl { font-size: 12.5px; color: var(--muted); }
@@ -391,11 +504,11 @@
   form.stack { display: flex; flex-direction: column; gap: 18px; }
   form.stack label { font-size: 13.5px; font-weight: 700; margin-bottom: -12px; }
   input, textarea, select {
-    width: 100%; padding: 14px 16px; border: 1.5px solid var(--line); border-radius: 10px;
+    width: 100%; padding: 15px 17px; border: 1.5px solid var(--line); border-radius: 12px;
     font-family: inherit; font-size: 14.5px; background: var(--white);
-    transition: border-color 0.2s;
+    transition: border-color 0.2s, box-shadow 0.2s;
   }
-  input:focus, textarea:focus, select:focus { outline: none; border-color: var(--safety); }
+  input:focus, textarea:focus, select:focus { outline: none; border-color: var(--safety); box-shadow: var(--ring); }
   textarea { min-height: 110px; resize: vertical; }
   .form-note { font-size: 12.5px; color: var(--muted); }
   .fallback-toggle {
@@ -408,20 +521,66 @@
 
   /* ---------- Payment ---------- */
   .pay-card {
-    background: linear-gradient(135deg, var(--navy), var(--navy-2)); color: var(--white);
-    border-radius: 18px; padding: 48px; max-width: 560px; margin: 0 auto; text-align: center;
+    background:
+      radial-gradient(500px 300px at 90% 0%, rgba(255,122,26,0.20), transparent 60%),
+      radial-gradient(400px 250px at 0% 100%, rgba(44,192,168,0.14), transparent 55%),
+      linear-gradient(135deg, var(--navy), var(--navy-3));
+    color: var(--white);
+    border-radius: 20px; padding: 50px; max-width: 560px; margin: 0 auto; text-align: center;
+    box-shadow: var(--shadow-lg); position: relative; overflow: hidden;
   }
-  .pay-card h3 { font-family: 'Fraunces', serif; font-size: 26px; margin-bottom: 10px; }
+  .pay-card::before {
+    content: ""; position: absolute; inset: 0;
+    background-image: radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+    background-size: 26px 26px;
+  }
+  .pay-card > * { position: relative; z-index: 1; }
+  .pay-card h3 { font-family: 'Fraunces', serif; font-size: 28px; margin-bottom: 10px; }
   html[lang="fa"] .pay-card h3 { font-family: 'Vazirmatn', sans-serif; }
   .pay-card p { color: #9FB0C4; font-size: 14.5px; margin-bottom: 24px; }
-  .pay-card img.qr { width: 180px; height: 180px; margin: 0 auto 20px; border-radius: 12px; background: var(--white); padding: 8px; }
+  .pay-card img.qr { width: 180px; height: 180px; margin: 0 auto 20px; border-radius: 14px; background: var(--white); padding: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.35); }
   .wallet-box {
     background: rgba(255,255,255,0.06); border: 1px dashed rgba(255,255,255,0.25);
-    border-radius: 10px; padding: 16px 18px; font-family: 'JetBrains Mono', monospace;
+    border-radius: 12px; padding: 16px 18px; font-family: 'JetBrains Mono', monospace;
     font-size: 13px; word-break: break-all; margin-bottom: 16px;
   }
-  .btn-copy { background: var(--safety); color: var(--white); border: none; padding: 12px 26px; border-radius: 8px; font-weight: 700; font-size: 14px; cursor: pointer; transition: background 0.2s; }
-  .btn-copy:hover { background: var(--safety-dark); }
+  .btn-copy {
+    background: linear-gradient(135deg, var(--safety), var(--safety-dark)); color: var(--white); border: none;
+    padding: 12px 26px; border-radius: 10px; font-weight: 700; font-size: 14px; cursor: pointer;
+    transition: all 0.25s; box-shadow: 0 8px 20px var(--glow);
+  }
+  .btn-copy:hover { background: linear-gradient(135deg, var(--safety-dark), var(--safety)); transform: translateY(-2px); }
+
+  /* ---------- Iranian domestic payment ---------- */
+  .ir-pay { background:
+    radial-gradient(700px 400px at 100% 0%, rgba(34,197,94,0.06), transparent 60%),
+    var(--mist); }
+  .ir-pay-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; max-width: 980px; margin: 0 auto; }
+  .ir-pay-card {
+    background: var(--white); border: 1px solid var(--line); border-radius: 18px;
+    padding: 38px 34px; box-shadow: var(--shadow); text-align: center; transition: all 0.3s;
+    position: relative; overflow: hidden;
+  }
+  .ir-pay-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+  .ir-pay-card.green { border-top: 4px solid var(--green); }
+  .ir-pay-card.orange { border-top: 4px solid var(--safety); }
+  .ir-pay-card .ip-ic {
+    width: 60px; height: 60px; border-radius: 16px; margin: 0 auto 18px;
+    display: flex; align-items: center; justify-content: center; font-size: 28px;
+  }
+  .ir-pay-card.green .ip-ic { background: rgba(34,197,94,0.14); }
+  .ir-pay-card.orange .ip-ic { background: rgba(255,122,26,0.14); }
+  .ir-pay-card h3 { font-family: 'Fraunces', serif; font-size: 22px; margin-bottom: 8px; }
+  html[lang="fa"] .ir-pay-card h3, html[lang="ar"] .ir-pay-card h3, html[lang="ckb"] .ir-pay-card h3 { font-family: 'Vazirmatn', sans-serif; }
+  .ir-pay-card p { color: var(--muted); font-size: 14.5px; margin-bottom: 20px; }
+  .ir-pay-card .ip-val {
+    font-family: 'JetBrains Mono', monospace; font-size: 17px; font-weight: 700; color: var(--navy);
+    background: var(--mist); border: 1px dashed var(--line); border-radius: 12px;
+    padding: 14px 16px; word-break: break-all; margin-bottom: 16px; letter-spacing: 1px;
+  }
+  html[lang="fa"] .ir-pay-card .ip-val, html[lang="ar"] .ir-pay-card .ip-val, html[lang="ckb"] .ir-pay-card .ip-val { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
+  .ir-pay-card .ip-note { font-size: 12.5px; color: var(--muted); }
+  @media (max-width: 760px) { .ir-pay-grid { grid-template-columns: 1fr; } }
 
   /* ---------- Sticky mobile CTA ---------- */
   .sticky-cta {
@@ -447,11 +606,11 @@
 
   @media (max-width: 900px) {
     .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 40px; }
-    .hero h1 { font-size: 38px; }
-    html[lang="fa"] .hero h1, html[lang="ar"] .hero h1, html[lang="ckb"] .hero h1 { font-size: 34px; }
-    .section-title { font-size: 30px; }
-    section { padding: 72px 0; }
-    .hero { padding: 72px 0 80px; }
+    .hero h1 { font-size: 40px; }
+    html[lang="fa"] .hero h1, html[lang="ar"] .hero h1, html[lang="ckb"] .hero h1 { font-size: 36px; }
+    .section-title { font-size: 31px; }
+    section { padding: 74px 0; }
+    .hero { padding: 78px 0 84px; }
     .leadmagnet .lm-box { flex-direction: column; }
     .sticky-cta { display: flex; }
   }
@@ -466,9 +625,9 @@
   html[lang="ar"] .eyebrow, html[lang="ckb"] .eyebrow { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
   html[lang="ar"] .section-title, html[lang="ckb"] .section-title { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
   html[lang="ar"] .svc-card h3, html[lang="ckb"] .svc-card h3 { font-family: 'Vazirmatn', sans-serif; }
-  html[lang="ar"] .svc-card.highlight::before { content: "الأكثر ثقة"; }
-  html[lang="ckb"] .svc-card.highlight::before { content: "پێباوەرترین"; }
-  html[lang="kmr"] .svc-card.highlight::before { content: "Herî pêbawer"; }
+  html[lang="ar"] .svc-card.highlight::after { content: "الأكثر ثقة"; }
+  html[lang="ckb"] .svc-card.highlight::after { content: "پێباوەرترین"; }
+  html[lang="kmr"] .svc-card.highlight::after { content: "Herî pêbawer"; }
   html[lang="ar"] .cert-item .cert-tag, html[lang="ckb"] .cert-item .cert-tag { font-family: 'Vazirmatn', sans-serif; }
   html[lang="ar"] .step h3, html[lang="ckb"] .step h3 { font-family: 'Vazirmatn', sans-serif; }
   html[lang="ar"] .leadmagnet h2, html[lang="ckb"] .leadmagnet h2 { font-family: 'Vazirmatn', sans-serif; }
@@ -565,10 +724,50 @@
   .trust-bar .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px 48px; padding: 26px 24px; }
   .trust-item { display: flex; align-items: center; gap: 10px; font-size: 13.5px; font-weight: 600; color: var(--ink); }
   .trust-item .t-ic {
-    width: 40px; height: 40px; border-radius: 50%; background: rgba(255,122,26,0.12);
+    width: 40px; height: 40px; border-radius: 50%;
+    background: linear-gradient(135deg, rgba(255,122,26,0.18), rgba(255,180,92,0.08));
     display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;
   }
   .trust-item small { display: block; font-weight: 500; color: var(--muted); font-size: 12px; }
+
+  /* ---------- International standards ---------- */
+  .standards { background: var(--white); }
+  .standards .container { max-width: 1100px; }
+  .std-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 18px; }
+  .std-item {
+    background: var(--mist); border: 1px solid var(--line); border-radius: 14px;
+    padding: 26px 22px; text-align: center; transition: all 0.3s;
+  }
+  .std-item:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-color: rgba(255,122,26,0.25); background: var(--white); }
+  .std-item .std-tag {
+    font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 700; color: var(--navy);
+    display: block; margin-bottom: 8px; letter-spacing: 0.3px;
+  }
+  html[lang="fa"] .std-item .std-tag, html[lang="ar"] .std-item .std-tag, html[lang="ckb"] .std-item .std-tag { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
+  .std-item .std-name { font-size: 12.5px; color: var(--muted); }
+  .std-strip { margin-top: 28px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+  .std-strip .std-chip {
+    font-size: 12px; font-weight: 600; color: var(--safety-dark);
+    background: rgba(255,122,26,0.08); border: 1px solid rgba(255,122,26,0.18);
+    padding: 7px 14px; border-radius: 100px;
+  }
+  html[lang="fa"] .std-strip .std-chip { font-family: 'Vazirmatn', sans-serif; }
+
+  /* ---------- Dual pricing (USD + Toman) ---------- */
+  .svc-card .price-row { align-items: flex-start; }
+  .price-stack { display: flex; flex-direction: column; gap: 3px; }
+  .price-stack .p-usd { font-family: 'JetBrains Mono', monospace; font-size: 21px; font-weight: 700; color: var(--navy); }
+  .price-stack .p-toman { font-family: 'JetBrains Mono', monospace; font-size: 13px; font-weight: 700; color: var(--safety-dark); }
+  .price-stack .p-unit { font-size: 12px; color: var(--muted); font-weight: 500; }
+  html[lang="fa"] .price-stack .p-usd, html[lang="ar"] .price-stack .p-usd,
+  html[lang="ckb"] .price-stack .p-usd, html[lang="fa"] .price-stack .p-toman,
+  html[lang="ar"] .price-stack .p-toman, html[lang="ckb"] .price-stack .p-toman { font-family: 'Vazirmatn', sans-serif; }
+  .price-badge {
+    display: inline-flex; align-items: center; gap: 5px; font-size: 11px; font-weight: 700;
+    color: #fff; background: linear-gradient(135deg, var(--green), #16a34a);
+    padding: 4px 10px; border-radius: 100px; margin-top: 6px;
+  }
+  .price-badge .ir-flag { font-size: 12px; }
 
   /* ---------- CTA pulse ring ---------- */
   .btn-primary { position: relative; }
@@ -590,6 +789,7 @@
     <a href="#" class="nav-brand">Hazhar<span class="dot">.</span>HSE</a>
     <div class="nav-links">
       <a href="#services" data-en="Services" data-fa="خدمات">Services</a>
+      <a href="#standards" data-en="Standards" data-fa="استانداردها">Standards</a>
       <a href="#process" data-en="Process" data-fa="فرایند">Process</a>
       <a href="#portfolio" data-en="Portfolio" data-fa="نمونه‌کارها">Portfolio</a>
       <a href="#about" data-en="About" data-fa="درباره">About</a>
@@ -610,11 +810,13 @@
 
 <div class="mobile-menu" id="mobile-menu">
   <a href="#services" data-en="Services" data-fa="خدمات">Services</a>
+  <a href="#standards" data-en="Standards" data-fa="استانداردها">Standards</a>
   <a href="#process" data-en="Process" data-fa="فرایند">Process</a>
   <a href="#portfolio" data-en="Portfolio" data-fa="نمونه‌کارها">Portfolio</a>
   <a href="#about" data-en="About" data-fa="درباره">About</a>
   <a href="#testimonials" data-en="Results" data-fa="نتایج">Results</a>
   <a href="#faq" data-en="FAQ" data-fa="سوالات">FAQ</a>
+  <a href="#ir-pay" data-en="Payment in Iran" data-fa="پرداخت داخل ایران">Payment in Iran</a>
   <a href="#contact" data-en="Get a Free Consultation" data-fa="مشاوره رایگان">Get a Free Consultation</a>
   <div class="lang-toggle" aria-label="Language">
     <button type="button" data-lang="en" class="active">EN</button>
@@ -667,7 +869,11 @@
         <h3 data-en="HSE Audit & Gap Analysis" data-fa="بازرسی و تحلیل شکاف HSE">HSE Audit & Gap Analysis</h3>
         <p data-en="A thorough, honest assessment of your site against regulatory requirements and international standards — with a clear, prioritized action plan you can actually execute." data-fa="ارزیابی کامل و صادقانه سایت شما در برابر الزامات قانونی و استانداردهای بین‌المللی — همراه با برنامه اقدام اولویت‌بندی‌شده که واقعاً قابل اجراست.">A thorough, honest assessment of your site against regulatory requirements and international standards — with a clear, prioritized action plan you can actually execute.</p>
         <div class="price-row">
-          <span class="price">$149 <small data-en="/ site" data-fa="/ هر سایت">/ site</small></span>
+          <div class="price-stack">
+            <span class="p-usd">$149 <span class="p-unit" data-en="/ site" data-fa="/ هر سایت">/ site</span></span>
+            <span class="p-toman" data-en="≈ 18,000,000 Toman" data-fa="≈ ۱۸٬۰۰۰٬۰۰۰ تومان">≈ 18,000,000 Toman</span>
+            <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span></span>
+          </div>
           <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
@@ -677,7 +883,11 @@
         <h3 data-en="Risk Assessment (HIRA / JSA)" data-fa="ارزیابی ریسک (HIRA / JSA)">Risk Assessment (HIRA / JSA)</h3>
         <p data-en="Hazard identification and risk assessment for your operations — from task-level Job Safety Analysis to full-process HIRA, aligned with ISO 45001 thinking." data-fa="شناسایی خطر و ارزیابی ریسک عملیات شما — از تحلیل ایمنی کار (JSA) تا HIRA کامل فرایند، هم‌راستا با رویکرد ISO 45001.">Hazard identification and risk assessment for your operations — from task-level Job Safety Analysis to full-process HIRA, aligned with ISO 45001 thinking.</p>
         <div class="price-row">
-          <span class="price">$95 <small data-en="/ scope" data-fa="/ محدوده">/ scope</small></span>
+          <div class="price-stack">
+            <span class="p-usd">$95 <span class="p-unit" data-en="/ scope" data-fa="/ محدوده">/ scope</span></span>
+            <span class="p-toman" data-en="≈ 11,500,000 Toman" data-fa="≈ ۱۱٬۵۰۰٬۰۰۰ تومان">≈ 11,500,000 Toman</span>
+            <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span></span>
+          </div>
           <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
@@ -687,7 +897,11 @@
         <h3 data-en="HSE Documentation Pack" data-fa="بسته مستندات HSE">HSE Documentation Pack</h3>
         <p data-en="Ready-to-adapt HSE manuals, policies, PTW procedures, emergency plans, and inspection checklists — built on 20 years of real inspection experience." data-fa="دستورالعمل‌ها، سیاست‌ها، رویه‌های مجوز کار (PTW)، طرح‌های اضطراری و چک‌لیست‌های بازرسی آماده — ساخته‌شده بر پایه ۲۰ سال تجربه واقعی بازرسی.">Ready-to-adapt HSE manuals, policies, PTW procedures, emergency plans, and inspection checklists — built on 20 years of real inspection experience.</p>
         <div class="price-row">
-          <span class="price">$199 <small data-en="/ pack" data-fa="/ بسته">/ pack</small></span>
+          <div class="price-stack">
+            <span class="p-usd">$199 <span class="p-unit" data-en="/ pack" data-fa="/ بسته">/ pack</span></span>
+            <span class="p-toman" data-en="≈ 24,000,000 Toman" data-fa="≈ ۲۴٬۰۰۰٬۰۰۰ تومان">≈ 24,000,000 Toman</span>
+            <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span></span>
+          </div>
           <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
@@ -697,7 +911,11 @@
         <h3 data-en="Premium Resume Rewrite" data-fa="بازنویسی حرفه‌ای رزومه">Premium Resume Rewrite</h3>
         <p data-en="A hand-written, ATS-safe resume that reframes your safety career around outcomes — not duties. Delivered in 48 hours." data-fa="رزومه دست‌نویس و استاندارد ATS که کارنامه ایمنی شما را بر پایه نتایج — نه وظایف — بازسازی می‌کند. تحویل در ۴۸ ساعت.">A hand-written, ATS-safe resume that reframes your safety career around outcomes — not duties. Delivered in 48 hours.</p>
         <div class="price-row">
-          <span class="price">$49 <small data-en="/ resume" data-fa="/ رزومه">/ resume</small></span>
+          <div class="price-stack">
+            <span class="p-usd">$49 <span class="p-unit" data-en="/ resume" data-fa="/ رزومه">/ resume</span></span>
+            <span class="p-toman" data-en="≈ 6,000,000 Toman" data-fa="≈ ۶٬۰۰۰٬۰۰۰ تومان">≈ 6,000,000 Toman</span>
+            <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span></span>
+          </div>
           <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
@@ -707,7 +925,11 @@
         <h3 data-en="Resume Audit" data-fa="بازبینی رزومه">Resume Audit</h3>
         <p data-en="I read your resume against a real job description and send back a written list of missing keywords, formatting risks, and weak bullet points." data-fa="رزومه شما را در برابر یک شرح شغل واقعی بررسی می‌کنم و لیست مکتوبی از کلمات کلیدی ازدست‌رفته، ریسک‌های قالب‌بندی و نکات ضعیف برمی‌گردانم.">I read your resume against a real job description and send back a written list of missing keywords, formatting risks, and weak bullet points.</p>
         <div class="price-row">
-          <span class="price">$15 <small data-en="/ audit" data-fa="/ بازبینی">/ audit</small></span>
+          <div class="price-stack">
+            <span class="p-usd">$15 <span class="p-unit" data-en="/ audit" data-fa="/ بازبینی">/ audit</span></span>
+            <span class="p-toman" data-en="≈ 1,800,000 Toman" data-fa="≈ ۱٬۸۰۰٬۰۰۰ تومان">≈ 1,800,000 Toman</span>
+            <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span></span>
+          </div>
           <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
@@ -717,7 +939,11 @@
         <h3 data-en="ATS Resume Templates" data-fa="قالب‌های رزومه ATS">ATS Resume Templates</h3>
         <p data-en="Clean, single-column layouts built to parse correctly in common applicant tracking systems — no tables, no text boxes, no scrambled imports." data-fa="چیدمان‌های تمیز تک‌ستونی که در سیستم‌های ردیابی متقاضی به‌درستی تحلیل می‌شوند — بدون جدول، بدون جعبه متنی، بدون به‌هم‌ریختگی.">Clean, single-column layouts built to parse correctly in common applicant tracking systems — no tables, no text boxes, no scrambled imports.</p>
         <div class="price-row">
-          <span class="price">$9 <small data-en="/ template" data-fa="/ قالب">/ template</small></span>
+          <div class="price-stack">
+            <span class="p-usd">$9 <span class="p-unit" data-en="/ template" data-fa="/ قالب">/ template</span></span>
+            <span class="p-toman" data-en="≈ 1,000,000 Toman" data-fa="≈ ۱٬۰۰۰٬۰۰۰ تومان">≈ 1,000,000 Toman</span>
+            <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span></span>
+          </div>
           <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
         </div>
       </div>
@@ -732,6 +958,32 @@
     <div class="cert-item"><div class="cert-tag" data-en="First Aid & CPR" data-fa="کمک‌های اولیه و CPR">First Aid & CPR</div><div class="cert-lbl" data-en="Certified" data-fa="معتبر">Certified</div></div>
     <div class="cert-item"><div class="cert-tag">H2S Awareness</div><div class="cert-lbl" data-en="Certified" data-fa="معتبر">Certified</div></div>
     <div class="cert-item"><div class="cert-tag" data-en="BSc — OHS Engineering" data-fa="کارشناسی مهندسی بهداشت حرفه‌ای">BSc — OHS Engineering</div><div class="cert-lbl" data-en="Hamadan University of Medical Sciences" data-fa="دانشگاه علوم پزشکی همدان">Hamadan University of Medical Sciences</div></div>
+  </div>
+</section>
+
+<section class="standards">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow" data-en="Standards & Compliance" data-fa="استانداردها و انطباق">Standards & Compliance</div>
+      <h2 class="section-title" data-en="Built on the frameworks global safety practice runs on." data-fa="ساخته‌شده بر پایه چارچوب‌هایی که ایمنی جهانی بر آن‌ها استوار است.">Built on the frameworks global safety practice runs on.</h2>
+      <p class="section-lead" data-en="Every deliverable is aligned with internationally recognized occupational health & safety standards and the latest regulatory thinking." data-fa="هر خروجی با استانداردهای بین‌المللی شناخته‌شده بهداشت حرفه‌ای و ایمنی و جدیدترین رویکردهای نظارتی هم‌راستا است.">Every deliverable is aligned with internationally recognized occupational health & safety standards and the latest regulatory thinking.</p>
+    </div>
+    <div class="std-grid">
+      <div class="std-item"><span class="std-tag">ISO 45001</span><span class="std-name" data-en="Occupational Health & Safety Management" data-fa="مدیریت بهداشت و ایمنی شغلی">Occupational Health & Safety Management</span></div>
+      <div class="std-item"><span class="std-tag">OSHA 29 CFR 1910</span><span class="std-name" data-en="General Industry Standards" data-fa="استانداردهای صنعت عمومی">General Industry Standards</span></div>
+      <div class="std-item"><span class="std-tag">ISO 14001</span><span class="std-name" data-en="Environmental Management" data-fa="مدیریت زیست‌محیطی">Environmental Management</span></div>
+      <div class="std-item"><span class="std-tag">NIOSH</span><span class="std-name" data-en="Industrial Hygiene Guidance" data-fa="دستورالعمل‌های بهداشت صنعتی">Industrial Hygiene Guidance</span></div>
+      <div class="std-item"><span class="std-tag">ISO 31000</span><span class="std-name" data-en="Risk Management Principles" data-fa="اصول مدیریت ریسک">Risk Management Principles</span></div>
+      <div class="std-item"><span class="std-tag">HSE-MS</span><span class="std-name" data-en="PDCA Continuous Improvement" data-fa="بهبود مستمر PDCA">PDCA Continuous Improvement</span></div>
+    </div>
+    <div class="std-strip">
+      <span class="std-chip" data-en="HIRA / JSA" data-fa="HIRA / JSA">HIRA / JSA</span>
+      <span class="std-chip" data-en="Permit to Work (PTW)" data-fa="مجوز کار (PTW)">Permit to Work (PTW)</span>
+      <span class="std-chip" data-en="Emergency Response Planning" data-fa="برنامه‌ریزی واکنش اضطراری">Emergency Response Planning</span>
+      <span class="std-chip" data-en="LOTO · PPE · Confined Space" data-fa="LOTO · تجهیزات ایمنی · فضای بسته">LOTO · PPE · Confined Space</span>
+      <span class="std-chip" data-en="Industrial Hygiene Monitoring" data-fa="پایش بهداشت صنعتی">Industrial Hygiene Monitoring</span>
+      <span class="std-chip" data-en="Behavioral Safety" data-fa="ایمنی رفتاری">Behavioral Safety</span>
+    </div>
   </div>
 </section>
 
@@ -976,7 +1228,7 @@
       </details>
       <details class="faq-item">
         <summary><span data-en="How do I pay, and is it secure?" data-fa="چگونه پرداخت کنم و آیا امن است؟">How do I pay, and is it secure?</span><span class="plus">+</span></summary>
-        <div class="answer" data-en="Payment is accepted via the TON network (USDT) for borderless settlement. For Iranian clients, we can also arrange local payment methods. It's fast and without a payment processor taking a cut." data-fa="پرداخت از طریق شبکه TON (USDT) برای تسویه بدون مرز انجام می‌شود. برای مشتریان ایرانی، روش‌های پرداخت محلی نیز قابل هماهنگی است. سریع است و بدون کسر کارمزد پرداخت‌پرداز.">Payment is accepted via the TON network (USDT) for borderless settlement. For Iranian clients, we can also arrange local payment methods. It's fast and without a payment processor taking a cut.</div>
+        <div class="answer" data-en="Payment is accepted via the TON network (USDT) for borderless settlement. Iranian clients can also pay by card-to-card (Bank Melli Iran) or via a Zarinpal/IDPay payment link. It's fast, secure, and without hidden fees." data-fa="پرداخت از طریق شبکه TON (USDT) برای تسویه بدون مرز انجام می‌شود. مشتریان ایرانی نیز می‌توانند با کارت‌به‌کارت (بانک ملی ایران) یا از طریق لینک پرداخت زرین‌پال و آیدی‌پی پرداخت کنند. سریع، امن و بدون هزینه پنهان است.">Payment is accepted via the TON network (USDT) for borderless settlement. Iranian clients can also pay by card-to-card (Bank Melli Iran) or via a Zarinpal/IDPay payment link. It's fast, secure, and without hidden fees.</div>
       </details>
       <details class="faq-item">
         <summary><span data-en="What if something isn't right?" data-fa="اگر چیزی درست نبود چه؟">What if something isn't right?</span><span class="plus">+</span></summary>
@@ -1026,12 +1278,12 @@
         <label for="c-service" data-en="Service you need" data-fa="خدمت مورد نیاز">Service you need</label>
         <select id="c-service" name="service" required>
           <option value="" data-en="Select a service" data-fa="انتخاب خدمت">Select a service</option>
-          <option value="HSE Audit & Gap Analysis ($149)" data-en="HSE Audit & Gap Analysis — $149" data-fa="بازرسی و تحلیل شکاف HSE — ۱۴۹ دلار">HSE Audit & Gap Analysis — $149</option>
-          <option value="Risk Assessment HIRA/JSA ($95)" data-en="Risk Assessment (HIRA/JSA) — $95" data-fa="ارزیابی ریسک (HIRA/JSA) — ۹۵ دلار">Risk Assessment (HIRA/JSA) — $95</option>
-          <option value="HSE Documentation Pack ($199)" data-en="HSE Documentation Pack — $199" data-fa="بسته مستندات HSE — ۱۹۹ دلار">HSE Documentation Pack — $199</option>
-          <option value="Premium Resume Rewrite ($49)" data-en="Premium Resume Rewrite — $49" data-fa="بازنویسی حرفه‌ای رزومه — ۴۹ دلار">Premium Resume Rewrite — $49</option>
-          <option value="Resume Audit ($15)" data-en="Resume Audit — $15" data-fa="بازبینی رزومه — ۱۵ دلار">Resume Audit — $15</option>
-          <option value="ATS Resume Template ($9)" data-en="ATS Resume Template — $9" data-fa="قالب رزومه ATS — ۹ دلار">ATS Resume Template — $9</option>
+          <option value="HSE Audit & Gap Analysis ($149)" data-en="HSE Audit & Gap Analysis — $149 (≈ 18M Toman)" data-fa="بازرسی و تحلیل شکاف HSE — ۱۴۹ دلار (≈ ۱۸ میلیون تومان)">HSE Audit & Gap Analysis — $149 (≈ 18M Toman)</option>
+          <option value="Risk Assessment HIRA/JSA ($95)" data-en="Risk Assessment (HIRA/JSA) — $95 (≈ 11.5M Toman)" data-fa="ارزیابی ریسک (HIRA/JSA) — ۹۵ دلار (≈ ۱۱٫۵ میلیون تومان)">Risk Assessment (HIRA/JSA) — $95 (≈ 11.5M Toman)</option>
+          <option value="HSE Documentation Pack ($199)" data-en="HSE Documentation Pack — $199 (≈ 24M Toman)" data-fa="بسته مستندات HSE — ۱۹۹ دلار (≈ ۲۴ میلیون تومان)">HSE Documentation Pack — $199 (≈ 24M Toman)</option>
+          <option value="Premium Resume Rewrite ($49)" data-en="Premium Resume Rewrite — $49 (≈ 6M Toman)" data-fa="بازنویسی حرفه‌ای رزومه — ۴۹ دلار (≈ ۶ میلیون تومان)">Premium Resume Rewrite — $49 (≈ 6M Toman)</option>
+          <option value="Resume Audit ($15)" data-en="Resume Audit — $15 (≈ 1.8M Toman)" data-fa="بازبینی رزومه — ۱۵ دلار (≈ ۱٫۸ میلیون تومان)">Resume Audit — $15 (≈ 1.8M Toman)</option>
+          <option value="ATS Resume Template ($9)" data-en="ATS Resume Template — $9 (≈ 1M Toman)" data-fa="قالب رزومه ATS — ۹ دلار (≈ ۱ میلیون تومان)">ATS Resume Template — $9 (≈ 1M Toman)</option>
         </select>
         <label for="c-email" data-en="Your email" data-fa="ایمیل شما">Your email</label>
         <input id="c-email" type="email" name="email" placeholder="you@example.com" required>
@@ -1054,11 +1306,38 @@
   <div class="container">
     <div class="pay-card">
       <h3 data-en="Secure Payment" data-fa="پرداخت امن">Secure Payment</h3>
-      <p data-en="Scan to pay via the TON network, then email your transaction ID along with your request. Iranian clients can arrange local payment by email." data-fa="برای پرداخت از شبکه TON اسکن کنید، سپس شناسه تراکنش را همراه درخواست خود ایمیل کنید. مشتریان ایرانی می‌توانند پرداخت محلی را از طریق ایمیل هماهنگ کنند.">Scan to pay via the TON network, then email your transaction ID along with your request. Iranian clients can arrange local payment by email.</p>
+      <p data-en="Scan to pay via the TON network, then email your transaction ID along with your request. Iranian clients can pay domestically below." data-fa="برای پرداخت از شبکه TON اسکن کنید، سپس شناسه تراکنش را همراه درخواست خود ایمیل کنید. مشتریان ایرانی می‌توانند از بخش پرداخت داخلی استفاده کنند.">Scan to pay via the TON network, then email your transaction ID along with your request. Iranian clients can pay domestically below.</p>
       <img src="qr-code.jpg" alt="QR code for TON wallet payment" class="qr">
       <div class="wallet-box">UQDblybQsSLnqYDb7128hTz_NL1xrRLAemUQjqzgy7VAVl35</div>
       <button class="btn-copy" onclick="copyWallet()" data-en="Copy Wallet Address" data-fa="کپی آدرس کیف پول">Copy Wallet Address</button>
       <p class="form-note" style="color:#9FB0C4; margin-top:16px;" data-en="Don't use TON? Email me before ordering and I'll arrange another way to pay." data-fa="از TON استفاده نمی‌کنید؟ قبل از سفارش ایمیل بدهید تا راه دیگری هماهنگ کنم.">Don't use TON? Email me before ordering and I'll arrange another way to pay.</p>
+    </div>
+  </div>
+</section>
+
+<section class="ir-pay" id="ir-pay">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow" data-en="Payment in Iran" data-fa="پرداخت داخل ایران">Payment in Iran</div>
+      <h2 class="section-title" data-en="Fast, safe domestic payment." data-fa="پرداخت داخلی سریع و امن.">Fast, safe domestic payment.</h2>
+      <p class="section-lead" data-en="For Iranian clients — pay directly by card or via an online gateway. No extra fees, full transparency." data-fa="برای مشتریان ایرانی — مستقیم با کارت یا از طریق درگاه آنلاین پرداخت کنید. بدون کارمزد اضافه، با شفافیت کامل.">For Iranian clients — pay directly by card or via an online gateway. No extra fees, full transparency.</p>
+    </div>
+    <div class="ir-pay-grid">
+      <div class="ir-pay-card green">
+        <div class="ip-ic">💳</div>
+        <h3 data-en="Card-to-Card" data-fa="کارت‌به‌کارت">Card-to-Card</h3>
+        <p data-en="Transfer directly to this Shetab card, then email your transaction receipt with your request." data-fa="مستقیماً به این کارت شتاب واریز کنید، سپس رسید تراکنش را همراه درخواست خود ایمیل کنید.">Transfer directly to this Shetab card, then email your transaction receipt with your request.</p>
+        <div class="ip-val">6037 9972 3835 2752</div>
+        <button class="btn btn-primary" style="width:100%;justify-content:center;" onclick="copyIranCard()" data-en="Copy Card Number" data-fa="کپی شماره کارت">Copy Card Number</button>
+        <p class="ip-note" data-en="Bank Melli Iran · Ahmad Khezri" data-fa="بانک ملی ایران · احمد خضری">Bank Melli Iran · Ahmad Khezri</p>
+      </div>
+      <div class="ir-pay-card orange">
+        <div class="ip-ic">🏦</div>
+        <h3 data-en="Online Gateway" data-fa="درگاه آنلاین">Online Gateway</h3>
+        <p data-en="Prefer to pay through a trusted Iranian payment gateway? Email me and I'll send you a secure payment link for your chosen service." data-fa="ترجیح می‌دهید از طریق یک درگاه پرداخت معتبر ایرانی پرداخت کنید؟ ایمیل بدهید تا لینک پرداخت امن خدمات مورد نظرتان را بفرستم.">Prefer to pay through a trusted Iranian payment gateway? Email me and I'll send you a secure payment link for your chosen service.</p>
+        <a href="mailto:hazharkhhazhar@gmail.com?subject=Payment%20Link%20Request" class="btn btn-ghost" style="width:100%;justify-content:center;color:var(--safety-dark);border-color:var(--safety);" data-en="Request a Payment Link" data-fa="درخواست لینک پرداخت">Request a Payment Link</a>
+        <p class="ip-note" data-en="Zarinpal & IDPay supported — online receipt issued instantly" data-fa="پشتیبانی زرین‌پال و آیدی‌پی — رسید آنلاین فوری صادر می‌شود">Zarinpal & IDPay supported — online receipt issued instantly</p>
+      </div>
     </div>
   </div>
 </section>
@@ -1109,7 +1388,7 @@
 
   // Scroll reveal
   (function () {
-    var auto = document.querySelectorAll('.section-head, .svc-card, .step, .testi, .insight-card, .faq-item, .guarantee-card, .about-visual, .about-copy');
+    var auto = document.querySelectorAll('.section-head, .svc-card, .step, .testi, .insight-card, .faq-item, .guarantee-card, .about-visual, .about-copy, .std-item, .ir-pay-card');
     auto.forEach(function (el) { if (!el.classList.contains('reveal')) el.classList.add('reveal'); });
     var els = document.querySelectorAll('.reveal');
     if ('IntersectionObserver' in window) {
@@ -1259,6 +1538,14 @@
   function copyWallet() {
     navigator.clipboard.writeText("UQDblybQsSLnqYDb7128hTz_NL1xrRLAemUQjqzgy7VAVl35").then(function () {
       var btn = document.querySelector('.btn-copy');
+      var original = btn.textContent;
+      btn.textContent = "Copied!";
+      setTimeout(function () { btn.textContent = original; }, 1500);
+    });
+  }
+  function copyIranCard() {
+    navigator.clipboard.writeText("6037997238352752").then(function () {
+      var btn = document.querySelector('.ir-pay-card.green .btn-primary');
       var original = btn.textContent;
       btn.textContent = "Copied!";
       setTimeout(function () { btn.textContent = original; }, 1500);
