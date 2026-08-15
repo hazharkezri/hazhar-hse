@@ -484,6 +484,103 @@
   html[lang="ar"] .contact-info h3, html[lang="ckb"] .contact-info h3 { font-family: 'Vazirmatn', sans-serif; }
   html[lang="ar"] .pay-card h3, html[lang="ckb"] .pay-card h3 { font-family: 'Vazirmatn', sans-serif; }
   html[lang="ar"] footer .f-brand, html[lang="ckb"] footer .f-brand { font-family: 'Vazirmatn', sans-serif; }
+
+  /* ---------- Mobile menu ---------- */
+  .hamburger {
+    display: none; flex-direction: column; justify-content: center; gap: 5px;
+    background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 8px; width: 44px; height: 44px; cursor: pointer; padding: 0 10px;
+  }
+  .hamburger span { display: block; height: 2px; background: var(--white); border-radius: 2px; transition: all 0.25s; }
+  .hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+  .hamburger.open span:nth-child(2) { opacity: 0; }
+  .hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+  .mobile-menu {
+    display: none; position: fixed; top: 68px; left: 0; right: 0; z-index: 99;
+    background: var(--navy); border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 18px 24px 26px; box-shadow: var(--shadow-lg);
+  }
+  .mobile-menu.open { display: block; }
+  .mobile-menu a { display: block; padding: 13px 0; color: var(--white); font-weight: 600; font-size: 15px; border-bottom: 1px solid rgba(255,255,255,0.07); }
+  .mobile-menu a:last-of-type { border-bottom: none; }
+  .mobile-menu .lang-toggle { margin-top: 18px; }
+  .mobile-menu .lang-toggle button { font-size: 14px; padding: 9px 14px; }
+  @media (max-width: 900px) {
+    .hamburger { display: flex; }
+    .nav-links a:not(.nav-cta), .nav-links .lang-toggle { display: none; }
+  }
+  @media (min-width: 901px) { .mobile-menu { display: none !important; } }
+
+  /* ---------- Scroll reveal ---------- */
+  .reveal { opacity: 0; transform: translateY(26px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.visible { opacity: 1; transform: translateY(0); }
+  @media (prefers-reduced-motion: reduce) { .reveal { opacity: 1; transform: none; } }
+
+  /* ---------- Urgency badge ---------- */
+  .urgency {
+    display: inline-flex; align-items: center; gap: 9px; margin: 0 auto 26px;
+    background: rgba(255,180,92,0.12); border: 1px solid rgba(255,180,92,0.45);
+    color: var(--amber); font-size: 13px; font-weight: 700; border-radius: 100px;
+    padding: 9px 18px;
+  }
+  html[lang="fa"] .urgency, html[lang="ar"] .urgency, html[lang="ckb"] .urgency { letter-spacing: 0; }
+  .urgency .urg-dot {
+    width: 9px; height: 9px; border-radius: 50%; background: var(--amber);
+    animation: pulse 1.6s infinite; flex-shrink: 0;
+  }
+
+  /* ---------- Portfolio / template showcase ---------- */
+  .portfolio { background: var(--white); }
+  .porto-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 26px; }
+  .porto-card {
+    background: var(--mist); border: 1px solid var(--line); border-radius: 16px;
+    overflow: hidden; transition: all 0.3s; display: flex; flex-direction: column;
+  }
+  .porto-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); }
+  .porto-card .thumb {
+    position: relative; aspect-ratio: 4 / 5; overflow: hidden; background: var(--navy);
+  }
+  .porto-card .thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s ease; }
+  .porto-card:hover .thumb img { transform: scale(1.06); }
+  .porto-card .thumb .overlay {
+    position: absolute; inset: 0; background: rgba(14,27,44,0.55); opacity: 0;
+    transition: opacity 0.3s; display: flex; align-items: center; justify-content: center;
+  }
+  .porto-card:hover .thumb .overlay { opacity: 1; }
+  .porto-card .thumb .view {
+    color: var(--white); font-weight: 700; font-size: 13px; letter-spacing: 1px;
+    border: 1.5px solid var(--white); padding: 10px 20px; border-radius: 100px;
+  }
+  .porto-body { padding: 20px 22px 24px; }
+  .porto-body h3 { font-family: 'Fraunces', serif; font-size: 18px; margin-bottom: 6px; }
+  html[lang="fa"] .porto-body h3, html[lang="ar"] .porto-body h3, html[lang="ckb"] .porto-body h3 { font-family: 'Vazirmatn', sans-serif; }
+  .porto-body p { color: var(--muted); font-size: 13.5px; margin-bottom: 14px; }
+  .porto-body .porto-meta { display: flex; align-items: center; justify-content: space-between; }
+  .porto-body .porto-tag { font-size: 12px; font-weight: 700; color: var(--safety); }
+  .porto-body .porto-price { font-family: 'JetBrains Mono', monospace; font-weight: 700; color: var(--navy); }
+  html[lang="fa"] .porto-body .porto-price, html[lang="ar"] .porto-body .porto-price, html[lang="ckb"] .porto-body .porto-price { font-family: 'Vazirmatn', sans-serif; }
+
+  /* ---------- Trust badges ---------- */
+  .trust-bar { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  .trust-bar .container { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px 48px; padding: 26px 24px; }
+  .trust-item { display: flex; align-items: center; gap: 10px; font-size: 13.5px; font-weight: 600; color: var(--ink); }
+  .trust-item .t-ic {
+    width: 40px; height: 40px; border-radius: 50%; background: rgba(255,122,26,0.12);
+    display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0;
+  }
+  .trust-item small { display: block; font-weight: 500; color: var(--muted); font-size: 12px; }
+
+  /* ---------- CTA pulse ring ---------- */
+  .btn-primary { position: relative; }
+  .btn-primary::after {
+    content: ""; position: absolute; inset: 0; border-radius: 8px; pointer-events: none;
+    box-shadow: 0 0 0 0 rgba(255,122,26,0.5); animation: cta-ring 2.4s infinite;
+  }
+  @keyframes cta-ring {
+    0% { box-shadow: 0 0 0 0 rgba(255,122,26,0.4); }
+    70% { box-shadow: 0 0 0 14px rgba(255,122,26,0); }
+    100% { box-shadow: 0 0 0 0 rgba(255,122,26,0); }
+  }
 </style>
 </head>
 <body>
@@ -494,6 +591,7 @@
     <div class="nav-links">
       <a href="#services" data-en="Services" data-fa="خدمات">Services</a>
       <a href="#process" data-en="Process" data-fa="فرایند">Process</a>
+      <a href="#portfolio" data-en="Portfolio" data-fa="نمونه‌کارها">Portfolio</a>
       <a href="#about" data-en="About" data-fa="درباره">About</a>
       <a href="#testimonials" data-en="Results" data-fa="نتایج">Results</a>
       <a href="#faq" data-en="FAQ" data-fa="سوالات">FAQ</a>
@@ -505,15 +603,34 @@
         <button type="button" data-lang="kmr">Kurmancî</button>
       </div>
       <a href="#contact" class="nav-cta" data-en="Start a Project" data-fa="شروع پروژه">Start a Project</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu" aria-expanded="false"><span></span><span></span><span></span></button>
     </div>
   </div>
 </nav>
+
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#services" data-en="Services" data-fa="خدمات">Services</a>
+  <a href="#process" data-en="Process" data-fa="فرایند">Process</a>
+  <a href="#portfolio" data-en="Portfolio" data-fa="نمونه‌کارها">Portfolio</a>
+  <a href="#about" data-en="About" data-fa="درباره">About</a>
+  <a href="#testimonials" data-en="Results" data-fa="نتایج">Results</a>
+  <a href="#faq" data-en="FAQ" data-fa="سوالات">FAQ</a>
+  <a href="#contact" data-en="Get a Free Consultation" data-fa="مشاوره رایگان">Get a Free Consultation</a>
+  <div class="lang-toggle" aria-label="Language">
+    <button type="button" data-lang="en" class="active">EN</button>
+    <button type="button" data-lang="fa">فا</button>
+    <button type="button" data-lang="ar">عربي</button>
+    <button type="button" data-lang="ckb">سۆرانی</button>
+    <button type="button" data-lang="kmr">Kurmancî</button>
+  </div>
+</div>
 
 <header class="hero">
   <div class="container">
     <div class="hero-badge"><span class="pulse"></span><span data-en="20+ Years in Occupational Health & Safety" data-fa="۲۰+ سال تجربه در بهداشت و ایمنی شغلی">20+ Years in Occupational Health & Safety</span></div>
     <h1><span data-en="Safety isn't an expense. It's the best investment you'll make." data-fa="ایمنی هزینه نیست؛ بهترین سرمایه‌گذاری شماست.">Safety isn't an expense.<br>It's the best <span class="accent">investment</span> you'll make.</span></h1>
     <p class="sub" data-en="From the oil field to the workshop floor — I help companies reduce risk, stay compliant, and build a genuine culture of safety. Plus, I engineer ATS-safe resumes for safety professionals worldwide." data-fa="از میدان نفت تا کارگاه — به شرکت‌ها کمک می‌کنم ریسک را کاهش دهند، قوانین را رعایت کنند و فرهنگ واقعی ایمنی بسازند. علاوه بر آن، رزومه‌های استاندارد ATS برای متخصصان ایمنی در سراسر جهان می‌نویسم.">From the oil field to the workshop floor — I help companies reduce risk, stay compliant, and build a genuine culture of safety. Plus, I engineer ATS-safe resumes for safety professionals worldwide.</p>
+    <div class="urgency"><span class="urg-dot"></span><span data-en="Only 4 consultation slots left this month" data-fa="فقط ۴ جایگاه مشاوره در این ماه باقی مانده">Only 4 consultation slots left this month</span></div>
     <div class="hero-actions">
       <a href="#services" class="btn btn-primary" data-en="Explore Services →" data-fa="مشاهده خدمات ←">Explore Services →</a>
       <a href="#contact" class="btn btn-ghost" data-en="Get a Free Consultation" data-fa="مشاوره رایگان">Get a Free Consultation</a>
@@ -735,6 +852,59 @@
   </div>
 </section>
 
+<div class="trust-bar">
+  <div class="container">
+    <div class="trust-item"><span class="t-ic">⏱️</span><span data-en="48h delivery on rewrites" data-fa="تحویل بازنویسی در ۴۸ ساعت">48h delivery on rewrites<small data-en="Guaranteed turnaround" data-fa="زمان تحویل تضمینی">Guaranteed turnaround</small></span></div>
+    <div class="trust-item"><span class="t-ic">🛡️</span><span data-en="Money-back guarantee" data-fa="تضمین بازگشت وجه">Money-back guarantee<small data-en="Before work starts" data-fa="قبل از شروع کار">Before work starts</small></span></div>
+    <div class="trust-item"><span class="t-ic">🌐</span><span data-en="Works with global teams" data-fa="همکاری با تیم‌های جهانی">Works with global teams<small data-en="English, فارسی, العربية, سۆرانی, Kurmancî" data-fa="انگلیسی، فارسی، عربی، سورانی، کرمانجی">English, فارسی, العربية, سۆرانی, Kurmancî</small></span></div>
+    <div class="trust-item"><span class="t-ic">🔒</span><span data-en="Secure TON payment" data-fa="پرداخت امن TON">Secure TON payment<small data-en="Borderless settlement" data-fa="تسویه بدون مرز">Borderless settlement</small></span></div>
+  </div>
+</div>
+
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="section-head center">
+      <div class="eyebrow" data-en="Portfolio" data-fa="نمونه‌کارها">Portfolio</div>
+      <h2 class="section-title" data-en="Resume templates built to pass." data-fa="قالب‌های رزومه‌ای که می‌درخشند.">Resume templates built to pass.</h2>
+      <p class="section-lead" data-en="Clean, single-column, ATS-safe layouts — previewed before you buy." data-fa="چیدمان‌های تمیز، تک‌ستونی و استاندارد ATS — قبل از خرید، پیش‌نمایش ببینید.">Clean, single-column, ATS-safe layouts — previewed before you buy.</p>
+    </div>
+    <div class="porto-grid">
+      <a class="porto-card reveal" href="#contact">
+        <div class="thumb"><img src="preview-folio.jpg" alt="The Folio resume template preview" loading="lazy"><div class="overlay"><span class="view" data-en="View →" data-fa="مشاهده ←">View →</span></div></div>
+        <div class="porto-body">
+          <h3 data-en="The Folio" data-fa="The Folio">The Folio</h3>
+          <p data-en="Editorial layout for senior roles." data-fa="چیدمان تحریریه‌ای برای نقش‌های ارشد.">Editorial layout for senior roles.</p>
+          <div class="porto-meta"><span class="porto-tag" data-en="ATS-safe" data-fa="استاندارد ATS">ATS-safe</span><span class="porto-price">$9</span></div>
+        </div>
+      </a>
+      <a class="porto-card reveal" href="#contact">
+        <div class="thumb"><img src="preview-ledger.jpg" alt="The Ledger resume template preview" loading="lazy"><div class="overlay"><span class="view" data-en="View →" data-fa="مشاهده ←">View →</span></div></div>
+        <div class="porto-body">
+          <h3 data-en="The Ledger" data-fa="The Ledger">The Ledger</h3>
+          <p data-en="Measured, technical layout for HSE pros." data-fa="چیدمان فنی و دقیق برای متخصصان HSE.">Measured, technical layout for HSE pros.</p>
+          <div class="porto-meta"><span class="porto-tag" data-en="ATS-safe" data-fa="استاندارد ATS">ATS-safe</span><span class="porto-price">$9</span></div>
+        </div>
+      </a>
+      <a class="porto-card reveal" href="#contact">
+        <div class="thumb"><img src="preview-signal.jpg" alt="The Signal resume template preview" loading="lazy"><div class="overlay"><span class="view" data-en="View →" data-fa="مشاهده ←">View →</span></div></div>
+        <div class="porto-body">
+          <h3 data-en="The Signal" data-fa="The Signal">The Signal</h3>
+          <p data-en="Modern, clean layout for engineering." data-fa="چیدمان مدرن و تمیز برای مهندسی.">Modern, clean layout for engineering.</p>
+          <div class="porto-meta"><span class="porto-tag" data-en="ATS-safe" data-fa="استاندارد ATS">ATS-safe</span><span class="porto-price">$9</span></div>
+        </div>
+      </a>
+      <a class="porto-card reveal" href="#contact">
+        <div class="thumb"><img src="preview-coverletter.jpg" alt="Cover letter template preview" loading="lazy"><div class="overlay"><span class="view" data-en="View →" data-fa="مشاهده ←">View →</span></div></div>
+        <div class="porto-body">
+          <h3 data-en="Cover Letter" data-fa="نامه پوششی">Cover Letter</h3>
+          <p data-en="Matching cover letter to pair with any template." data-fa="نامه پوششی هماهنگ برای کنار هر قالب.">Matching cover letter to pair with any template.</p>
+          <div class="porto-meta"><span class="porto-tag" data-en="Bonus" data-fa="هدیه">Bonus</span><span class="porto-price">+$0</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
 <section class="guarantee">
   <div class="container">
     <div class="guarantee-card">
@@ -937,6 +1107,23 @@
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
 
+  // Scroll reveal
+  (function () {
+    var auto = document.querySelectorAll('.section-head, .svc-card, .step, .testi, .insight-card, .faq-item, .guarantee-card, .about-visual, .about-copy');
+    auto.forEach(function (el) { if (!el.classList.contains('reveal')) el.classList.add('reveal'); });
+    var els = document.querySelectorAll('.reveal');
+    if ('IntersectionObserver' in window) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('visible'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12 });
+      els.forEach(function (el) { io.observe(el); });
+    } else {
+      els.forEach(function (el) { el.classList.add('visible'); });
+    }
+  })();
+
   // Language switcher
   var langBtn = document.querySelectorAll('.lang-toggle button');
   var langDict = {
@@ -988,6 +1175,63 @@
   var saved = 'en';
   try { saved = localStorage.getItem('hhse-lang') || 'en'; } catch (e) {}
   setLang(saved);
+
+  // Mobile menu
+  (function () {
+    var btn = document.getElementById('hamburger');
+    var menu = document.getElementById('mobile-menu');
+    if (!btn || !menu) return;
+    btn.addEventListener('click', function () {
+      var open = menu.classList.toggle('open');
+      btn.classList.toggle('open', open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    menu.querySelectorAll('a').forEach(function (a) {
+      a.addEventListener('click', function () {
+        menu.classList.remove('open');
+        btn.classList.remove('open');
+        btn.setAttribute('aria-expanded', 'false');
+      });
+    });
+  })();
+
+  // Real form capture via Web3Forms (fallback: mailto keeps working as-is)
+  var W3F_KEY = ''; // Paste your Web3Forms access key here to start collecting leads into your inbox
+  function submitLead(form, successMsg) {
+    if (!W3F_KEY) return; // no key configured -> keep default mailto behavior
+    var btn = form.querySelector('button[type=submit]');
+    var orig = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = 'Sending...';
+    var data = new FormData(form);
+    data.append('access_key', W3F_KEY);
+    fetch('https://api.web3forms.com/submit', { method: 'POST', body: data })
+      .then(function (r) { return r.json(); })
+      .then(function (res) {
+        if (res.success) {
+          var msg = document.createElement('p');
+          msg.className = 'lm-note';
+          msg.style.color = '#7CEEA6';
+          msg.textContent = successMsg;
+          form.appendChild(msg);
+          form.querySelectorAll('input,select,textarea').forEach(function (i) { i.value = ''; });
+        }
+      })
+      .catch(function () {})
+      .finally(function () {
+        btn.disabled = false;
+        btn.textContent = orig;
+      });
+    return false;
+  }
+  var leadForm = document.querySelector('.lm-box');
+  var contactForm = document.getElementById('contact-form');
+  if (leadForm) leadForm.addEventListener('submit', function (e) {
+    if (submitLead(leadForm, 'Thanks! Check your inbox.')) e.preventDefault();
+  });
+  if (contactForm) contactForm.addEventListener('submit', function (e) {
+    if (submitLead(contactForm, 'Thanks! I\'ll get back to you within a few hours.')) e.preventDefault();
+  });
 
   function toggleFallback(boxId, formId) {
     var box = document.getElementById(boxId);
