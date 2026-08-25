@@ -290,4 +290,12 @@ window.T_KMR = {
   "Scan to pay via the TON network, then email your transaction ID along with your request.": "Ji bo dravdanê bi rêya tora TON scan bike, paşê ID-ya danûstendinê ligel daxwaza xwe email bike.",
   "Don't use TON? Email me before ordering and I'll arrange another way to pay — including PayPal, Wise, or wire transfer.": "TON bikar nayîne? Berî fermankirinê ji min re email bike û ez ê rêyeke din a dravdanê ji te re bi rêk xînim — di nav de PayPal, Wise an veguheztina bankê.",
   "🇮🇷 Payment in Iran": "🇮🇷 Diravdan li Îranê",
-};
+
+  "Fast, instant transfer to this Shetab bank card - no gateway needed.": "Veguheztina bilez û ewle ji vê kartê şetab - bê hewcedariya dergehê dayinê.",
+  "AHMAD KHEZRI": "Ahmad Khezri",
+  "Shetab": "Şetab",
+  "Transfer the amount to the card above.": "Meblagê bişînê ji karta jorê.",
+  "Keep your bank transaction receipt.": "Rasîda muameleya xwe ya bankê biparêze.",
+  "Email it along with your order to confirm.": "Wê bi e-nameyê re bi fermana xwe bişînî da ku were pejirandin.",
+  "Tap to copy - the number is copied instantly.": "Bikirtîne ji bo kopîkirinê - hejmar yekser kopî dibe.",
+  "Bank Melli Iran": "Banka Melli Îran",};

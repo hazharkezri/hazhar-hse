@@ -9,7 +9,7 @@
 <meta property="og:title" content="Hazhar HSE | Occupational Health & Safety Consulting & Resume Services">
 <meta property="og:description" content="20+ years of HSE field expertise — audits, risk assessment, safety training, and ATS-safe resumes for companies worldwide.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="https://hazharkhhazhar-crypto.github.io/hazhar-hse/og-image.png">
+<meta property="og:image" content="https://hazharkezri.github.io/hazhar-hse/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230E1B2C'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='28' font-weight='700' fill='%23FF7A1A' text-anchor='middle'%3EH%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -580,14 +580,39 @@
   .ir-pay-card h3 { font-family: 'Fraunces', serif; font-size: 22px; margin-bottom: 8px; }
   html[lang="fa"] .ir-pay-card h3, html[lang="ar"] .ir-pay-card h3, html[lang="ckb"] .ir-pay-card h3 { font-family: 'Vazirmatn', sans-serif; }
   .ir-pay-card p { color: var(--muted); font-size: 14.5px; margin-bottom: 20px; }
-  .ir-pay-card .ip-val {
-    font-family: 'JetBrains Mono', monospace; font-size: 17px; font-weight: 700; color: var(--navy);
-    background: var(--mist); border: 1px dashed var(--line); border-radius: 12px;
-    padding: 14px 16px; word-break: break-all; margin-bottom: 16px; letter-spacing: 1px;
+  .ir-pay-card .ip-bankcard {
+    margin: 0 0 18px; padding: 26px 22px 22px; border-radius: 18px; text-align: left; position: relative;
+    background: linear-gradient(135deg, #0f3d5c 0%, #14587f 55%, #1c7a9e 100%);
+    color: #fff; box-shadow: 0 12px 30px rgba(15,61,92,0.28); overflow: hidden;
   }
-  html[lang="fa"] .ir-pay-card .ip-val, html[lang="ar"] .ir-pay-card .ip-val, html[lang="ckb"] .ir-pay-card .ip-val { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0; }
-  .ir-pay-card .ip-note { font-size: 12.5px; color: var(--muted); }
-  @media (max-width: 760px) { .ir-pay-grid { grid-template-columns: 1fr; } }
+  html[lang="fa"] .ir-pay-card .ip-bank, html[lang="ar"] .ir-pay-card .ip-bank, html[lang="ckb"] .ir-pay-card .ip-bank { text-align: right; }
+  .ir-pay-card .ip-bank::before {
+    content: ""; position: absolute; width: 240px; height: 240px; border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.16), transparent 60%);
+    top: -80px; right: -60px;
+  }
+  html[lang="fa"] .ir-pay-card .ip-bank::before, html[lang="ar"] .ir-pay-card .ip-bank::before, html[lang="ckb"] .ir-pay-card .ip-bank::before { right: auto; left: -60px; }
+  .ip-bank-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; position: relative; }
+  .ip-bank-chip { width: 42px; height: 32px; border-radius: 7px; background: linear-gradient(135deg, #e8c54a, #caa21f); position: relative; }
+  .ip-bank-chip::before, .ip-bank-chip::after { content: ""; position: absolute; background: rgba(0,0,0,0.15); }
+  .ip-bank-chip::before { left: 0; right: 0; top: 50%; height: 1.5px; }
+  .ip-bank-chip::after { top: 0; bottom: 0; left: 50%; width: 1.5px; }
+  .ip-bank-brand { font-family: 'JetBrains Mono', monospace; font-size: 13px; letter-spacing: 2px; font-weight: 700; opacity: 0.92; }
+  html[lang="fa"] .ip-bank-brand, html[lang="ar"] .ip-bank-brand, html[lang="ckb"] .ip-bank-brand { font-family: 'Vazirmatn', sans-serif; }
+  .ip-bank-num {
+    font-family: 'JetBrains Mono', monospace; font-size: 25px; font-weight: 700; letter-spacing: 3px;
+    margin-bottom: 22px; position: relative; word-break: break-all;
+  }
+  html[lang="fa"] .ip-bank-num, html[lang="ar"] .ip-bank-num, html[lang="ckb"] .ip-bank-num { font-family: 'Vazirmatn', sans-serif; letter-spacing: 0.5px; }
+  .ip-bank-meta { display: flex; align-items: center; justify-content: space-between; gap: 10px; position: relative; font-size: 12px; opacity: 0.92; }
+  .ip-bank-meta strong { display: block; font-size: 13px; letter-spacing: 0.5px; }
+  .ip-steps { text-align: left; margin: 4px 0 20px; }
+  html[dir="fa"] .ip-steps, html[dir="ar"] .ip-steps, html[dir="ckb"] .ip-steps { text-align: right; }
+  .ip-steps .ip-step { display: flex; align-items: center; gap: 10px; font-size: 13.5px; color: var(--muted); padding: 7px 0; }
+  .ip-steps .ip-step b { font-weight: 800; }
+  .ip-step-n { flex: 0 0 26px; width: 26px; height: 26px; border-radius: 50%; background: var(--green); color: #fff; font-size: 13px; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+  .ip-note { font-size: 12.5px; color: var(--muted); margin-top: 14px; }
+  @media (max-width: 760px) { .ir-pay-grid { grid-template-columns: 1fr; } .ir-pay-card { padding: 28px 20px; } .ip-bank-num { font-size: 20px; letter-spacing: 1px; } }
 
   /* ---------- Sticky mobile CTA ---------- */
   .sticky-cta {
@@ -1504,10 +1529,25 @@
       <div class="ir-pay-card green">
         <div class="ip-ic">💳</div>
         <h3 data-en="Card-to-Card" data-fa="کارت‌به‌کارت">Card-to-Card</h3>
-        <p data-en="Transfer directly to this Shetab card, then email your transaction receipt with your request." data-fa="مستقیماً به این کارت شتاب واریز کنید، سپس رسید تراکنش را همراه درخواست خود ایمیل کنید.">Transfer directly to this Shetab card, then email your transaction receipt with your request.</p>
-        <div class="ip-val">6037 9972 3835 2752</div>
+        <p data-en="Fast, instant transfer to this Shetab bank card - no gateway needed." data-fa="انتقال فوری و مطمئن به این کارت شتاب بانکی - بدون نیاز به درگاه.">Fast, instant transfer to this Shetab bank card - no gateway needed.</p>
+        <div class="ip-bank">
+          <div class="ip-bank-row">
+            <div class="ip-bank-chip" aria-hidden="true"></div>
+            <div class="ip-bank-brand">Melli</div>
+          </div>
+          <div class="ip-bank-num">6037 9972 3835 2752</div>
+          <div class="ip-bank-meta">
+            <div style="text-align:left"><strong data-en="AHMAD KHEZRI" data-fa="احمد خضری">AHMAD KHEZRI</strong><span data-en="Bank Melli Iran" data-fa="بانک ملی ایران">Bank Melli Iran</span></div>
+            <div style="text-align:right;opacity:0.85"><span data-en="Shetab" data-fa="شتاب">Shetab</span><strong>TC</strong></div>
+          </div>
+        </div>
+        <div class="ip-steps">
+          <div class="ip-step"><span class="ip-step-n">1</span><span data-en="Transfer the amount to the card above." data-fa="مبلغ را به کارت بالا واریز کنید.">Transfer the amount to the card above.</span></div>
+          <div class="ip-step"><span class="ip-step-n">2</span><span data-en="Keep your bank transaction receipt." data-fa="رسید تراکنش بانکی را نگه دارید.">Keep your bank transaction receipt.</span></div>
+          <div class="ip-step"><span class="ip-step-n">3</span><span data-en="Email it along with your order to confirm." data-fa="آن را همراه سفارش خود ایمیل کنید تا تأیید شود.">Email it along with your order to confirm.</span></div>
+        </div>
         <button class="btn btn-primary" style="width:100%;justify-content:center;" onclick="copyIranCard()" data-en="Copy Card Number" data-fa="کپی شماره کارت">Copy Card Number</button>
-        <p class="ip-note" data-en="Bank Melli Iran · Ahmad Khezri" data-fa="بانک ملی ایران · احمد خضری">Bank Melli Iran · Ahmad Khezri</p>
+        <p class="ip-note" id="copyMsg" data-en="Tap to copy - the number is copied instantly." data-fa="کپی شد - شماره کارت آماده است.">Tap to copy - the number is copied instantly.</p>
       </div>
       <div class="ir-pay-card orange">
         <div class="ip-ic">🏦</div>
@@ -1544,7 +1584,7 @@
       <div class="f-col">
         <h4 data-en="Connect" data-fa="ارتباط">Connect</h4>
         <a href="mailto:hazharkhhazhar@gmail.com" data-en="Email" data-fa="ایمیل">Email</a>
-        <a href="https://github.com/hazharkhhazhar-crypto" data-en="GitHub" data-fa="گیت‌هاب">GitHub</a>
+        <a href="https://github.com/hazharkezri" data-en="GitHub" data-fa="گیت‌هاب">GitHub</a>
       </div>
     </div>
     <div class="f-bottom">
@@ -1726,7 +1766,18 @@
       var btn = document.querySelector('.ir-pay-card.green .btn-primary');
       var original = btn.textContent;
       btn.textContent = "Copied!";
-      setTimeout(function () { btn.textContent = original; }, 1500);
+      setTimeout(function () { btn.textContent = original; }, 2000);
+    }).catch(function () {
+      var t = document.createTextNode("6037 9972 3835 2752");
+      var s = document.createElement("span"); s.appendChild(t);
+      document.body.appendChild(s);
+      var r = document.createRange(); r.selectNodeContents(s);
+      var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+      document.execCommand('copy'); sel.removeAllRanges(); s.remove();
+      var btn = document.querySelector('.ir-pay-card.green .btn-primary');
+      var original = btn.textContent;
+      btn.textContent = "Copied!";
+      setTimeout(function () { btn.textContent = original; }, 2000);
     });
   }
 </script>

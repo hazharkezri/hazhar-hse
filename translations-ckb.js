@@ -290,4 +290,12 @@ window.T_CKB = {
   "Scan to pay via the TON network, then email your transaction ID along with your request.": "بۆ پارەدان لە ڕێگەی تۆڕی TON سکان بکە، پاشان ژمارەی مامەڵەکەت لەگەڵ داواکارییەکەت ئیمەیڵ بکە.",
   "Don't use TON? Email me before ordering and I'll arrange another way to pay — including PayPal, Wise, or wire transfer.": "بەکار ناهێنیت؟ پێش داواکردن ئیمەیڵم بکە و ڕێگایەکی تری پارەدانت بۆ دابین دەکەم — لەوانە PayPal، Wise یان گواستنەوەی بانکی.",
   "🇮🇷 Payment in Iran": "🇮🇷 پارەدان لە ئێراندا",
-};
+
+  "Fast, instant transfer to this Shetab bank card - no gateway needed.": "گواستنەوەی خێرا و دلنیاوێر بۆ ئەم کارتەی شەتاب - بەبە پیویستی بە دەرگا پاردان.",
+  "AHMAD KHEZRI": "Ahmad Khezri",
+  "Shetab": "شەتاب",
+  "Transfer the amount to the card above.": "بۆ کارتەکەی سەرەوە بگوەزێنەوە.",
+  "Keep your bank transaction receipt.": "رەسیدی مامەلە بانکییەکەت بیپارەزە.",
+  "Email it along with your order to confirm.": "بە ئیمەیل لگەل داواکرییەکەت بنێرە بۆ پشتەکردنەوە.",
+  "Tap to copy - the number is copied instantly.": "کرتە بکە بۆ کۆپی - ژمارەکە یەکسەر کۆپی دەکرێت.",
+  "Bank Melli Iran": "بانکی مللیی ئیران",};

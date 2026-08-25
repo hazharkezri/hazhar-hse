@@ -290,4 +290,12 @@ window.T_AR = {
   "Scan to pay via the TON network, then email your transaction ID along with your request.": "امسح للدفع عبر شبكة TON، ثم أرسل معرف المعاملة مع طلبك عبر البريد الإلكتروني.",
   "Don't use TON? Email me before ordering and I'll arrange another way to pay — including PayPal, Wise, or wire transfer.": "لا تستخدم TON؟ راسلني قبل الطلب وسأرتب طريقة أخرى للدفع — بما في ذلك PayPal أو Wise أو تحويل مصرفي.",
   "🇮🇷 Payment in Iran": "🇮🇷 الدفع داخل إيران",
-};
+
+  "Fast, instant transfer to this Shetab bank card - no gateway needed.": "تحویل فوری و مطمئن به هذه بطاقة شتاب البنکیة - بدون حاجة لبوابة دفع.",
+  "AHMAD KHEZRI": "Ahmad Khezri",
+  "Shetab": "شتاب",
+  "Transfer the amount to the card above.": "أرسل المبلغ إلى البطاقة أعلاه.",
+  "Keep your bank transaction receipt.": "احتفظ بإیصال العملیة البنکیة.",
+  "Email it along with your order to confirm.": "أرسله بالبرید الإلکترونی مع طلبک للتأکید.",
+  "Tap to copy - the number is copied instantly.": "اضغط للنسخ - یتم نسخ الرقم فوراً.",
+  "Bank Melli Iran": "البنك الملي الإيراني",};
