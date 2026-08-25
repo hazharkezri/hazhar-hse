@@ -298,4 +298,4 @@ window.T_AR = {
   "Tap to copy - the number is copied instantly.": "اضغط للنسخ - یتم نسخ الرقم فوراً.",
   "Qarz-ol-Hasaneh Mehr Iran": "قرض ٱلحسنه مهر إیران",
   "Mehr": "مهر",
-  "Payment is accepted via the TON network (USDT) for borderless settlement. Iranian clients can also pay by card-to-card (Qarz-ol-Hasaneh Mehr Iran) or via a Zarinpal/IDPay payment link. It's fast, secure, and without hidden fees.": "پرداخت از طریق شبکه TON (USDT) برای تسویه بدون مرز پذیرفته می‌شود. مشتریان ایرانی می‌توانند همچنین با کارت‌به‌کارت (قرض‌الحسنه مهر ایران) یا از طریق لینک پرداخت زرین‌پال/آی‌دی‌پی پرداخت کنند. سریع، امن و بدون هزینه های پنهان است.",};
+  "Payment is accepted via the TON network (USDT) for borderless settlement. Iranian clients can also pay by card-to-card (Qarz-ol-Hasaneh Mehr Iran) or via a Zarinpal/IDPay payment link. It's fast, secure, and without hidden fees.": "پرداخت از طریق شبکه TON (USDT) برای تسویه بدون مرز پذیرفته می‌شود. مشتریان ایرانی می‌توانند همچنین با کارت‌به‌کارت (قرض الحسنه مهر ایران) یا از طریق لینک پرداخت زرین‌پال/آی‌دی‌پی پرداخت کنند. سریع، امن و بدون هزینه های پنهان است.",};
