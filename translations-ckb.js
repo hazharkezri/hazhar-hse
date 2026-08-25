@@ -133,8 +133,7 @@ window.T_CKB = {
   "No one can guarantee a pass rate — it depends on the specific system and how closely your background matches the role. What I guarantee is a format that parses cleanly and language aligned to the keywords in the job description you give me.": "کەس ناتوانێت ڕێژەی تێپەڕین دەستەمۆ بکات — پەیوەندی بە سیستەمە تایبەتەکە و ئەوەوە هەیە کە پاشبنەمات چەندە لە نزیکەوە دەگونجێت لەگەڵ ئەو ڕۆڵە. ئەوەی من دەستەمۆی دەکەم فۆرماتێکە کە بە پاکی دەخوێنرێتەوە و زمانێک کە لەگەڵ وشە سەرەکییەکانی وەسفی کارەکەدا دەگونجێت کە پێم دەدەیت.",
   "How long does a resume rewrite take?": "نووسینەوەی ڕێزۆمە چەند دەخایەنێت؟",
   "Premium rewrites are delivered within 48 hours of payment and files arriving. Audits are typically same-day. Templates are sent within a few hours.": "نووسینەوە نایابەکان لە ماوەی ٤٨ کاتژمێری وەرگرتنی پارە و فایلەکاندا ڕادەست دەکرێن. پشکنینەکان بە شێوەیەکی ئاسایی هەمان ڕۆژ. تێمپلەیتەکان لە چەند کاتژمێردا دەنێردرێن.",
-  "How do I pay, and is it secure?": "چۆن پارە دەدەم، و ئایا پارێزراوە؟",
-  "Payment is accepted via the TON network (USDT) for borderless settlement. Iranian clients can also pay by card-to-card (Bank Melli Iran) or via a Zarinpal/IDPay payment link. It's fast, secure, and without hidden fees.": "پارەدان لە ڕێگەی تۆڕی TON (USDT) وەردەگیرێت بۆ حەسابکردنی بێسنوور. موکەیلە ئێرانییەکان دەتوانن بە کارت-بۆ-کارت (بانکی ملی ئێران) یان لە ڕێگەی لینکی پارەدانی زرینپاڵ/ئایدیپەی پارە بدەن. خێرایە، پارێزراوە و بێ پارەشاراوەکان.",
+  "How do I pay, and is it secure?": "چۆن پارە دەدەم، و ئایا پارێزراوە؟",
   "What if something isn't right?": "ئەگەر شتێک ڕاست نەبوو چی؟",
   "If I haven't started work on your order, you get a full refund, no questions asked. Once a deliverable is done, it's final — but email me if something's wrong and I'll fix it rather than walk away.": "ئەگەر کارم لەسەر داواکارییەکەت دەستپێنەکردبێت، پارەکەت بەتەواوی دەگەڕێنمەوە، بێ هیچ پرسیارێک. کاتێک دەرئەنجامێک تەواو بوو، کۆتاییە — بەڵام ئەگەر شتێک هەڵە بوو، ئیمەیڵم بکە و چاکی دەکەمەوە نەوەک هەڵبکشێم.",
   "Ready to make safety your advantage?": "ئامادەی سەلامەتی بکەیتە سودەکەت؟",
@@ -215,8 +214,7 @@ window.T_CKB = {
   "For Iranian clients — pay directly by card or via an online gateway. No extra fees, full transparency.": "بۆ موکەیلە ئێرانییەکان — ڕاستەوخۆ بە کارت یان لە ڕێگەی دەروازەی ئۆنلاینەوە پارە بدەن. بێ پارەکرێتی زیادە، بە شەفافیەتی تەواو.",
   "Card-to-Card": "کارت-بۆ-کارت",
   "Transfer directly to this Shetab card, then email your transaction receipt with your request.": "ڕاستەوخۆ بۆ ئەم کارتەی شتاب گواستنەوە بکە، پاشان وەصڵی ترانسەکشنەکە لەگەڵ داواکارییەکەت ئیمەیڵ بکە.",
-  "Copy Card Number": "کۆپی کردنی ژمارەی کارت",
-  "Bank Melli Iran · Ahmad Khezri": "بانکی ملی ئێران · ئەحمەد خزری",
+  "Copy Card Number": "کۆپی کردنی ژمارەی کارت",
   "Online Gateway": "دەروازەی ئۆنلاین",
   "Prefer to pay through a trusted Iranian payment gateway? Email me and I'll send you a secure payment link for your chosen service.": "حەزت لە پارەدان لە ڕێگەی دەروازەیەکی ئێرانی متمانەپێکراوە؟ ئیمەیڵم بکە و لینکی پارەدانی پارێزراوی خزمەتگوزاری هەڵبژێرراوەکەت بۆ دەنێرم.",
   "Request a Payment Link": "داواکاری لینکی پارەدان",
@@ -298,4 +296,6 @@ window.T_CKB = {
   "Keep your bank transaction receipt.": "رەسیدی مامەلە بانکییەکەت بیپارەزە.",
   "Email it along with your order to confirm.": "بە ئیمەیل لگەل داواکرییەکەت بنێرە بۆ پشتەکردنەوە.",
   "Tap to copy - the number is copied instantly.": "کرتە بکە بۆ کۆپی - ژمارەکە یەکسەر کۆپی دەکرێت.",
-  "Bank Melli Iran": "بانکی مللیی ئیران",};
+  "Qarz-ol-Hasaneh Mehr Iran": "قرض الحسنه مهر ئیران",
+  "Mehr": "مهر",
+  "Payment is accepted via the TON network (USDT) for borderless settlement. Iranian clients can also pay by card-to-card (Qarz-ol-Hasaneh Mehr Iran) or via a Zarinpal/IDPay payment link. It's fast, secure, and without hidden fees.": "پاردان بە ریگای تۆرەی TON (USDT) بۆ چارسەرکردنەوەی بەبە سنوور قابەل پێس تو. کرێارانی ئیرانی دەشەین هەر وەھا بە کارت-بە-کارت (قرض الحسنه مهر ئیران) یان بە ریگای گرێدانی پاردانی Zarinpal/IDPay پاردان بکەن. خێرا، پاریزگا و بەبە باژی شاراوکراو.",};

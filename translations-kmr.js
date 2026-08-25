@@ -133,8 +133,7 @@ window.T_KMR = {
   "No one can guarantee a pass rate — it depends on the specific system and how closely your background matches the role. What I guarantee is a format that parses cleanly and language aligned to the keywords in the job description you give me.": "Kes nikare rêjeya derbasbûnê garantî bike — ew bi pergala taybet û çendê pêşdîroka te bi rolê re li hev dike ve girêdayî ye. Tiştê ku ez garantî dikim formatek e ku bi paqijî tê xwendin û zimanek ku li gor peyvên sereke yên di daxuyaniya karê ku tu didî min de ye.",
   "How long does a resume rewrite take?": "Ji nû ve nivîsandina CV-ê çiqas dirêj dike?",
   "Premium rewrites are delivered within 48 hours of payment and files arriving. Audits are typically same-day. Templates are sent within a few hours.": "Nivîsandina premium di nav 48 saetan ji dayîna pereyan û hatina pelan de tê radestkirin. Vekolîn bi gelemperî heman rojê ne. Şablon di nav çend saetan de têne şandin.",
-  "How do I pay, and is it secure?": "Ez çawa pere didim, û ma ewle ye?",
-  "Payment is accepted via the TON network (USDT) for borderless settlement. Iranian clients can also pay by card-to-card (Bank Melli Iran) or via a Zarinpal/IDPay payment link. It's fast, secure, and without hidden fees.": "Dayîna pereyan bi riya tora TON (USDT) ji bo vesazkirina bê sînor tê qebûlkirin. Xerîdarên îranî dikarin her weha bi kart-bi-kart (Banka Melli ya Îranê) an jî bi riya girêdana dayîna pereyan a Zarinpal/IDPay pere bidin. Ew zû ye, ewledar e û bêyî heqên veşartî ye.",
+  "How do I pay, and is it secure?": "Ez çawa pere didim, û ma ewle ye?",
   "What if something isn't right?": "Heke tiştek ne rast be çi?",
   "If I haven't started work on your order, you get a full refund, no questions asked. Once a deliverable is done, it's final — but email me if something's wrong and I'll fix it rather than walk away.": "Heke min dest bi karê fermana te nekiribe, tu paşvekirina pereyan bi tevahî werdigirî, bê pirs. Gava hilberek qediya, dawî ye — lê heke tiştek xelet be, email ji min re bişîne û ez dê rast bikim ne ku dest ji te berdim.",
   "Ready to make safety your advantage?": "Amadeyî ku ewlehiyê bînî destkeftiya xwe?",
@@ -215,8 +214,7 @@ window.T_KMR = {
   "For Iranian clients — pay directly by card or via an online gateway. No extra fees, full transparency.": "Ji bo xerîdarên îranî — rasterast bi kartê an jî bi riya dergehek serhêl pere bidin. Bê heqên zêde, bi zelaliyek bêkêmasî.",
   "Card-to-Card": "Kart-bi-Kart",
   "Transfer directly to this Shetab card, then email your transaction receipt with your request.": "Rasterast bi vê karta Shetab veguhezîne, paşê resîdê danûstandinê digel daxwaza xwe email bike.",
-  "Copy Card Number": "Hejmara Kartê kopî bike",
-  "Bank Melli Iran · Ahmad Khezri": "Banka Melli ya Îranê · Ahmed Khezri",
+  "Copy Card Number": "Hejmara Kartê kopî bike",
   "Online Gateway": "Dergeha Serhêl",
   "Prefer to pay through a trusted Iranian payment gateway? Email me and I'll send you a secure payment link for your chosen service.": "Ma tercîh dike ku bi riya dergehek îranî ya pêbawer pere bidî? Email ji min re bişîne û ez dê girêdanek dayîna pereyan a ewledar ji bo xizmeta bijartî bişînim.",
   "Request a Payment Link": "Daxwaza Girêdana Dayîna Pereyan",
@@ -298,4 +296,6 @@ window.T_KMR = {
   "Keep your bank transaction receipt.": "Rasîda muameleya xwe ya bankê biparêze.",
   "Email it along with your order to confirm.": "Wê bi e-nameyê re bi fermana xwe bişînî da ku were pejirandin.",
   "Tap to copy - the number is copied instantly.": "Bikirtîne ji bo kopîkirinê - hejmar yekser kopî dibe.",
-  "Bank Melli Iran": "Banka Melli Îran",};
+  "Qarz-ol-Hasaneh Mehr Iran": "Qarz-ol-Hasaneh Mehr Iran",
+  "Mehr": "Mehr",
+  "Payment is accepted via the TON network (USDT) for borderless settlement. Iranian clients can also pay by card-to-card (Qarz-ol-Hasaneh Mehr Iran) or via a Zarinpal/IDPay payment link. It's fast, secure, and without hidden fees.": "Barkirina pereyan bi riya tora TON (USDT) ji bo bi-sînor vesazkirinê tê qebûlkirin. Mişterêyên Îranê dikarin her weha bi kart-bi-kart (Qarz-ol-Hasaneh Mehr Iran) an jî bi riya girêdana dayîna pereyan a Zarinpal/IDPay pere bidin. Ew zû ye, ewledar e û bêyî heqên veşartî ye.",};

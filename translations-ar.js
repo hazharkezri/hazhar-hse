@@ -133,8 +133,7 @@ window.T_AR = {
   "No one can guarantee a pass rate — it depends on the specific system and how closely your background matches the role. What I guarantee is a format that parses cleanly and language aligned to the keywords in the job description you give me.": "لا يمكن لأحد أن يضمن نسبة نجاح — يعتمد ذلك على النظام المحدد ومدى تطابق خلفيتك مع الدور. ما أضمنه هو تنسيق يُقرأ بنظافة ولغة متوافقة مع الكلمات المفتاحية في الوصف الوظيفي الذي تعطيني إياه.",
   "How long does a resume rewrite take?": "كم يستغرق إعادة كتابة السيرة الذاتية؟",
   "Premium rewrites are delivered within 48 hours of payment and files arriving. Audits are typically same-day. Templates are sent within a few hours.": "تُسلَّم عمليات إعادة الكتابة المتميزة خلال 48 ساعة من الدفع واستلام الملفات. المراجعات عادة في نفس اليوم. القوالب تُرسل خلال ساعات قليلة.",
-  "How do I pay, and is it secure?": "كيف أدفع، وهل الدفع آمن؟",
-  "Payment is accepted via the TON network (USDT) for borderless settlement. Iranian clients can also pay by card-to-card (Bank Melli Iran) or via a Zarinpal/IDPay payment link. It's fast, secure, and without hidden fees.": "الدفع مقبول عبر شبكة TON (USDT) للتسوية بلا حدود. يمكن للعملاء الإيرانيين أيضاً الدفع من بطاقة إلى بطاقة (بنك ملي إيران) أو عبر رابط دفع زرين‌پال/آیدی‌پی. إنه سريع وآمن وبدون رسوم مخفية.",
+  "How do I pay, and is it secure?": "كيف أدفع، وهل الدفع آمن؟",
   "What if something isn't right?": "ماذا لو كان هناك شيء غير صحيح؟",
   "If I haven't started work on your order, you get a full refund, no questions asked. Once a deliverable is done, it's final — but email me if something's wrong and I'll fix it rather than walk away.": "إذا لم أبدأ العمل في طلبك تحصل على استرداد كامل دون أي أسئلة. بمجرد اكتمال المخرج يكون نهائياً — لكن راسلني إذا كان هناك خطأ وسأصلحه بدلاً من التنصل.",
   "Ready to make safety your advantage?": "مستعد لجعل السلامة ميزتك؟",
@@ -215,8 +214,7 @@ window.T_AR = {
   "For Iranian clients — pay directly by card or via an online gateway. No extra fees, full transparency.": "للعملاء الإيرانيين — ادفع مباشرة بالبطاقة أو عبر درة دفع إلكترونية. بدون رسوم إضافية وبشفافية كاملة.",
   "Card-to-Card": "من بطاقة إلى بطاقة",
   "Transfer directly to this Shetab card, then email your transaction receipt with your request.": "حوِّل مباشرة إلى هذه البطاقة، ثم أرسل إيصال العملية مع طلبك عبر البريد.",
-  "Copy Card Number": "انسخ رقم البطاقة",
-  "Bank Melli Iran · Ahmad Khezri": "بنك ملي إيران · أحمد خضري",
+  "Copy Card Number": "انسخ رقم البطاقة",
   "Online Gateway": "الدرة الإلكترونية",
   "Prefer to pay through a trusted Iranian payment gateway? Email me and I'll send you a secure payment link for your chosen service.": "تفضل الدفع عبر درة إيرانية موثوقة؟ راسلني وسأرسل لك رابط دفع آمناً للخدمة التي تختارها.",
   "Request a Payment Link": "اطلب رابط الدفع",
@@ -298,4 +296,6 @@ window.T_AR = {
   "Keep your bank transaction receipt.": "احتفظ بإیصال العملیة البنکیة.",
   "Email it along with your order to confirm.": "أرسله بالبرید الإلکترونی مع طلبک للتأکید.",
   "Tap to copy - the number is copied instantly.": "اضغط للنسخ - یتم نسخ الرقم فوراً.",
-  "Bank Melli Iran": "البنك الملي الإيراني",};
+  "Qarz-ol-Hasaneh Mehr Iran": "قرض ٱلحسنه مهر إیران",
+  "Mehr": "مهر",
+  "Payment is accepted via the TON network (USDT) for borderless settlement. Iranian clients can also pay by card-to-card (Qarz-ol-Hasaneh Mehr Iran) or via a Zarinpal/IDPay payment link. It's fast, secure, and without hidden fees.": "پرداخت از طریق شبکه TON (USDT) برای تسویه بدون مرز پذیرفته می‌شود. مشتریان ایرانی می‌توانند همچنین با کارت‌به‌کارت (قرض‌الحسنه مهر ایران) یا از طریق لینک پرداخت زرین‌پال/آی‌دی‌پی پرداخت کنند. سریع، امن و بدون هزینه های پنهان است.",};
