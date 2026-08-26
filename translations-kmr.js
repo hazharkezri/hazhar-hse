@@ -349,5 +349,17 @@ window.T_KMR = {
   "HIRA Best Practices: Reducing Industrial Accidents by 60%": "Best Practices ya HIRA: Kêmakirina întikadên pîşesazî bi 60%",
   "How leading organizations use Hazard Identification and Risk Assessment to prevent incidents before they happen — with real case studies from oil &amp; gas.": "Çawa rêxistinên serkeftî nexandinê hatiyan bikarînin û nîqendina hatrîkê ji bo rastkartinê bi berdewamî — bi córanên sedema nêt û gaz.",
   "ATS-Proof Resumes: What Safety Professionals Get Wrong": "CVyên ATS: Çi Pîşeyarên Ewlehiyê Çewt Dikin",
-  "Why 75% of HSE resumes get filtered out by ATS systems — and the specific formatting, keyword, and structure changes that get you interviews.": "Bedewî 75% CVyên HSE ji aliyê sîstemên ATS were filtarkirin — û guherînên taybetî ji formata, peyvên sereke û avakirinê ku interîw diyartîne."
+  "Why 75% of HSE resumes get filtered out by ATS systems — and the specific formatting, keyword, and structure changes that get you interviews.": "Bedewî 75% CVyên HSE ji aliyê sîstemên ATS were filtarkirin — û guherînên taybetî ji formata, peyvên sereke û avakirinê ku interîw diyartîne.",
+  "20 years of field experience in oil, gas &amp; petrochemical — audits, risk assessment &amp; HSE documentation with fixed pricing and on-time delivery. Plus ATS-safe resume engineering for safety professionals worldwide.": "20 salan êzmûna meydanî di neft û gaz û petrokîmyayê de — destpêkirin, nimanxanînêî risk û belgekirina HSE bi nexşeyê sabîtkirî û weşanî di demê de. Bi engineeriya CVyên ATS bo pîşeyarên ewlekariyê di cîhanê de.",
+  "Only 4 free consultation slots left in Shahrivar — last updated today": "Tenha 4 cihên şêwirdariyê belaş mayî Şahrîvar de — dawî nûvekirinêî rojê",
+  "Get a Free Consultation →": "Şêwirdariyek Belaş bistîne ←",
+  "View Services": "Xizmetkirinên bisîne",
+  "ISO 45001 Projects": "Projeên ISO 45001",
+  "Countries Served": "Welatên Xizmetkirî",
+  "Lost-Time Incidents": "Qiçirên Danandinêî Demê",
+  "✔ <strong>30+</strong> ISO 45001 projects delivered": "✔ Zêdetir ji <strong>30</strong> projeên ISO 45001 şandin",
+  "✔ <strong>Zero lost-time incidents</strong> on my audit recommendations": "✔ <strong>Hêch qiçirêkî danandinêî demê</strong> di pêşniyarên destpêkirina min da nîye",
+  "Order Now →": "Emrê bide ←",
+  "Work With Hazhar →": "Kar bikirîn bi Hazhar ←",
+  "Still have questions? Ask me →": "Hêjiyadiyan heye? Min bipirse ←"
 };

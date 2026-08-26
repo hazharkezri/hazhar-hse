@@ -349,5 +349,17 @@ window.T_AR = {
   "HIRA Best Practices: Reducing Industrial Accidents by 60%": "أفضل ممارسات HIRA: تقليل الحوادث الصناعية بنسبة 60٪",
   "How leading organizations use Hazard Identification and Risk Assessment to prevent incidents before they happen — with real case studies from oil &amp; gas.": "كيف تستخدم المنظمات الرائدة تحديد المخاطر وتقييم المخاطر لمنع الحوادث قبل حدوثها — مع دراسات حالة حقيقية من قطاع النفط والغاز.",
   "ATS-Proof Resumes: What Safety Professionals Get Wrong": "سيرة ذاتية مقاومة ATS: ما يخطئ فيه متخصصو السلامة",
-  "Why 75% of HSE resumes get filtered out by ATS systems — and the specific formatting, keyword, and structure changes that get you interviews.": "لماذا يتم تصفية 75٪ من سير ذاتية HSE من قبل أنظمة ATS — والتغييرات المحددة في التنسيق والكلمات المفتاحية والبنية التي تحصل لك على مقابلات."
+  "Why 75% of HSE resumes get filtered out by ATS systems — and the specific formatting, keyword, and structure changes that get you interviews.": "لماذا يتم تصفية 75٪ من سير ذاتية HSE من قبل أنظمة ATS — والتغييرات المحددة في التنسيق والكلمات المفتاحية والبنية التي تحصل لك على مقابلات.",
+  "20 years of field experience in oil, gas &amp; petrochemical — audits, risk assessment &amp; HSE documentation with fixed pricing and on-time delivery. Plus ATS-safe resume engineering for safety professionals worldwide.": "20 عامًا من الخبرة الميدانية في صناعات النفط والغاز والبتروكيماويات — ممیزی وتقييم المخاطر وتوثيق HSE بأسعار ثابتة وتسليم في الوقت المحدد. بالإضافة إلى هندسة السيرة الذاتية المتوافقة مع ATS للمحترفين في مجال السلامة حول العالم.",
+  "Only 4 free consultation slots left in Shahrivar — last updated today": "فقط 4 مقاعد استشارة مجانية متبقية في شهریور — آخر تحديث اليوم",
+  "Get a Free Consultation →": "احصل على استشارة مجانية ←",
+  "View Services": "عرض الخدمات",
+  "ISO 45001 Projects": "مشاريع ISO 45001",
+  "Countries Served": "الدول المخدومة",
+  "Lost-Time Incidents": "حوادث فقدان الوقت",
+  "✔ <strong>30+</strong> ISO 45001 projects delivered": "✔ أكثر من <strong>30</strong> مشروع ISO 45001 تم تسليمه",
+  "✔ <strong>Zero lost-time incidents</strong> on my audit recommendations": "✔ <strong>صفر حوادث فقدان الوقت</strong> في توصيات الممیزی الخاصة بي",
+  "Order Now →": "اطلب الآن ←",
+  "Work With Hazhar →": "اعمل مع حضر ←",
+  "Still have questions? Ask me →": "لا تزال لديك أسئلة؟ اسألني ←"
 };

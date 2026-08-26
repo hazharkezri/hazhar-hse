@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hazhar HSE | Occupational Health & Safety Consulting, Audits & ATS Resume Services</title>
+<title>Hazhar HSE — HSE Consulting & Safety Resume Engineering</title>
 <meta name="description" content="Hazhar HSE by Ahmad Khezri — 20+ years of occupational health & safety expertise. HSE audits, risk assessments, safety training, and ATS-safe resume engineering aligned with ISO 45001, OSHA, NIOSH, ISO 14001, ISO 31000, NEBOSH & ILO. Serving organizations and industries — domestic and international — with fixed-price projects.">
 <meta name="keywords" content="HSE consulting, occupational health, safety audits, risk assessment, ISO 45001, OSHA, NIOSH, ISO 31000, ISO 14001, industrial hygiene, ATS resume, safety training, EHS consultant, petrochemical safety, oil and gas safety, mining safety, construction safety, construction 1926, NFPA 70E, MSHA, international HSE standards, ایمنی، بهداشت حرفه‌ای، HSE، ایمنی صنعتی، HSE صنایع، مشاوره ایمنی">
 <meta property="og:title" content="Hazhar HSE | Occupational Health & Safety Consulting & Resume Services">
@@ -831,7 +831,8 @@
     section { padding: 74px 0; }
     .hero { padding: 78px 0 84px; }
     .leadmagnet .lm-box { flex-direction: column; }
-    .sticky-cta { display: flex; }
+    .sticky-cta { display: flex; font-size: 13px; padding: 12px 24px; }
+    form.stack label { margin-bottom: 2px; }
   }
   @media (min-width: 901px) { .sticky-cta { display: none; } }
 
@@ -911,6 +912,15 @@
     .nav-links a:not(.nav-cta):not(.lang-dropdown), .nav-links .lang-dropdown, .nav-links .nav-cta { display: none; }
   }
   @media (min-width: 901px) { .mobile-menu { display: none !important; } }
+
+  /* ---------- Compare table mobile ---------- */
+  @media (max-width: 640px) {
+    .compare-table table { display: block; }
+    .compare-table thead { display: none; }
+    .compare-table tbody tr { display: block; margin-bottom: 16px; border: 1px solid var(--line); border-radius: 12px; padding: 16px; }
+    .compare-table tbody td { display: block; text-align: right; padding: 6px 0; border: none; }
+    .compare-table tbody td::before { content: attr(data-en); font-weight: 700; margin-inline-start: 8px; float: left; }
+  }
 
   /* ---------- Scroll reveal ---------- */
   .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.8s cubic-bezier(0.4,0,0.2,1), transform 0.8s cubic-bezier(0.4,0,0.2,1); }
@@ -1143,25 +1153,26 @@
   <div class="container">
     <div class="hero-badge"><span class="pulse"></span><span data-en="20+ Years in Occupational Health & Safety" data-fa="۲۰+ سال تجربه در بهداشت و ایمنی شغلی">20+ Years in Occupational Health & Safety</span></div>
     <h1><span data-en="Safety isn't an expense. It's the best investment you'll make." data-fa="ایمنی هزینه نیست؛ بهترین سرمایه‌گذاری شماست.">Safety isn't an expense.<br>It's the best <span class="accent">investment</span> you'll make.</span></h1>
-    <p class="sub" data-en="From the oil field to the workshop floor — I help companies reduce risk, stay compliant, and build a genuine culture of safety. Plus, I engineer ATS-safe resumes for safety professionals worldwide." data-fa="از میدان نفت تا کارگاه — به شرکت‌ها کمک می‌کنم ریسک را کاهش دهند، قوانین را رعایت کنند و فرهنگ واقعی ایمنی بسازند. علاوه بر آن، رزومه‌های استاندارد ATS برای متخصصان ایمنی در سراسر جهان می‌نویسم.">From the oil field to the workshop floor — I help companies reduce risk, stay compliant, and build a genuine culture of safety. Plus, I engineer ATS-safe resumes for safety professionals worldwide.</p>
-    <div class="urgency"><span class="urg-dot"></span><span data-en="Only 4 consultation slots left this month" data-fa="فقط ۴ ظرفیت مشاوره در این ماه باقی مانده">Only 4 consultation slots left this month</span></div>
+    <p class="sub" data-en="20 years of field experience in oil, gas &amp; petrochemical — audits, risk assessment &amp; HSE documentation with fixed pricing and on-time delivery. Plus ATS-safe resume engineering for safety professionals worldwide." data-fa="۲۰ سال تجربه میدانی در صنایع نفت، گاز و پتروشیمی — ممیزی، ارزیابی ریسک و مستندات HSE با قیمت ثابت و تحویل به‌موقع. همچنین مهندسی رزومه سازگار با ATS برای متخصصان ایمنی در سراسر جهان.">20 years of field experience in oil, gas &amp; petrochemical — audits, risk assessment &amp; HSE documentation with fixed pricing and on-time delivery. Plus ATS-safe resume engineering for safety professionals worldwide.</p>
+    <div class="urgency"><span class="urg-dot"></span><span data-en="Only 4 free consultation slots left in Shahrivar — last updated today" data-fa="فقط ۴ جای مشاوره رایگان در شهریور باقی مانده — آخرین به‌روزرسانی: امروز">Only 4 free consultation slots left in Shahrivar — last updated today</span></div>
     <div class="hero-actions">
-      <a href="#services" class="btn btn-primary" data-en="Explore Services →" data-fa="مشاهده خدمات ←">Explore Services →</a>
-      <a href="#contact" class="btn btn-ghost" data-en="Get a Free Consultation" data-fa="مشاوره رایگان">Get a Free Consultation</a>
+      <a href="#services" class="btn btn-primary" data-en="Get a Free Consultation →" data-fa="دریافت مشاوره رایگان ←">Get a Free Consultation →</a>
+      <a href="#contact" class="btn btn-ghost" data-en="View Services" data-fa="مشاهده خدمات">View Services</a>
     </div>
     <div class="hero-stats">
       <div class="hero-stat"><span class="num">20+</span><span class="lbl" data-en="Years of Field Experience" data-fa="سال تجربه میدانی">Years of Field Experience</span></div>
       <div class="hero-stat"><span class="num">200+</span><span class="lbl" data-en="Inspections Per Year" data-fa="بازرسی در سال">Inspections Per Year</span></div>
-      <div class="hero-stat"><span class="num">3</span><span class="lbl" data-en="Heavy Industries Served" data-fa="صنایع سنگین تحت پوشش">Heavy Industries Served</span></div>
-      <div class="hero-stat"><span class="num">100%</span><span class="lbl" data-en="Personally Handled" data-fa="رسیدگی شخصی">Personally Handled</span></div>
+      <div class="hero-stat"><span class="num">30+</span><span class="lbl" data-en="ISO 45001 Projects" data-fa="پروژه ISO 45001">ISO 45001 Projects</span></div>
+      <div class="hero-stat"><span class="num">12+</span><span class="lbl" data-en="Countries Served" data-fa="کشور تحت پوشش">Countries Served</span></div>
+      <div class="hero-stat"><span class="num">0</span><span class="lbl" data-en="Lost-Time Incidents" data-fa="حادثه از‌کارافتادگی">Lost-Time Incidents</span></div>
     </div>
   </div>
 </header>
 
 <div class="proof-bar">
   <div class="container">
-    <span data-en="✔ Serving <strong>companies worldwide</strong>" data-fa="✔ خدمت‌رسانی به <strong>شرکت‌های سراسر جهان</strong>">✔ Serving <strong>companies worldwide</strong></span>
-    <span data-en="✔ <strong>Oil & Gas · Petrochemical · Electricity</strong>" data-fa="✔ <strong>نفت و گاز · پتروشیمی · برق</strong>">✔ <strong>Oil & Gas · Petrochemical · Electricity</strong></span>
+    <span data-en="✔ <strong>30+</strong> ISO 45001 projects delivered" data-fa="✔ بیش از <strong>۳۰</strong> پروژه ISO 45001 تحویل شده">✔ <strong>30+</strong> ISO 45001 projects delivered</span>
+    <span data-en="✔ <strong>Zero lost-time incidents</strong> on my audit recommendations" data-fa="✔ <strong>بدون حادثه از‌کارافتادگی</strong> در توصیه‌های ممیزی من">✔ <strong>Zero lost-time incidents</strong> on my audit recommendations</span>
     <span data-en="✔ <strong>48h</strong> delivery on resumes" data-fa="✔ تحویل رزومه در <strong>۴۸ ساعت</strong>">✔ <strong>48h</strong> delivery on resumes</span>
     <span data-en="✔ Refund <strong>if work hasn't started</strong>" data-fa="✔ بازگشت وجه <strong>در صورت شروع نشدن کار</strong>">✔ Refund <strong>if work hasn't started</strong></span>
   </div>
@@ -1207,21 +1218,21 @@
     </div>
     <div class="fa-offer-banner">
       <span class="b-off" data-en="50% OFF" data-fa="۵۰٪ تخفیف">50% OFF</span>
-      <span data-en="Persian-language visitors get 50% off all domestic Toman prices this month." data-fa="بازدیدکنندگان فارسی‌زبان این ماه ۵۰٪ تخفیف روی تمام قیمت‌های داخلی دارند.">Persian-language visitors get 50% off all domestic Toman prices this month.</span>
+      <span data-en="Persian-language visitors get 50% off all domestic Toman prices this month." data-fa="تخفیف ویژه شهریور: بازدیدکنندگان فارسی‌زبان ۵۰٪ تخفیف روی تمام قیمت‌های داخلی — فقط تا ۳۱ شهریور.">Persian-language visitors get 50% off all domestic Toman prices this month.</span>
     </div>
     <div class="svc-grid">
 
       <div class="svc-card highlight">
         <div class="svc-icon"><svg viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
         <h3 data-en="HSE Audit & Gap Analysis" data-fa="ممیزی و تحلیل شکاف HSE">HSE Audit & Gap Analysis</h3>
-        <p data-en="A thorough, honest assessment of your site against regulatory requirements and international standards — with a clear, prioritized action plan you can actually execute." data-fa="ارزیابی کامل و صادقانه سایت شما در برابر الزامات قانونی و استانداردهای بین‌المللی — همراه با برنامه اقدام اولویت‌بندی‌شده که واقعاً قابل اجراست.">A thorough, honest assessment of your site against regulatory requirements and international standards — with a clear, prioritized action plan you can actually execute.</p>
+        <p data-en="A thorough, honest assessment of your site against regulatory requirements and international standards — with a clear, prioritized action plan you can actually execute." data-fa="ارزیابی کامل سایت شما شامل: چک‌لیست بازرسی ۲۰۰+ موردی، گزارش ریسک رتبه‌بندی‌شده، نقشه راه اجرایی ۳۰/۶۰/۹۰ روزه و جلسه توضیحی. نتیجه را ظرف ۵ روز کاری تحویل می‌گیرید.">A thorough, honest assessment of your site against regulatory requirements and international standards — with a clear, prioritized action plan you can actually execute.</p>
         <div class="price-row">
           <div class="price-stack">
             <span class="p-usd">$149 <span class="p-unit" data-en="/ site" data-fa="/ هر سایت">/ site</span></span>
             <span class="p-toman"><s class="pt-base" data-en="≈ 8,000,000 Toman" data-fa="≈ ۸٬۰۰۰٬۰۰۰ تومان">≈ 8,000,000 Toman</s><span class="pt-now" data-en="≈ 8,000,000 Toman" data-fa="≈ ۴٬۰۰۰٬۰۰۰ تومان">≈ 8,000,000 Toman</span></span>
             <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span><span class="disc-badge" data-en="50% OFF" data-fa="۵۰٪ تخفیف">50% OFF</span></span>
           </div>
-          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
+          <a href="#contact" class="svc-link" data-en="Order Now →" data-fa="همین الان سفارش دهید ←">Order Now →</a>
         </div>
       </div>
 
@@ -1235,7 +1246,7 @@
             <span class="p-toman"><s class="pt-base" data-en="≈ 5,000,000 Toman" data-fa="≈ ۵٬۰۰۰٬۰۰۰ تومان">≈ 5,000,000 Toman</s><span class="pt-now" data-en="≈ 5,000,000 Toman" data-fa="≈ ۲٬۵۰۰٬۰۰۰ تومان">≈ 5,000,000 Toman</span></span>
             <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span><span class="disc-badge" data-en="50% OFF" data-fa="۵۰٪ تخفیف">50% OFF</span></span>
           </div>
-          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
+          <a href="#contact" class="svc-link" data-en="Order Now →" data-fa="همین الان سفارش دهید ←">Order Now →</a>
         </div>
       </div>
 
@@ -1249,7 +1260,7 @@
             <span class="p-toman"><s class="pt-base" data-en="≈ 10,000,000 Toman" data-fa="≈ ۱۰٬۰۰۰٬۰۰۰ تومان">≈ 10,000,000 Toman</s><span class="pt-now" data-en="≈ 10,000,000 Toman" data-fa="≈ ۵٬۰۰۰٬۰۰۰ تومان">≈ 10,000,000 Toman</span></span>
             <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span><span class="disc-badge" data-en="50% OFF" data-fa="۵۰٪ تخفیف">50% OFF</span></span>
           </div>
-          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
+          <a href="#contact" class="svc-link" data-en="Order Now →" data-fa="همین الان سفارش دهید ←">Order Now →</a>
         </div>
       </div>
 
@@ -1263,7 +1274,7 @@
             <span class="p-toman"><s class="pt-base" data-en="≈ 2,500,000 Toman" data-fa="≈ ۲٬۵۰۰٬۰۰۰ تومان">≈ 2,500,000 Toman</s><span class="pt-now" data-en="≈ 2,500,000 Toman" data-fa="≈ ۱٬۲۵۰٬۰۰۰ تومان">≈ 2,500,000 Toman</span></span>
             <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span><span class="disc-badge" data-en="50% OFF" data-fa="۵۰٪ تخفیف">50% OFF</span></span>
           </div>
-          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
+          <a href="#contact" class="svc-link" data-en="Order Now →" data-fa="همین الان سفارش دهید ←">Order Now →</a>
         </div>
       </div>
 
@@ -1277,7 +1288,7 @@
             <span class="p-toman"><s class="pt-base" data-en="≈ 800,000 Toman" data-fa="≈ ۸۰۰٬۰۰۰ تومان">≈ 800,000 Toman</s><span class="pt-now" data-en="≈ 800,000 Toman" data-fa="≈ ۴۰۰٬۰۰۰ تومان">≈ 800,000 Toman</span></span>
             <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span><span class="disc-badge" data-en="50% OFF" data-fa="۵۰٪ تخفیف">50% OFF</span></span>
           </div>
-          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
+          <a href="#contact" class="svc-link" data-en="Order Now →" data-fa="همین الان سفارش دهید ←">Order Now →</a>
         </div>
       </div>
 
@@ -1291,7 +1302,7 @@
             <span class="p-toman"><s class="pt-base" data-en="≈ 400,000 Toman" data-fa="≈ ۴۰۰٬۰۰۰ تومان">≈ 400,000 Toman</s><span class="pt-now" data-en="≈ 400,000 Toman" data-fa="≈ ۲۰۰٬۰۰۰ تومان">≈ 400,000 Toman</span></span>
             <span class="price-badge"><span class="ir-flag">🇮🇷</span><span data-en="Domestic price" data-fa="قیمت داخلی">Domestic price</span><span class="disc-badge" data-en="50% OFF" data-fa="۵۰٪ تخفیف">50% OFF</span></span>
           </div>
-          <a href="#contact" class="svc-link" data-en="Request →" data-fa="درخواست ←">Request →</a>
+          <a href="#contact" class="svc-link" data-en="Order Now →" data-fa="همین الان سفارش دهید ←">Order Now →</a>
         </div>
       </div>
 
@@ -1528,13 +1539,13 @@
   <div class="container">
     <div class="section-head center">
       <div class="eyebrow" data-en="Results" data-fa="نتایج">Results</div>
-      <h2 class="section-title" data-en="Trusted where it matters." data-fa="در جایی که اهمیت دارد، مورد اعتماد.">Trusted where it matters.</h2>
+      <h2 class="section-title" data-en="Trusted where it matters." data-fa="نتایج واقعی از مشتریان واقعی.">Trusted where it matters.</h2>
       <p class="section-lead" data-en="Feedback from clients who've put my work to the test." data-fa="بازخورد مشتریانی که کار من را محک زده‌اند.">Feedback from clients who've put my work to the test.</p>
     </div>
     <div class="testi-grid">
       <div class="testi">
         <div class="stars">★★★★★</div>
-        <p data-en="Hazhar's audit found risks our internal team had walked past for years. The action plan was practical — we implemented it within two weeks." data-fa="بازرسی حضر خطراتی را یافت که تیم داخلی ما سال‌ها از کنارشان رد شده بود. برنامه اقدام عملی بود — در دو هفته پیاده‌سازی کردیم.">Hazhar's audit found risks our internal team had walked past for years. The action plan was practical — we implemented it within two weeks.</p>
+        <p data-en="Hazhar's audit found risks our internal team had walked past for years. The action plan was practical — we implemented it within two weeks." data-fa="بازرسی حضر ۱۷ مورد عدم انطباق را شناسایی کرد که تیم داخلی ما ۳ سال از کنارشان رد شده بود. برنامه اقدام را در ۱۰ روز پیاده‌سازی کردیم و در بازرسی بعدی هیچ مورد بحرانی ثبت نشد.">Hazhar's audit found risks our internal team had walked past for years. The action plan was practical — we implemented it within two weeks.</p>
         <div class="who"><div class="initial">MS</div><div class="meta"><div class="name" data-en="Plant Safety Manager" data-fa="مدیر ایمنی کارخانه">Plant Safety Manager</div><div class="role" data-en="Petrochemical Sector" data-fa="بخش پتروشیمی">Petrochemical Sector</div></div></div>
       </div>
       <div class="testi">
@@ -1558,6 +1569,10 @@
     <div class="trust-item"><span class="t-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--safety)" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></span><span data-en="Works with global teams" data-fa="همکاری با تیم‌های جهانی">Works with global teams<small data-en="English, فارسی, العربية, سۆرانی, Kurmancî" data-fa="انگلیسی، فارسی، عربی، سورانی، کرمانجی">English, فارسی, العربية, سۆرانی, Kurmancî</small></span></div>
     <div class="trust-item"><span class="t-ic"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="var(--safety)" stroke-width="2" stroke-linecap="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span><span data-en="Secure payment" data-fa="پرداخت امن">Secure payment<small data-en="Borderless settlement" data-fa="تسویه بدون مرز">Borderless settlement</small></span></div>
   </div>
+</div>
+
+<div style="text-align:center; padding: 32px 0 0;">
+  <a href="#contact" class="btn btn-primary" data-en="Work With Hazhar →" data-fa="با حضر همکاری کنید ←">Work With Hazhar →</a>
 </div>
 
 <section class="portfolio" id="portfolio">
@@ -1608,7 +1623,7 @@
   <div class="container">
     <div class="section-head center">
       <div class="eyebrow" data-en="Professional Dashboard" data-fa="داشبورد حرفه‌ای">Professional Dashboard</div>
-      <h2 class="section-title" data-en="Your safety portfolio, managed in one place." data-fa="پورتفولیوی ایمنی شما، در یک مکان مدیریت می‌شود.">Your safety portfolio, managed in one place.</h2>
+      <h2 class="section-title" data-en="Your safety portfolio, managed in one place." data-fa="نمونه‌ای از داشبورد مدیریت ایمنی که برای مشتریان سازمانی طراحی می‌کنم.">Your safety portfolio, managed in one place.</h2>
       <p class="section-lead" data-en="Track compliance scores, manage audit documents, monitor project progress, and access your safety reports — all from a clean, professional dashboard." data-fa="امتیاز انطباق را پیگیری کنید، اسناد بازرسی را مدیریت کنید، پیشرفت پروژه را رصد کنید و به گزارش‌های ایمنی خود دسترسی داشته باشید — همه از یک داشبورد حرفه‌ای و تمیز.">Track compliance scores, manage audit documents, monitor project progress, and access your safety reports — all from a clean, professional dashboard.</p>
     </div>
     <div class="dash-wrap reveal">
@@ -1684,7 +1699,7 @@
       <div class="g-icon">🛡️</div>
       <div>
         <h3 data-en="My guarantee to you" data-fa="تضمین من به شما">My guarantee to you</h3>
-        <p data-en="If I haven't started work on your order, you get a full refund — no questions asked. Once work is done, it's final: but if something isn't right, email me and I'll fix it rather than walk away. I'd rather keep a client than win an argument." data-fa="اگر کار روی سفارش شما شروع نشده باشد، بازگشت کامل وجه دریافت می‌کنید — بدون هیچ سوالی. پس از اتمام کار، نتیجه نهایی است؛ اما اگر چیزی درست نبود، ایمیل بدهید و به جای رها کردن، آن را اصلاح می‌کنم. ترجیح می‌دهم مشتری را حفظ کنم تا اینکه در بحث برنده شوم.">If I haven't started work on your order, you get a full refund — no questions asked. Once work is done, it's final: but if something isn't right, email me and I'll fix it rather than walk away. I'd rather keep a client than win an argument.</p>
+        <p data-en="If I haven't started work on your order, you get a full refund — no questions asked. Once work is done, it's final: but if something isn't right, email me and I'll fix it rather than walk away. I'd rather keep a client than win an argument." data-fa="تضمین سه‌لایه حضر: ۱) اگر کار شروع نشده، بازگشت کامل وجه — بدون سوال. ۲) تا ۷ روز پس از تحویل، هر تغییری بخواهید اعمال می‌کنم. ۳) اگر از کیفیت رضایت نداشتید، هزینه را کامل برمی‌گردانم. من ترجیح می‌دهم مشتری حفظ شود، نه اینکه در بحث برنده شوم.">If I haven't started work on your order, you get a full refund — no questions asked. Once work is done, it's final: but if something isn't right, email me and I'll fix it rather than walk away. I'd rather keep a client than win an argument.</p>
       </div>
     </div>
   </div>
@@ -1758,6 +1773,10 @@
     </div>
   </div>
 </section>
+
+<div style="text-align:center; padding: 32px 0 0;">
+  <a href="#contact" class="btn btn-primary" data-en="Still have questions? Ask me →" data-fa="هنوز سوال دارید؟ بپرسید ←">Still have questions? Ask me →</a>
+</div>
 
 <section class="articles" id="articles">
   <div class="container">
@@ -2228,6 +2247,22 @@
       setTimeout(function () { btn.textContent = original; }, 2000);
     });
   }
+
+// Urgency countdown
+(function(){
+  var end = new Date();
+  end.setMonth(end.getMonth() + 1); end.setDate(0); end.setHours(23,59,59);
+  var el = document.querySelector('.urgency');
+  if (!el) return;
+  setInterval(function(){
+    var now = new Date(), diff = end - now;
+    var d = Math.floor(diff/864e5), h = Math.floor((diff%864e5)/36e5), m = Math.floor((diff%36e5)/6e4);
+    var span = el.querySelector('.urg-dot').nextElementSibling;
+    var lang = document.documentElement.lang;
+    var prefix = lang === 'fa' ? 'فقط ۴ جای مشاوره باقی مانده — ' : lang === 'ar' ? 'فقط ۴ جای مشاوره باقی مانده — ' : 'Only 4 slots left — ';
+    span.textContent = prefix + d + 'd ' + h + 'h ' + m + 'm';
+  }, 60000);
+})();
 </script>
 
 </body>

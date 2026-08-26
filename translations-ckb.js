@@ -349,5 +349,17 @@ window.T_CKB = {
   "HIRA Best Practices: Reducing Industrial Accidents by 60%": "باشترین شێوازەکانی HIRA: کەمکردنەوەی ڕووداوەکانی پیشەسازی بە ٦٠٪",
   "How leading organizations use Hazard Identification and Risk Assessment to prevent incidents before they happen — with real case studies from oil &amp; gas.": "چۆن سازانە پێشەکییەکان دیاریکردنی مەترسی و هەڵسەنگاندنی مەترسی بەکارهێنەون بۆ رۆدمارکردنی ڕووداوەکان پێش ئەوەی ڕوودابنەوە — لەگەڵ لێکۆڵینەوەی ڕاستەوخۆ لەسەر نەوت و گاز.",
   "ATS-Proof Resumes: What Safety Professionals Get Wrong": "ڕیزۆمەی قورئانی ATS: ئەوەی پڕۆفێشناڵانی ئاسایش هەڵە دەکەن",
-  "Why 75% of HSE resumes get filtered out by ATS systems — and the specific formatting, keyword, and structure changes that get you interviews.": "بۆچی ٧٥٪ یەکەکانی ڕیزۆمەی HSE لەلایەن سیستەمەکانی ATS فیلتەر دەکرێنەوە — و گۆڕانکارییە تایبەتەکان لە فۆرمات و وشەی کیلیدی و بۆندەکانی بناچە."
+  "Why 75% of HSE resumes get filtered out by ATS systems — and the specific formatting, keyword, and structure changes that get you interviews.": "بۆچی ٧٥٪ یەکەکانی ڕیزۆمەی HSE لەلایەن سیستەمەکانی ATS فیلتەر دەکرێنەوە — و گۆڕانکارییە تایبەتەکان لە فۆرمات و وشەی کیلیدی و بۆندەکانی بناچە.",
+  "20 years of field experience in oil, gas &amp; petrochemical — audits, risk assessment &amp; HSE documentation with fixed pricing and on-time delivery. Plus ATS-safe resume engineering for safety professionals worldwide.": "٢٠ ساڵ ئەزموونی مەیدانی لە نەوت و گاز و پێتروکیمیا — ممیزی، هەڵسەنگاندنی مەترسی و بەڵگەنامەسازی HSE بە نرخی دیاریکراو و گواستنەوە لە کاتی دیاریکراو. لەگەڵ ئەندازیاری ڕیزۆمەی هاوبەش بە ATS بۆ پڕۆفێشناڵانی ئاسایش لە سەراسر جیهان.",
+  "Only 4 free consultation slots left in Shahrivar — last updated today": "تەنها ٤ جێگای ڕاوێژی بێبەرامبەر مایە لە شهڕیور — دوایین نوێکردنەوە ئەمڕۆ",
+  "Get a Free Consultation →": "ڕاوێژێکی بێبەرامبەر وەربگرە ←",
+  "View Services": "خزمەتگوزارییەکان ببینە",
+  "ISO 45001 Projects": "پڕۆژەکانی ISO 45001",
+  "Countries Served": "ویلاەتەکانی خزمەتکراو",
+  "Lost-Time Incidents": "ڕووداوەکانی لەدەستدانی کات",
+  "✔ <strong>30+</strong> ISO 45001 projects delivered": "✔ زیاتر لە <strong>٣٠</strong> پڕۆژەی ISO 45001 گواسترا",
+  "✔ <strong>Zero lost-time incidents</strong> on my audit recommendations": "✔ <strong>هیچ ڕووداوێکی لەدەستدانی کات</strong> لە پێشنیارەکانی ممیزییەکەمدا نییە",
+  "Order Now →": "ئێستا داوا بکە ←",
+  "Work With Hazhar →": "کار بکە بە حەذەر ←",
+  "Still have questions? Ask me →": "هێشتا پرسیار هەیە؟ پرسیار بکە ←"
 };
