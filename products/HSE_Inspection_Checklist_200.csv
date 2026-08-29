@@ -1,0 +1,119 @@
+Category,Item,Reference,Criticality,Status
+Fire Safety,Fire extinguishers charged and in date,NFPA 10,High,Check
+Fire Safety,Fire extinguishers accessible (no obstructions),NFPA 10,High,Check
+Fire Safety,Fire extinguishers properly mounted,NFPA 10,Medium,Check
+Fire Safety,Exit routes clear and unobstructed,OSHA 1910.37,High,Check
+Fire Safety,Exit doors unlocked from inside,OSHA 1910.36,High,Check
+Fire Safety,Exit signs visible and illuminated,OSHA 1910.37,High,Check
+Fire Safety,Emergency lighting functional,OSHA 1910.37,Medium,Check
+Fire Safety,Fire alarm tested and functional,NFPA 72,High,Check
+Fire Safety,Smoke detectors operational,NFPA 72,High,Check
+Fire Safety,Fire sprinkler system tested quarterly,NFPA 25,High,Check
+Fire Safety,Flammable materials stored in approved cabinets,OSHA 1910.106,High,Check
+Fire Safety,Combustible materials kept away from ignition sources,OSHA 1910.106,High,Check
+Fire Safety,Hot work permits required for welding/cutting,OSHA 1910.252,High,Check
+Fire Safety,Fire drills conducted annually,OSHA 1910.38,Medium,Check
+Fire Safety,No smoking signs posted where required,OSHA 1910.106,Medium,Check
+Working at Height,Guardrails on all elevated platforms,OSHA 1910.29,High,Check
+Working at Height,Guardrail height between 42-45 inches,OSHA 1910.29,High,Check
+Working at Height,Toeboards installed where required,OSHA 1910.29,Medium,Check
+Working at Height,Ladders in good condition (no cracks),OSHA 1910.23,High,Check
+Working at Height,Ladders secured and at correct angle,OSHA 1910.23,High,Check
+Working at Height,Fall protection worn above 6 ft,OSHA 1926.501,High,Check
+Working at Height,Personal fall arrest system inspected,OSHA 1926.502,High,Check
+Working at Height,Anchor points rated and inspected,OSHA 1926.502,High,Check
+Working at Height,Manlift/scaffold inspected before use,OSHA 1926.451,High,Check
+Working at Height,Working surfaces free of clutter,OSHA 1910.22,Medium,Check
+Working at Height,Floor openings covered,OSHA 1910.23,High,Check
+Electrical,Safe wiring no frayed cables,NFPA 70E,High,Check
+Electrical,Electrical panels accessible and labeled,NFPA 70E,High,Check
+Electrical,Ground fault circuit interrupters (GFCI) where required,NFPA 70E,High,Check
+Electrical,Lockout/Tagout (LOTO) program in place,OSHA 1910.147,High,Check
+Electrical,LOTO periodic inspections performed,OSHA 1910.147,High,Check
+Electrical,Portable cords inspected and free of damage,NFPA 70E,Medium,Check
+Electrical,Extension cords not used as permanent wiring,NFPA 70E,High,Check
+Electrical,Explosion-proof equipment in hazardous areas,NFPA 70E,High,Check
+Electrical,Electrical PPE available and rated,NFPA 70E,High,Check
+Electrical,Arc flash labeling on panels,NFPA 70E,High,Check
+Electrical,Qualified persons for electrical work,NFPA 70E,High,Check
+PPE,Required PPE identified for each task,OSHA 1910.132,High,Check
+PPE,PPE provided to employees at no cost,OSHA 1910.132,High,Check
+PPE,Hard hats used in designated areas,OSHA 1910.135,High,Check
+PPE,Safety glasses/goggles worn where required,OSHA 1910.133,High,Check
+PPE,Hearing protection available and worn where required,OSHA 1910.95,High,Check
+PPE,Respiratory protection program in place (if needed),OSHA 1910.134,High,Check
+PPE,Respirators fit-tested and medical evaluations done,OSHA 1910.134,High,Check
+PPE,High-visibility clothing where required,OSHA 1910.132,Medium,Check
+PPE,Safety footwear worn where required,OSHA 1910.132,Medium,Check
+PPE,Gloves appropriate for chemicals/tasks,OSHA 1910.138,High,Check
+PPE,PPE in good condition and maintained,OSHA 1910.132,Medium,Check
+Chemical,Chemical inventory maintained and current,OSHA 1910.1200,Medium,Check
+Chemical,SDS available for all chemicals,OSHA 1910.1200,High,Check
+Chemical,Chemical containers labeled,OSHA 1910.1200,High,Check
+Chemical,Secondary containers labeled,OSHA 1910.1200,High,Check
+Chemical,Chemical storage segregation practiced,OSHA 1910.1200,High,Check
+Chemical,Spill kits available and stocked,OSHA 1910.1200,Medium,Check
+Chemical,Eyewash/shower available for corrosives,OSHA 1910.151,High,Check
+Chemical,Employees trained in hazard communication,OSHA 1910.1200,High,Check
+Chemical,Ventilation adequate for chemical use,OSHA 1910.94,Medium,Check
+Chemical,Permissible exposure limits monitored,OSHA 1910.1000,Medium,Check
+Machine Safety,Machine guards in place,OSHA 1910.212,High,Check
+Machine Safety,Guards not defeated/removed,OSHA 1910.212,High,Check
+Machine Safety,Emergency stop buttons accessible,OSHA 1910.212,High,Check
+Machine Safety,Point of operation guards present,OSHA 1910.212,High,Check
+Machine Safety,LOTO procedures for maintenance,OSHA 1910.147,High,Check
+Machine Safety,Belt drives and pulleys guarded,OSHA 1910.219,High,Check
+Machine Safety,Rotating parts guarded,OSHA 1910.219,High,Check
+Machine Safety,Safety interlocks functional,OSHA 1910.212,High,Check
+Machine Safety,Equipment inspected and maintained,OSHA 1910.212,Medium,Check
+Machine Safety,Operators trained on equipment,OSHA 1910.212,Medium,Check
+Emergency,Written emergency action plan,OSHA 1910.38,High,Check
+Emergency,Fire exit routes posted,OSHA 1910.38,Medium,Check
+Emergency,Assembly point designated and known,OSHA 1910.38,Medium,Check
+Emergency,Emergency phone numbers posted,OSHA 1910.38,Medium,Check
+Emergency,First aid kits stocked and accessible,OSHA 1910.151,High,Check
+Emergency,AED available and maintained,OSHA 1910.151,Medium,Check
+Emergency,Trained first aid responders available,OSHA 1910.151,High,Check
+Emergency,Emergency drills conducted,OSHA 1910.38,Medium,Check
+Emergency,Communication system for emergencies,OSHA 1910.38,Medium,Check
+Emergency,Evacuation maps current and posted,OSHA 1910.38,Medium,Check
+Confined Space,Confined space program in place,OSHA 1910.146,High,Check
+Confined Space,Confined spaces identified and labeled,OSHA 1910.146,High,Check
+Confined Space,Permit system for permit-required spaces,OSHA 1910.146,High,Check
+Confined Space,Atmospheric testing before entry,OSHA 1910.146,High,Check
+Confined Space,Continuous monitoring during entry,OSHA 1910.146,High,Check
+Confined Space,Ventilation provided,OSHA 1910.146,High,Check
+Confined Space,Rescue plan and equipment in place,OSHA 1910.146,High,Check
+Confined Space,Attendant assigned and trained,OSHA 1910.146,High,Check
+Confined Space,Entry permits reviewed and completed,OSHA 1910.146,High,Check
+Confined Space,Retrieval equipment available,OSHA 1910.146,High,Check
+Hygiene,Drinking water available,OSHA 1910.141,High,Check
+Hygiene,Washroom facilities adequate and clean,OSHA 1910.141,High,Check
+Hygiene,Food preparation areas clean,OSHA 1910.141,Medium,Check
+Hygiene,Housekeeping - floors clean and dry,OSHA 1910.22,Medium,Check
+Hygiene,Proper waste disposal,OSHA 1910.141,Medium,Check
+Hygiene,Lighting adequate for tasks,OSHA 1910.26,Medium,Check
+Hygiene,Ventilation adequate,OSHA 1910.94,Medium,Check
+Hygiene,Noise levels monitored and controlled,OSHA 1910.95,Medium,Check
+Hygiene,Dust control measures in place,OSHA 1910.1000,Medium,Check
+Hygiene,Break rooms clean and maintained,OSHA 1910.141,Low,Check
+Training,Hazard communication training provided,OSHA 1910.1200,High,Check
+Training,Fire safety training provided,OSHA 1910.38,High,Check
+Training,First aid training for designated personnel,OSHA 1910.151,High,Check
+Training,PPE training provided,OSHA 1910.132,High,Check
+Training,Lockout/Tagout training provided,OSHA 1910.147,High,Check
+Training,Confined space entry training,OSHA 1910.146,High,Check
+Training,Electrical safety training (qualified),NFPA 70E,High,Check
+Training,Working at height training,OSHA 1910.29,High,Check
+Training,Chemical safety training,OSHA 1910.1200,High,Check
+Training,New hire safety orientation,OSHA 1910.1200,Medium,Check
+Documentation,Safety policy documented and posted,OSHA 1910.1200,Medium,Check
+Documentation,Incident reporting procedure in place,OSHA 1904,High,Check
+Documentation,OSHA 300 log maintained (if applicable),OSHA 1904,High,Check
+Documentation,Job hazard analyses for routine tasks,OSHA 1910.132,Medium,Check
+Documentation,Permits available for high risk tasks,OSHA 1910.146,High,Check
+Documentation,Inspection records retained,OSHA 1904,Medium,Check
+Documentation,Toolbox talk records maintained,OSHA 1910.1200,Low,Check
+Documentation,Training records retained,OSHA 1910.1200,High,Check
+Documentation,Audit findings tracked to closure,OSHA 1904,High,Check
+Documentation,Safety committee active (where applicable),OSHA 1910.1200,Low,Check
