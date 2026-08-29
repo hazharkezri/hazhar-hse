@@ -361,5 +361,22 @@ window.T_AR = {
   "✔ <strong>Zero lost-time incidents</strong> on my audit recommendations": "✔ <strong>صفر حوادث فقدان الوقت</strong> في توصيات الممیزی الخاصة بي",
   "Order Now →": "اطلب الآن ←",
   "Work With Hazhar →": "اعمل مع حضر ←",
-  "Still have questions? Ask me →": "لا تزال لديك أسئلة؟ اسألني ←"
+  "Still have questions? Ask me →": "لا تزال لديك أسئلة؟ اسألني ←",
+  "Instant Downloads": "تنزيل فوري",
+  "Ready-to-use digital products.": "منتجات رقمية جاهزة للاستخدام.",
+  "Buy once, download instantly, start using today. Every product is built from 20+ years of real field experience — no waiting, no back-and-forth.": "اشترِ مرة، نزّل فورًا، وابدأ الاستخدام اليوم. كل منتج مبني على 20+ عامًا من الخبرة الميدانية الحقيقية — بدون انتظار وبدون مراجعات.",
+  "Best Seller": "الأكثر مبيعًا",
+  "ATS-Safe Safety Resume Templates": "قوالب سيرة ذاتية لمتخصصي السلامة متوافقة مع ATS",
+  "3 professionally designed, ATS-optimized resume templates for safety professionals. Fill in your details and pass the first screening.": "3 قوالب سيرة ذاتية مصممة باحتراف ومحسّنة لـ ATS لمتخصصي السلامة. املأ بياناتك واجتز الغربلة الأولى.",
+  "≈ 500,000 Toman": "≈ ٥٠٠٬٠٠٠ تومان",
+  "Get Now →": "احصل الآن ←",
+  "HSE Inspection Checklist (200+ Items)": "قائمة فحص HSE (أكثر من 200 عنصر)",
+  "The full field-tested checklist used during real inspections — covering fire safety, working at height, electrical, PPE, and emergency readiness.": "قائمة الفحص الكاملة المجرّبة في الميدان المستخدمة أثناء التفتيشات الحقيقية — تشمل السلامة من الحرائق والعمل على الارتفاع والكهرباء ومعدات الحماية الشخصية والاستعداد للطوارئ.",
+  "ISO 45001 Readiness Pack": "حزمة الاستعداد لمعيار ISO 45001",
+  "A streamlined set of editable documents to fast-track your ISO 45001 certification — policy, procedures, risk register templates, and audit checklists.": "مجموعة مبسطة من مستندات قابلة للتحرير لتسريع شهادة ISO 45001 — السياسة والإجراءات وقوالب سجل المخاطر وقوائم فحص التدقيق.",
+  "≈ 2,000,000 Toman": "≈ ٢٬٠٠٠٬٠٠٠ تومان",
+  "HSE Documentation Template Library": "مكتبة قوالب توثيق HSE",
+  "40+ editable HSE templates — PTW, JSA, incident report, toolbox talk, risk assessment, and inspection forms ready for your site.": "أكثر من 40 قالب HSE قابل للتحرير — تصريح العمل، تحليل السلامة الوظيفية، تقرير الحادث، جلسة السلامة، تقييم المخاطر ونماذج الفحص جاهزة لموقعك.",
+  "≈ 1,500,000 Toman": "≈ ١٬٥٠٠٬٠٠٠ تومان",
+  "Prefer immediate digital delivery? Order via email and choose any payment method — TON, card, or international transfer. Delivery is within a few hours.": "تفضل التسليم الرقمي الفوري؟ اطلب عبر البريد الإلكتروني واختر أي وسيلة دفع — TON أو بطاقة أو تحويل دولي. التسليم خلال ساعات قليلة."
 };

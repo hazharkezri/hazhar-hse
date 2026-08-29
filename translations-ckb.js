@@ -361,5 +361,22 @@ window.T_CKB = {
   "✔ <strong>Zero lost-time incidents</strong> on my audit recommendations": "✔ <strong>هیچ ڕووداوێکی لەدەستدانی کات</strong> لە پێشنیارەکانی ممیزییەکەمدا نییە",
   "Order Now →": "ئێستا داوا بکە ←",
   "Work With Hazhar →": "کار بکە بە حەذەر ←",
-  "Still have questions? Ask me →": "هێشتا پرسیار هەیە؟ پرسیار بکە ←"
+  "Still have questions? Ask me →": "هێشتا پرسیار هەیە؟ پرسیار بکە ←",
+  "Instant Downloads": "داگرتنی یەکسەر",
+  "Ready-to-use digital products.": "بەرهەمە دیجیتاڵییە ئامادەکان بۆ بەکارهێنان.",
+  "Buy once, download instantly, start using today. Every product is built from 20+ years of real field experience — no waiting, no back-and-forth.": "جارێک بکڕە، یەکسەر داگری بکە، لە ئەمڕۆوە بەکاری بهێنە. هەر بەرهەمێک لەسەر ٢٠+ ساڵ ئەزموونی مەیدانی ڕاستەقینە دروست کراوە — بەبێ چاوەڕوانی و بەبێ گەڕانەوە.",
+  "Best Seller": "پرفرۆشترین",
+  "ATS-Safe Safety Resume Templates": "قالێبەکانی ڕیزۆمەی ئاسایش هاوکۆڵ بە ATS",
+  "3 professionally designed, ATS-optimized resume templates for safety professionals. Fill in your details and pass the first screening.": "٣ قاڵبی ڕیزۆمەی بە پیشەیی دیزاین کراو و خاوەن Fitter بۆ ATS بۆ پڕۆفێشناڵەکانی ئاسایش. زانیارییەکانت پڕ بکە و لە یەکەم فلتەردا بمێنەوە.",
+  "≈ 500,000 Toman": "≈ ٥٠٠٬٠٠٠ تۆمان",
+  "Get Now →": "ئێستا وەربگرە ←",
+  "HSE Inspection Checklist (200+ Items)": "پێرستی پشکنینی HSE (زیاتر لە ٢٠٠ بابەت)",
+  "The full field-tested checklist used during real inspections — covering fire safety, working at height, electrical, PPE, and emergency readiness.": "پێرستی تەواوی ئەزموونکراوی مەیدانی بەکارهێنراو لە پشکنینە ڕاستەقینەکاندا — دەگرێتەوە ئاسایشی ئاگر، کارکردن لە بەرزایی، کارەبا، ئامێرەکانی پاراستنی کەسی و ئامادەیی فریاکەوتن.",
+  "ISO 45001 Readiness Pack": "پاکەتی ئامادەبوون بۆ ISO 45001",
+  "A streamlined set of editable documents to fast-track your ISO 45001 certification — policy, procedures, risk register templates, and audit checklists.": "کۆمەڵێک بەڵگەی دەستکاریکراو بۆ خێراکردنی بڕوانامەی ISO 45001 — سیاسەت، ڕێکارەکان، قاڵبی تۆماری مەترسی و پێرستەکانی پشکنین.",
+  "≈ 2,000,000 Toman": "≈ ٢٬٠٠٠٬٠٠٠ تۆمان",
+  "HSE Documentation Template Library": "کتیبخانەی قاڵبی بەڵگەنامەی HSE",
+  "40+ editable HSE templates — PTW, JSA, incident report, toolbox talk, risk assessment, and inspection forms ready for your site.": "زیاتر لە ٤٠ قاڵبی HSE دەستکاریکراو — مۆڵەتی کار، JSA، ڕاپۆرتی ڕووداو، دانیشتنی ئاسایش، هەڵسەنگاندنی مەترسی و فۆرمەکانی پشکنین ئامادەی شوێنی تۆ.",
+  "≈ 1,500,000 Toman": "≈ ١٬٥٠٠٬٠٠٠ تۆمان",
+  "Prefer immediate digital delivery? Order via email and choose any payment method — TON, card, or international transfer. Delivery is within a few hours.": "داگرتنی دیجیتاڵی یەکسەر دەوێت؟ لە ڕێگەی ئیمەیڵەوە داوا بکە و هەر ڕێگەیەکی پێدانی بدۆزەرەوە — TON، کارت یان گواستنەوەی نێودەوڵەتی. گەیاندن لە چەند کاتژمێرێکدا."
 };

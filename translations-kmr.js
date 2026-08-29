@@ -361,5 +361,22 @@ window.T_KMR = {
   "✔ <strong>Zero lost-time incidents</strong> on my audit recommendations": "✔ <strong>Hêch qiçirêkî danandinêî demê</strong> di pêşniyarên destpêkirina min da nîye",
   "Order Now →": "Emrê bide ←",
   "Work With Hazhar →": "Kar bikirîn bi Hazhar ←",
-  "Still have questions? Ask me →": "Hêjiyadiyan heye? Min bipirse ←"
+  "Still have questions? Ask me →": "Hêjiyadiyan heye? Min bipirse ←",
+  "Instant Downloads": "Dênyarkirinê êdî rihde",
+  "Ready-to-use digital products.": "Berhemên dîjîtal ên hazir ji bo kar.",
+  "Buy once, download instantly, start using today. Every product is built from 20+ years of real field experience — no waiting, no back-and-forth.": "Carekê bikire, yekser dênyar bike, îro dest pê bike. Her berhemek ji 20+ sal ezmûna meydanî ya rasteqîne çêbûye — bêyî bendîtin û bêyî vegera.",
+  "Best Seller": "Pirrfirotan",
+  "ATS-Safe Safety Resume Templates": "Rûpeleyên CVyên ewlehiyê bi ATS",
+  "3 professionally designed, ATS-optimized resume templates for safety professionals. Fill in your details and pass the first screening.": "3 rûpeleyên CVyê bi pişeyî hatine dizaynkirin û bo ATS kemisandin bo pîşeyarên ewlehiyê. Detayên xwe dagire û ji qefilîna yekem bibihûrîne.",
+  "≈ 500,000 Toman": "≈ ٥٠٠٬٠٠٠ تومان",
+  "Get Now →": "Niha bigire ←",
+  "HSE Inspection Checklist (200+ Items)": "Lîsteya kontroliyê HSE (200+ tişt)",
+  "The full field-tested checklist used during real inspections — covering fire safety, working at height, electrical, PPE, and emergency readiness.": "Lîsteya kontroliyê ya temam ê ezmûnkirî ku di pêşdîtinên rasteqînde de tê bikaranîn — ewlekariya agir, xebata li bilindiyê, kareva, amûrên parastina kesane û amadehiya lezgîn.",
+  "ISO 45001 Readiness Pack": "Quncikê amadehiyê ji ISO 45001",
+  "A streamlined set of editable documents to fast-track your ISO 45001 certification — policy, procedures, risk register templates, and audit checklists.": "Kominek belgeyên sererastkirî bo zûtirkirina belgenameya ISO 45001 — siyaset, rêbaz, rûpeleyên qeyda rîsk û lîsteyên pêşniyarê.",
+  "≈ 2,000,000 Toman": "≈ ٢٬٠٠٠٬٠٠٠ تومان",
+  "HSE Documentation Template Library": "Pirtûkxaneya rûpeleyên belgekirina HSE",
+  "40+ editable HSE templates — PTW, JSA, incident report, toolbox talk, risk assessment, and inspection forms ready for your site.": "Zêdetir ji 40 rûpelek HSE ên sererastkirî — mûfetîşa kar, JSA, rapora bûyerê, danişîna ewlehiyê, nîvdexiste rîsk û formên kontroliyê ji bo cîhê te hazir.",
+  "≈ 1,500,000 Toman": "≈ ١٬٥٠٠٬٠٠٠ تومان",
+  "Prefer immediate digital delivery? Order via email and choose any payment method — TON, card, or international transfer. Delivery is within a few hours.": "Dênyarkirina dîjîtal di heman dey? Bi e-nameyê ferman bide û her rêbazek dayînê hêlbeke — TON, kart an veguhastina navneteweyî. Gihandinê di nav çend saetan de."
 };
