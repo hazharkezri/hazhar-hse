@@ -133,7 +133,7 @@ window.T_AR = {
   "No one can guarantee a pass rate — it depends on the specific system and how closely your background matches the role. What I guarantee is a format that parses cleanly and language aligned to the keywords in the job description you give me.": "لا يمكن لأحد أن يضمن نسبة نجاح — يعتمد ذلك على النظام المحدد ومدى تطابق خلفيتك مع الدور. ما أضمنه هو تنسيق يُقرأ بنظافة ولغة متوافقة مع الكلمات المفتاحية في الوصف الوظيفي الذي تعطيني إياه.",
   "How long does a resume rewrite take?": "كم يستغرق إعادة كتابة السيرة الذاتية؟",
   "Premium rewrites are delivered within 48 hours of payment and files arriving. Audits are typically same-day. Templates are sent within a few hours.": "تُسلَّم عمليات إعادة الكتابة المتميزة خلال 48 ساعة من الدفع واستلام الملفات. المراجعات عادة في نفس اليوم. القوالب تُرسل خلال ساعات قليلة.",
-  "How do I pay, and is it secure?": "كيف أدفع، وهل الدفع آمن؟",
+  "How do I pay, and is it secure?": "كيف أدفع، وهل الدفع آمن؟",
   "What if something isn't right?": "ماذا لو كان هناك شيء غير صحيح؟",
   "If I haven't started work on your order, you get a full refund, no questions asked. Once a deliverable is done, it's final — but email me if something's wrong and I'll fix it rather than walk away.": "إذا لم أبدأ العمل في طلبك تحصل على استرداد كامل دون أي أسئلة. بمجرد اكتمال المخرج يكون نهائياً — لكن راسلني إذا كان هناك خطأ وسأصلحه بدلاً من التنصل.",
   "Ready to make safety your advantage?": "مستعد لجعل السلامة ميزتك؟",
@@ -214,7 +214,7 @@ window.T_AR = {
   "For Iranian clients — pay directly by card or via an online gateway. No extra fees, full transparency.": "للعملاء الإيرانيين — ادفع مباشرة بالبطاقة أو عبر درة دفع إلكترونية. بدون رسوم إضافية وبشفافية كاملة.",
   "Card-to-Card": "من بطاقة إلى بطاقة",
   "Transfer directly to this Shetab card, then email your transaction receipt with your request.": "حوِّل مباشرة إلى هذه البطاقة، ثم أرسل إيصال العملية مع طلبك عبر البريد.",
-  "Copy Card Number": "انسخ رقم البطاقة",
+  "Copy Card Number": "انسخ رقم البطاقة",
   "Online Gateway": "البوابة الإلكترونية",
   "Prefer to pay through a trusted Iranian payment gateway? Email me and I'll send you a secure payment link for your chosen service.": "تفضل الدفع عبر بوابة إيرانية موثوقة؟ راسلني وسأرسل لك رابط دفع آمناً للخدمة التي تختارها.",
   "Request a Payment Link": "اطلب رابط الدفع",
@@ -288,7 +288,6 @@ window.T_AR = {
   "Scan to pay via the TON network, then email your transaction ID along with your request.": "امسح للدفع عبر شبكة TON، ثم أرسل معرف المعاملة مع طلبك عبر البريد الإلكتروني.",
   "Don't use TON? Email me before ordering and I'll arrange another way to pay — including PayPal, Wise, or wire transfer.": "لا تستخدم TON؟ راسلني قبل الطلب وسأرتب طريقة أخرى للدفع — بما في ذلك PayPal أو Wise أو تحويل مصرفي.",
   "🇮🇷 Payment in Iran": "🇮🇷 الدفع داخل إيران",
-
   "Fast, instant transfer to this Shetab bank card - no gateway needed.": "تحويل فوري وموثوق إلى بطاقة شتاب البنكية هذه — بدون حاجة لبوابة دفع.",
   "AHMAD KHEZRI": "Ahmad Khezri",
   "Shetab": "شتاب",
@@ -333,7 +332,6 @@ window.T_AR = {
   "HSE Insights & Expertise": "رؤى وخبرات HSE",
   "Practical guidance from 20+ years of field experience. Stay compliant. Stay safe. Stay ahead.": "إرشادات عملية من أكثر من 20 عامًا من الخبرة الميدانية. التزم بالمعايير. ابقَ آمنًا. كن متقدمًا.",
   "Compliance": "الامتثال",
-  "Risk Assessment": "تقييم المخاطر",
   "Resume Engineering": "هندسة السيرة الذاتية",
   "Read Article →": "اقرأ المقال",
   "Dashboard": "لوحة التحكم",
@@ -378,5 +376,10 @@ window.T_AR = {
   "HSE Documentation Template Library": "مكتبة قوالب توثيق HSE",
   "40+ editable HSE templates — PTW, JSA, incident report, toolbox talk, risk assessment, and inspection forms ready for your site.": "أكثر من 40 قالب HSE قابل للتحرير — تصريح العمل، تحليل السلامة الوظيفية، تقرير الحادث، جلسة السلامة، تقييم المخاطر ونماذج الفحص جاهزة لموقعك.",
   "≈ 1,500,000 Toman": "≈ ١٬٥٠٠٬٠٠٠ تومان",
-  "Prefer immediate digital delivery? Order via email and choose any payment method — TON, card, or international transfer. Delivery is within a few hours.": "تفضل التسليم الرقمي الفوري؟ اطلب عبر البريد الإلكتروني واختر أي وسيلة دفع — TON أو بطاقة أو تحويل دولي. التسليم خلال ساعات قليلة."
+  "Prefer immediate digital delivery? Order via email and choose any payment method — TON, card, or international transfer. Delivery is within a few hours.": "تفضل التسليم الرقمي الفوري؟ اطلب عبر البريد الإلكتروني واختر أي وسيلة دفع — TON أو بطاقة أو تحويل دولي. التسليم خلال ساعات قليلة.",
+  "WhatsApp": "واتساب",
+  "Telegram": "تيليجرام",
+  "LinkedIn": "لينكد إن",
+  "YouTube": "يوتيوب",
+  "Copy Link": "نسخ الرابط"
 };

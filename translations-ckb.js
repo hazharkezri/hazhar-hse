@@ -133,7 +133,7 @@ window.T_CKB = {
   "No one can guarantee a pass rate — it depends on the specific system and how closely your background matches the role. What I guarantee is a format that parses cleanly and language aligned to the keywords in the job description you give me.": "کەس ناتوانێت ڕێژەی تێپەڕین دەستەمۆ بکات — پەیوەندی بە سیستەمە تایبەتەکە و ئەوەوە هەیە کە پاشبنەمات چەندە لە نزیکەوە دەگونجێت لەگەڵ ئەو ڕۆڵە. ئەوەی من دەستەمۆی دەکەم فۆرماتێکە کە بە پاکی دەخوێنرێتەوە و زمانێک کە لەگەڵ وشە سەرەکییەکانی وەسفی کارەکەدا دەگونجێت کە پێم دەدەیت.",
   "How long does a resume rewrite take?": "نووسینەوەی ڕێزۆمە چەند دەخایەنێت؟",
   "Premium rewrites are delivered within 48 hours of payment and files arriving. Audits are typically same-day. Templates are sent within a few hours.": "نووسینەوە نایابەکان لە ماوەی ٤٨ کاتژمێری وەرگرتنی پارە و فایلەکاندا ڕادەست دەکرێن. پشکنینەکان بە شێوەیەکی ئاسایی هەمان ڕۆژ. تێمپلەیتەکان لە چەند کاتژمێردا دەنێردرێن.",
-  "How do I pay, and is it secure?": "چۆن پارە دەدەم، و ئایا پارێزراوە؟",
+  "How do I pay, and is it secure?": "چۆن پارە دەدەم، و ئایا پارێزراوە؟",
   "What if something isn't right?": "ئەگەر شتێک ڕاست نەبوو چی؟",
   "If I haven't started work on your order, you get a full refund, no questions asked. Once a deliverable is done, it's final — but email me if something's wrong and I'll fix it rather than walk away.": "ئەگەر کارم لەسەر داواکارییەکەت دەستپێنەکردبێت، پارەکەت بەتەواوی دەگەڕێنمەوە، بێ هیچ پرسیارێک. کاتێک دەرئەنجامێک تەواو بوو، کۆتاییە — بەڵام ئەگەر شتێک هەڵە بوو، ئیمەیڵم بکە و چاکی دەکەمەوە نەوەک هەڵبکشێم.",
   "Ready to make safety your advantage?": "ئامادەی سەلامەتی بکەیتە سودەکەت؟",
@@ -214,7 +214,7 @@ window.T_CKB = {
   "For Iranian clients — pay directly by card or via an online gateway. No extra fees, full transparency.": "بۆ موکەیلە ئێرانییەکان — ڕاستەوخۆ بە کارت یان لە ڕێگەی دەروازەی ئۆنلاینەوە پارە بدەن. بێ پارەکرێتی زیادە، بە شەفافیەتی تەواو.",
   "Card-to-Card": "کارت-بۆ-کارت",
   "Transfer directly to this Shetab card, then email your transaction receipt with your request.": "ڕاستەوخۆ بۆ ئەم کارتەی شتاب گواستنەوە بکە، پاشان وەصڵی ترانسەکشنەکە لەگەڵ داواکارییەکەت ئیمەیڵ بکە.",
-  "Copy Card Number": "کۆپی کردنی ژمارەی کارت",
+  "Copy Card Number": "کۆپی کردنی ژمارەی کارت",
   "Online Gateway": "دەروازەی ئۆنلاین",
   "Prefer to pay through a trusted Iranian payment gateway? Email me and I'll send you a secure payment link for your chosen service.": "حەزت لە پارەدان لە ڕێگەی دەروازەیەکی ئێرانی متمانەپێکراوە؟ ئیمەیڵم بکە و لینکی پارەدانی پارێزراوی خزمەتگوزاری هەڵبژێرراوەکەت بۆ دەنێرم.",
   "Request a Payment Link": "داواکاری لینکی پارەدان",
@@ -288,7 +288,6 @@ window.T_CKB = {
   "Scan to pay via the TON network, then email your transaction ID along with your request.": "بۆ پارەدان لە ڕێگەی تۆڕی TON سکان بکە، پاشان ژمارەی مامەڵەکەت لەگەڵ داواکارییەکەت ئیمەیڵ بکە.",
   "Don't use TON? Email me before ordering and I'll arrange another way to pay — including PayPal, Wise, or wire transfer.": "بەکار ناهێنیت؟ پێش داواکردن ئیمەیڵم بکە و ڕێگایەکی تری پارەدانت بۆ دابین دەکەم — لەوانە PayPal، Wise یان گواستنەوەی بانکی.",
   "🇮🇷 Payment in Iran": "🇮🇷 پارەدان لە ئێراندا",
-
   "Fast, instant transfer to this Shetab bank card - no gateway needed.": "گواستنەوەی خێرا و دڵنیاوێر بۆ ئەم کارتەی شەتاب — بێ پێویستی بە دەروازەی پارەدان.",
   "AHMAD KHEZRI": "Ahmad Khezri",
   "Shetab": "شەتاب",
@@ -333,7 +332,6 @@ window.T_CKB = {
   "HSE Insights & Expertise": "بینین و شارەزایی HSE",
   "Practical guidance from 20+ years of field experience. Stay compliant. Stay safe. Stay ahead.": "ڕێنمایی کرداری لە زیاتر لە ٢٠+ ساڵ ئەزموونی مەیدانی. پابەند بمەوە. سەلامەت بمەوە. پێشکەو بە.",
   "Compliance": "ئاوێژ",
-  "Risk Assessment": "هەڵسەنگاندنی مەترسی",
   "Resume Engineering": "ئەندازیاری ڕیزۆمە",
   "Read Article →": "وتار بخوە ←",
   "Dashboard": "داشبوورد",
@@ -378,5 +376,10 @@ window.T_CKB = {
   "HSE Documentation Template Library": "کتیبخانەی قاڵبی بەڵگەنامەی HSE",
   "40+ editable HSE templates — PTW, JSA, incident report, toolbox talk, risk assessment, and inspection forms ready for your site.": "زیاتر لە ٤٠ قاڵبی HSE دەستکاریکراو — مۆڵەتی کار، JSA، ڕاپۆرتی ڕووداو، دانیشتنی ئاسایش، هەڵسەنگاندنی مەترسی و فۆرمەکانی پشکنین ئامادەی شوێنی تۆ.",
   "≈ 1,500,000 Toman": "≈ ١٬٥٠٠٬٠٠٠ تۆمان",
-  "Prefer immediate digital delivery? Order via email and choose any payment method — TON, card, or international transfer. Delivery is within a few hours.": "داگرتنی دیجیتاڵی یەکسەر دەوێت؟ لە ڕێگەی ئیمەیڵەوە داوا بکە و هەر ڕێگەیەکی پێدانی بدۆزەرەوە — TON، کارت یان گواستنەوەی نێودەوڵەتی. گەیاندن لە چەند کاتژمێرێکدا."
+  "Prefer immediate digital delivery? Order via email and choose any payment method — TON, card, or international transfer. Delivery is within a few hours.": "داگرتنی دیجیتاڵی یەکسەر دەوێت؟ لە ڕێگەی ئیمەیڵەوە داوا بکە و هەر ڕێگەیەکی پێدانی بدۆزەرەوە — TON، کارت یان گواستنەوەی نێودەوڵەتی. گەیاندن لە چەند کاتژمێرێکدا.",
+  "WhatsApp": "واتسئاپ",
+  "Telegram": "تیلیگرام",
+  "LinkedIn": "لینکدین",
+  "YouTube": "یوتیوب",
+  "Copy Link": "کۆپیکردنی لینک"
 };
