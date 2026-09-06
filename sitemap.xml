@@ -31,11 +31,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://hazharkezri.github.io/hazhar-hse/#testimonials</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://hazharkezri.github.io/hazhar-hse/#portfolio</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
