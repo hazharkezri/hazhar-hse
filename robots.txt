@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hazharkezri.github.io/hazhar-hse/sitemap.xml
+Sitemap: https://hazhar-hse.vercel.app/sitemap.xml

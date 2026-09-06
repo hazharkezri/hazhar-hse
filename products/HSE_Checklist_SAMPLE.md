@@ -1,6 +1,6 @@
-# HSE Inspection Checklist — FREE SAMPLE
+# HSE Inspection Checklist â€” FREE SAMPLE
 This is a free preview of the full 200+ item checklist.
-Get the complete version: https://hazharkezri.github.io/hazhar-hse/ (see Digital Products)
+Get the complete version: https://hazhar-hse.vercel.app/ (see Digital Products)
 
 Fire Safety
 - [ ] Fire extinguishers charged and in date
@@ -24,4 +24,4 @@ PPE
 - [ ] Safety glasses/woggles worn where required
 
 ---
-Built by Hazhar HSE — hazharkezri.github.io/hazhar-hse
+Built by Hazhar HSE â€” hazhar-hse.vercel.app
